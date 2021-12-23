@@ -1,5 +1,5 @@
 header{
-  background-color: rgb(52, 58, 64);
+  background-color: rgb(33, 37, 41);
   color: rgb(197, 195, 198);
   display: flex;
   flex-direction: row;
@@ -10,7 +10,9 @@ header{
 }
 
 .portfolio-name{
+  color: rgb(197, 195, 198);
   margin-bottom: 0;
+  text-decoration: none;
 }
 
 nav{
@@ -26,10 +28,10 @@ nav a {
   color: rgb(197, 195, 198);
 }
 
-nav a:hover{
+nav a:hover, .portfolio-name:hover{
   color: rgb(10, 255, 169);
 }
 
-nav a::selection{
+.selected{
   color: rgb(10, 255, 169);
 }

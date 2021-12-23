@@ -17,13 +17,13 @@ section{
   color: rgb(10, 255, 169);
   font-family: 'Bebas Neue', cursive;
   font-size: 60px;
-  
   letter-spacing: 2px;
   margin-bottom: 5%;
 }
 
 .text-section{
   margin-top: 15%;
+  animation: slide-rigth 1s;
 }
 
 .img-section{
@@ -36,4 +36,30 @@ section{
 img{
   
   width: 50%;
+}
+
+.slide-right {
+	-webkit-animation: slide-right 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
 }

@@ -6,11 +6,11 @@ export default class Home extends Component {
   render() {
     return (
       <div className="home-div">
-        <section className="text-section">
+        <section className="text-section slide-right">
           <p>Olá,</p>
           <p>bem vindo(a) ao meu portfólio</p>
         </section>
-        <section className="img-section">
+        <section className="img-section slide-right">
           <img src={imagem} alt="bla"/>
         </section>
       </div>
