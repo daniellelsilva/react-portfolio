@@ -1,0 +1,35 @@
+header{
+  background-color: rgb(52, 58, 64);
+  color: rgb(197, 195, 198);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.5%;
+  align-content: center;
+  align-items: center;
+}
+
+.portfolio-name{
+  margin-bottom: 0;
+}
+
+nav{
+  /* align-items: center; */
+  display: flex;
+  flex-direction: row;
+  margin-right: 10%;
+}
+
+nav a {
+  margin: 0 20%;
+  text-decoration: none;
+  color: rgb(197, 195, 198);
+}
+
+nav a:hover{
+  color: rgb(10, 255, 169);
+}
+
+nav a::selection{
+  color: rgb(10, 255, 169);
+}

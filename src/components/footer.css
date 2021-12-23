@@ -1,0 +1,15 @@
+footer{
+  background-color: rgb(52, 58, 64);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: rgb(197, 195, 198);
+  margin: auto;
+  padding: 0.7%;
+}
+
+footer p {
+  margin: 0;
+}

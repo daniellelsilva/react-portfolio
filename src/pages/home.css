@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Poiret+One&display=swap');
+
+.home-div{
+  background-color: rgb(33, 37, 41);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  min-height: 86vh;
+}
+
+section{
+  margin: 10% 0 0 5%;
+}
+
+.home-div p {
+  /* color: rgb(0, 218, 196); */
+  color: rgb(10, 255, 169);
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+  
+  letter-spacing: 2px;
+  margin-bottom: 5%;
+}
+
+.text-section{
+  margin-top: 15%;
+}
+
+.img-section{
+  display: flex;
+  height: 100%;
+  width: 50%;
+  justify-content: center;
+}
+
+img{
+  
+  width: 50%;
+}
