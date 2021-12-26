@@ -1,0 +1,15 @@
+.about-page {
+  background-color: rgb(52, 58, 64);
+  color: white;
+  margin: 0;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.about-page p {
+  margin: 0;
+}

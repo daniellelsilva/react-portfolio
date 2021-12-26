@@ -6,10 +6,23 @@
   display: flex;
   flex-direction: row;
   min-height: 86vh;
+  width: 100%;
 }
 
 section{
-  margin: 10% 0 0 5%;
+  margin-top: 12%;
+}
+
+.text-section{
+  margin-left: 18%;
+  width: 40%;
+}
+
+.img-section{
+  display: flex;
+  height: 100%;
+  width: 35%;
+  margin-top: 13%;
 }
 
 .home-div p {
@@ -21,45 +34,32 @@ section{
   margin-bottom: 5%;
 }
 
-.text-section{
-  margin-top: 15%;
-  animation: slide-rigth 1s;
-}
-
-.img-section{
-  display: flex;
-  height: 100%;
-  width: 50%;
-  justify-content: center;
+.home-div p:nth-child(3) {
+  font-size: 24.5px;
 }
 
 img{
+  width: 70%;
+}
+
+.text-animation {
+  animation: opacityEffect 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) both, slideEffect 3s ease both;
+}
+
+@keyframes slideEffect {
+  from {
+    transform: translateX(-300px)
+  }
+  to {
+    transform: translateX(0)
+  }
+}
   
-  width: 50%;
-}
-
-.slide-right {
-	-webkit-animation: slide-right 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-right 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-@-webkit-keyframes slide-right {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+@keyframes opacityEffect {
+  from {
+    opacity: 0;
   }
-  100% {
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
-  }
-}
-@keyframes slide-right {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
+  to {
+    opacity: 1;
   }
 }
