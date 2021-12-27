@@ -9,7 +9,7 @@
   width: 100%;
 }
 
-section{
+.home-div section{
   margin-top: 12%;
 }
 
@@ -38,7 +38,7 @@ section{
   font-size: 24.5px;
 }
 
-img{
+.home-div img{
   width: 70%;
 }
 

@@ -15,14 +15,15 @@ header{
   text-decoration: none;
 }
 
-nav{
+header nav{
   /* align-items: center; */
   display: flex;
   flex-direction: row;
   margin-right: 10%;
 }
 
-nav a {
+header nav a {
+  font-weight: 300;
   margin: 0 20%;
   text-decoration: none;
   color: rgb(197, 195, 198);

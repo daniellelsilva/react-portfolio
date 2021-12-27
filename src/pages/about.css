@@ -1,15 +1,130 @@
 .about-page {
-  background-color: rgb(52, 58, 64);
+  background-color: rgb(46, 51, 56);
   color: white;
-  margin: 0;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  flex-direction: column;
 }
 
-img {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
+.about-intro{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.about-page p {
-  margin: 0;
+.about-img {
+  margin-top: 3%;
+  width: 40%;
+}
+
+.about-text-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 55%;
+}
+
+.about-text-section p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  margin-left: 3%;
+}
+
+.about-text-section p span {
+  color: rgb(10, 255, 169);
+}
+
+.div-about-arrow{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.about-arrow{
+  color: rgb(10, 255, 169);
+  font-size: 35px;
+}
+
+.div-skills-title{
+  width: 90%;
+}
+
+.about-skills {
+  align-items: center;
+  border-top: 1px solid rgb(10, 255, 169);
+  display: flex;
+  flex-direction: column;
+  margin: 8% 0;
+}
+
+.about-skills-title {
+  color: rgb(10, 255, 169);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 5%;
+}
+
+.about-both-skills-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.soft-skills-section{
+  margin-top: 5%;
+}
+
+.skills-title{
+  width: 90%;
+}
+
+.about-hard-skills {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.hard-skills-icons {
+  font-size: 100px;
+  margin-bottom: 8px;
+}
+
+.div-icon-text:hover{
+  color: rgb(10, 219, 146);
+  transition: ease 0.5s;
+}
+
+.div-icon-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title{
+  font-size: 20px;
+  font-weight: 500;
+  margin: 3% 0 2%;
+}
+
+.title:hover{
+  color: rgb(10, 219, 146);
+  transition: ease-in 0.5s;
+}
+
+.about-soft-skills{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 95%;
+}
+
+.about-soft-skills-img {
+  width: 25%;
+  margin-bottom: 8px;
 }
