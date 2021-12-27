@@ -28,7 +28,7 @@
 
 .about-text-section p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 300;
   margin-left: 3%;
 }
@@ -43,10 +43,23 @@
   margin-top: 2%;
 }
 
-.about-arrow{
-  color: rgb(10, 255, 169);
-  font-size: 35px;
-}
+.arrow {
+	width: 3vmin;
+	height: 3vmin;
+	background: transparent;
+	border-top: 1vmin solid white;
+	border-right: 1vmin solid white;
+	transition: all 200ms ease;
+}	
+
+.point {
+		transform: translate3d(0,-40%,0) rotate(-225deg);
+	}
+	
+.arrow:hover {
+		border-color: rgb(10, 255, 169);
+		box-shadow: 0.5vmin -0.5vmin 0 white;
+	}
 
 .div-skills-title{
   width: 90%;
@@ -128,3 +141,4 @@
   width: 25%;
   margin-bottom: 8px;
 }
+

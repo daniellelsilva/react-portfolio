@@ -22,11 +22,9 @@ export default class About extends Component {
           <img className="about-img" src={image} alt="profile" /> 
         </section>
         <div className="div-about-arrow">
-          <a href='#skills'><i className="bi bi-arrow-down-circle about-arrow"></i></a>
+          <a href='#skills' className="arrow point"></a>
           
         </div>
-        
-        
 
         <section className="about-skills" id='skills'>
           <div className="div-skills-title">
