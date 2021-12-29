@@ -1,4 +1,67 @@
 .project-div {
   background-color: rgb(46, 51, 56);
   color: white;
+  font-weight: 300;
 }
+
+.proj-section-introduction {
+  margin-left: 3%;
+  padding-top: 3%;
+}
+
+.proj-section-introduction p:nth-child(1) {
+  color: rgb(10, 255, 169);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.projects-video-section {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.proj-individual-videos {
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3%;
+  margin: 32px;
+  width: fit-content;
+}
+
+.proj-individual-videos video {
+  width: 600px;
+  height: 300px;
+}
+
+.proj-individual-videos p {
+  font-size: 24px;
+  margin-top: 2%;
+}
+
+.proj-individual-videos a {
+  text-decoration: none;
+  color: white;
+}
+
+.div-video-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 3%;
+  width: 100%;
+}
+
+.div-video-icons i {
+  font-size: 24px;
+}
+
+.div-video-icons i:hover {
+  color: rgb(10, 255, 169);
+}
+
+
