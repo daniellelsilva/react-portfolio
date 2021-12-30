@@ -7,8 +7,8 @@ export default class Home extends Component {
     return (
       <div className="home-div">
         <section className="text-section text-animation">
-          <p>Olá,</p>
-          <p>Sou a Danielle Silva</p>
+          {/* <p>Olá,</p> */}
+          <p>Danielle Silva</p>
           <p>Estudante de Desenvolvimento Web | Trybe </p>
         </section>
         <section className="img-section text-animation">

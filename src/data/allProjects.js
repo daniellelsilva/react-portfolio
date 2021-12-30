@@ -5,6 +5,7 @@ import shoppingCart from '../assets/shopping-cart-video.mp4';
 import toDoList from '../assets/to-do-list-video.mp4';
 import pixelArt from '../assets/pixel-art-video.mp4';
 import trybewarts from '../assets/trybewarts-video.mp4';
+import primeiroPortfolio from '../assets/primeiro-portfolio.mp4';
 
 import imgTrybetunes from '../assets/img-trybetunes.png';
 import imgTryunfo from '../assets/img-tryunfo.png';
@@ -13,11 +14,12 @@ import imgShoppingCart from '../assets/img-shopping-cart.png';
 import imgToDoList from '../assets/img-to-do-list.png';
 import imgPixelArt from '../assets/img-pixel-art.png';
 import imgTrybewarts from '../assets/img-trybewarts-img.png';
+import imgPrimeiroPortfolio from '../assets/img-primeiro-portfolio.png';
 
 
 const allProjects = [
   {
-    id: 7,
+    id: 8,
     name: 'TrybeTunes',
     img: imgTrybetunes,
     linkGitHub: 'https://github.com/daniellelsilva/trybetunes',
@@ -27,7 +29,7 @@ const allProjects = [
   },
 
   {
-    id: 6,
+    id: 7,
     name: 'Tryunfo',
     img: imgTryunfo,
     linkVideo: tryunfo,
@@ -37,7 +39,7 @@ const allProjects = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: 'Solar system',
     img: imgSolarSystem,
     linkVideo: solarSystem,
@@ -47,7 +49,7 @@ const allProjects = [
   },
 
   {
-    id: 4,
+    id: 5,
     name: 'Shopping cart',
     img: imgShoppingCart,
     linkVideo: shoppingCart,
@@ -57,7 +59,7 @@ const allProjects = [
   },
 
   {
-    id: 3,
+    id: 4,
     name: 'To do list',
     img: imgToDoList,
     linkVideo: toDoList,
@@ -67,7 +69,7 @@ const allProjects = [
   },
 
   {
-    id: 2,
+    id: 3,
     name: 'Pixel-art',
     img: imgPixelArt,
     linkVideo: pixelArt,
@@ -77,13 +79,23 @@ const allProjects = [
   },
 
   {
-    id: 1,
+    id: 2,
     name: 'Trybewarts',
     img: imgTrybewarts,
     linkVideo: trybewarts,
     linkGitHub: 'https://github.com/daniellelsilva/trybewarts',
     linkPage: 'https://daniellelsilva.github.io/trybewarts/',
     text: 'Projeto do bloco de fundamentos, o desafio era criar um formulário HTML para a escola de magia Trybewarts utilizando CSS flexbox e Javascript. O projeto foi desenvolvido em dupla com Nayara Vasconcelos.'
+  },
+
+  {
+    id: 1,
+    name: 'Primeiro portfólio',
+    img: imgPrimeiroPortfolio,
+    linkVideo: primeiroPortfolio,
+    linkGitHub: 'https://github.com/daniellelsilva/primeiro-portfolio',
+    linkPage: 'https://daniellelsilva.github.io',
+    text: 'Primeiro projeto e primeiro portfólio, esta foi minha primeira experiência com algo relacionado a programação'
   }
 ];
 
