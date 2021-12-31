@@ -7,9 +7,18 @@ footer{
   align-content: center;
   color: rgb(197, 195, 198);
   margin: auto;
-  padding: 0.7%;
+  padding: 1%;
 }
 
 footer p {
   margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+  footer {
+    padding: 2%;
+  }
+  footer p {
+    font-size: 12px;
+  }
 }

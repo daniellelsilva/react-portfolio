@@ -10,7 +10,7 @@
 }
 
 .home-div section{
-  margin-top: 12%;
+  margin-top: 15%;
 }
 
 .text-section{
@@ -62,4 +62,35 @@
   to {
     opacity: 1;
   }
+}
+
+@media screen and (max-width: 500px) {
+  .home-div{
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    min-height: 91vh;
+    width: 100%;
+  }
+
+  .home-div section{
+    margin-top: 0;
+  }
+
+  .img-section{
+    display: none;
+  }
+
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    margin: 0;
+  }
+  .text-section p {
+    text-align: start;
+  }
+  
 }

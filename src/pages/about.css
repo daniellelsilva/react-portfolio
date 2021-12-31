@@ -5,6 +5,7 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   flex-direction: column;
+  padding-top: 2%;
 }
 
 .about-intro{
@@ -40,7 +41,7 @@
 .div-about-arrow{
   display: flex;
   justify-content: center;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 .arrow {
@@ -142,3 +143,83 @@
   margin-bottom: 8px;
 }
 
+@media screen and (max-width: 500px) {
+  .about-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 58.5vh;
+  }
+  
+  .about-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    width: 70vh;
+    margin-top: 16%;
+  }
+
+  .about-text-section{
+    width: 70%;
+  }
+
+  .about-intro p {
+    font-size: 17px;
+    width: 100%;
+  }
+
+  .about-img {
+    width: 65%;
+  }
+
+  .about-skills-title {
+    font-size: 20px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .about-hard-skills {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+    margin-top: 3%;
+    width: 100%;
+  }
+
+  .hard-skills-icons{
+    font-size: 60px
+  }
+
+  .about-hard-skills div {
+    margin: 0 8%;
+  }
+
+  .div-icon-text p{
+    font-size: 15px;
+  }
+
+  .about-soft-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+    width: 100%;
+  }
+
+  .div-soft-skills-img{
+    margin-bottom: 8%;
+  }
+
+  .div-icon-text img {
+    margin: 0 5%;
+  }
+
+  .about-soft-skills-img {
+    width: 20%;
+  }
+}

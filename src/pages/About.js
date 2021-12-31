@@ -31,7 +31,7 @@ export default class About extends Component {
             <p className="about-skills-title">Habilidade atuais</p>
           </div>
         
-          <div className="about-both-skills-section">
+          <div className="about-both-skills-section div-hard-skills-icon-text">
             <div className="skills-title">
               <p className="title">Hard skills</p>
             </div>
@@ -73,17 +73,17 @@ export default class About extends Component {
             <div className="skills-title">
               <p className="title">Soft skills</p>
               <div className="about-soft-skills">
-                <div className="div-icon-text">
+                <div className="div-icon-text div-soft-skills-img">
                   <img className="about-soft-skills-img" src={empathy} />
                   <p>Empatia</p>
                 </div>
 
-                <div className="div-icon-text">
+                <div className="div-icon-text div-soft-skills-img">
                   <img className="about-soft-skills-img" src={group} />
                   <p>Trabalho em grupo</p>
                 </div>
 
-                <div className="div-icon-text">
+                <div className="div-icon-text div-soft-skills-img">
                   <img className="about-soft-skills-img" src={talk} />
                   <p>Comunicação assertiva</p>
                 </div>
