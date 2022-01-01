@@ -39,20 +39,24 @@ nav a:hover, .portfolio-name:hover{
 
 @media screen and (max-width: 500px) {
   header{
-    width: 58.5vh;
+    width: 100%;
     font-size: 12px;
     margin: 0;
 
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+  }
+
+  .portfolio-name {
+    font-size: 11px;
   }
 
   header nav{
-    margin-right: 8%;
+    margin-left: 8%;
   }
 
   header nav a {
-    margin-right: 1%;
+    margin-right: 0;
   }
 }

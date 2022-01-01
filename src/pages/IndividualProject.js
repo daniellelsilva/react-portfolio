@@ -25,20 +25,23 @@ export default class IndividualProject extends Component {
     const { name, img, linkGitHub, linkPage, linkVideo, text } = this.props.project;
     const { popup } = this.state
     return (
-      <div className='proj-individual-videos'>
-        <img className='imagemm' src={img} />
+      <div className='proj-individual-thumbnail'>
+        <img className='img-individual-project' src={img} />
         <p>{name}</p>
           <div className="div-video-icons">
+            
             <button onClick={this.showPopup} className="more-info-button">
               <i className="bi bi-plus-circle video-info-icon"></i>
-              {/* <i className="bi bi-info-square video-info-icon"></i> */}
             </button>
+            
             <a href={linkGitHub} target="_blank" rel="noopener noreferrer">
               <i className="bi bi-github video-github-icon"></i>
             </a>
+            
             <a href={linkPage} target="_blank" rel="noopener noreferrer">
               <i className="bi bi-eye video-page-icon"></i>
             </a>
+          
           </div>
           {popup ? (
             <section className='container-more-info'>

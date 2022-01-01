@@ -149,7 +149,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 58.5vh;
+    width: 100%;
   }
   
   .about-intro {
@@ -157,21 +157,23 @@
     flex-direction: column;
     align-items: center;
   
-    width: 70vh;
-    margin-top: 16%;
+    width: 100%;
+    margin-top: 20%;
   }
 
   .about-text-section{
-    width: 70%;
+    width: 90%;
   }
 
   .about-intro p {
     font-size: 17px;
     width: 100%;
+    margin: 0 0 8% 0;
   }
 
   .about-img {
-    width: 65%;
+    margin-top: 8%;
+    width: 90%;
   }
 
   .about-skills-title {
@@ -185,7 +187,7 @@
   .about-hard-skills {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 
     margin-top: 3%;
     width: 100%;

@@ -89,8 +89,14 @@
     width: 100vh;
     margin: 0;
   }
-  .text-section p {
-    text-align: start;
+
+  .text-section p:nth-child(1) {
+    font-size: 54px;
+  }
+
+  .text-section p:nth-child(2) {
+    font-size: 14px;
+    margin-top: 0;
   }
   
 }
