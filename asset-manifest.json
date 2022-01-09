@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.9ec616ff.css",
+    "main.css": "/react-portfolio/static/css/main.2eea2a15.css",
     "main.js": "/react-portfolio/static/js/main.3f9dfe76.js",
     "static/media/killertrunfo.mp4": "/react-portfolio/static/media/killertrunfo.f1908e2c67eba55d929f.mp4",
     "static/media/img-solar-system.png": "/react-portfolio/static/media/img-solar-system.5bcff66707847eb2fedb.png",
@@ -26,11 +26,11 @@
     "static/media/undraw_with_love_re_1q3m.svg": "/react-portfolio/static/media/undraw_with_love_re_1q3m.f352cd1005dd8d3c21826f3e144ea083.svg",
     "static/media/undraw_add_color_re_buro.svg": "/react-portfolio/static/media/undraw_add_color_re_buro.aa5ffaf14f1b78fffbbdaa4dfa40c179.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.9ec616ff.css.map": "/react-portfolio/static/css/main.9ec616ff.css.map",
+    "main.2eea2a15.css.map": "/react-portfolio/static/css/main.2eea2a15.css.map",
     "main.3f9dfe76.js.map": "/react-portfolio/static/js/main.3f9dfe76.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ec616ff.css",
+    "static/css/main.2eea2a15.css",
     "static/js/main.3f9dfe76.js"
   ]
 }
