@@ -124,7 +124,7 @@
   margin-top: 8%;
 }
 
-.project-informative-text p:nth-child(2) {
+.project-informative-text p:nth-child(3) {
   color: white;
   font-size: 22px;
   margin: 0;
@@ -198,9 +198,13 @@
     font-weight: 600;
     margin-top: 8%;
   }
-  
+
   .project-informative-text p:nth-child(2) {
-    font-size: 16px;
+    font-size: 19px;
+  }
+  
+  .project-informative-text p:nth-child(3) {
+    font-size: 17px;
     margin: 0;
     padding: 0;
     width: 90%;
