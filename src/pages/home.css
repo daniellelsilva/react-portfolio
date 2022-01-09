@@ -82,7 +82,7 @@
 }
 
 
-@media screen and (max-width: 1500px) and (min-width: 501px) {
+@media screen and (max-width: 1500px) and (min-width: 750px) {
   .home-div{
     background-size: cover;
     display: flex;
@@ -93,6 +93,37 @@
   }
 }
 
+
+@media screen and (max-width: 749px) and (min-width: 501px) {
+  .home-div{
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    min-height: 91vh;
+    width: 100%;
+  }
+
+  .home-div section{
+    margin-top: 0;
+  }
+
+  .img-section{
+    display: none;
+  }
+
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    margin: 0;
+  }
+
+  .home-links a{
+    margin-top: 8%;
+  }
+}
 
 
 @media screen and (max-width: 500px) {
