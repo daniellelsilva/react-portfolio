@@ -22,7 +22,7 @@ export default class IndividualProject extends Component {
   }
 
   render() {
-    const { name, img, linkGitHub, linkPage, linkVideo, text } = this.props.project;
+    const { name, moduleCourse, img, linkGitHub, linkPage, linkVideo, text } = this.props.project;
     const { popup } = this.state
     return (
       <div className='proj-individual-thumbnail'>
@@ -54,6 +54,7 @@ export default class IndividualProject extends Component {
 
                 <div className='project-informative-text'>
                   <p>{name}</p>
+                  <p>{ moduleCourse }</p>
                   <p className='info-project-text'>{text}</p>
                 </div>
                 
@@ -70,6 +71,7 @@ export default class IndividualProject extends Component {
 IndividualProject.propTypes = {
   project: PropTypes.shape({
     name: PropTypes.string.isRequired,
+    moduleCourse: PropTypes.string.isRequired,
     img: PropTypes.string.isRequired,
     linkVideo:PropTypes.string.isRequired,
     linkGitHub:PropTypes.string.isRequired,

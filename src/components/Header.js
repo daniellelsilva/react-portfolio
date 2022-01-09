@@ -9,12 +9,10 @@ class Header extends React.Component {
       <div className="botao-teste">
         <Link exact to="/" className="portfolio-name">
           <button className="icon-btn add-btn">
-            <div className="btn-txt">Danielle Silva</div>
+            <div className="btn-txt">Danielle</div>
           </button>
         </Link>
       </div>
-      
-      {/* <Link exact to="/" className="portfolio-name"><span>{`<`}</span> <span className="aqui">{`Dani.S`}</span><span>{`  />`}</span></Link> */}
 
       <nav>
         <NavLink exact to="/" activeClassName="selected">Home</NavLink>

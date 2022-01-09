@@ -41,7 +41,7 @@
 .div-about-arrow{
   display: flex;
   justify-content: center;
-  margin-top: 3%;
+  margin-top: 4%;
 }
 
 .arrow {
@@ -142,6 +142,7 @@
   width: 25%;
   margin-bottom: 8px;
 }
+
 
 @media screen and (max-width: 500px) {
   .about-page{

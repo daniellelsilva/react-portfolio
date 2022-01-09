@@ -113,7 +113,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 3%;
   position: relative;
  
 }
@@ -134,8 +133,8 @@
 .div-close-popup {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 2%;
-  width: 90vh;
+  margin-top: 3%;
+  width: 95vh;
 }
 
 @media screen and (max-width: 500px) {

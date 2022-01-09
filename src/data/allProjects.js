@@ -21,6 +21,7 @@ const allProjects = [
   {
     id: 8,
     name: 'TrybeTunes',
+    moduleCourse: 'Front-end',
     img: imgTrybetunes,
     linkGitHub: 'https://github.com/daniellelsilva/trybetunes',
     linkPage: 'https://daniellelsilva.github.io/trybetunes/#/',
@@ -31,6 +32,7 @@ const allProjects = [
   {
     id: 7,
     name: 'Tryunfo',
+    moduleCourse: 'Front-end',
     img: imgTryunfo,
     linkVideo: tryunfo,
     linkGitHub: 'https://github.com/daniellelsilva/tryunfo',
@@ -41,6 +43,7 @@ const allProjects = [
   {
     id: 6,
     name: 'Solar system',
+    moduleCourse: 'Front-end',
     img: imgSolarSystem,
     linkVideo: solarSystem,
     linkGitHub: 'https://github.com/daniellelsilva/solar-system',
@@ -51,6 +54,7 @@ const allProjects = [
   {
     id: 5,
     name: 'Shopping cart',
+    moduleCourse: 'Fundamentos',
     img: imgShoppingCart,
     linkVideo: shoppingCart,
     linkGitHub: 'https://github.com/daniellelsilva/shopping-cart',
@@ -61,6 +65,7 @@ const allProjects = [
   {
     id: 4,
     name: 'To do list',
+    moduleCourse: 'Fundamentos',
     img: imgToDoList,
     linkVideo: toDoList,
     linkGitHub: 'https://github.com/daniellelsilva/to-do-list',
@@ -71,6 +76,7 @@ const allProjects = [
   {
     id: 3,
     name: 'Pixel-art',
+    moduleCourse: 'Fundamentos',
     img: imgPixelArt,
     linkVideo: pixelArt,
     linkGitHub: 'https://github.com/daniellelsilva/pixel-art',
@@ -81,6 +87,7 @@ const allProjects = [
   {
     id: 2,
     name: 'Trybewarts',
+    moduleCourse: 'Fundamentos',
     img: imgTrybewarts,
     linkVideo: trybewarts,
     linkGitHub: 'https://github.com/daniellelsilva/trybewarts',
@@ -91,6 +98,7 @@ const allProjects = [
   {
     id: 1,
     name: 'Primeiro portfólio',
+    moduleCourse: 'Fundamentos',
     img: imgPrimeiroPortfolio,
     linkVideo: primeiroPortfolio,
     linkGitHub: 'https://github.com/daniellelsilva/primeiro-portfolio',
