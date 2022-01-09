@@ -137,6 +137,13 @@
   width: 95vh;
 }
 
+/* max 1500 min 500 */
+@media screen and (max-width: 1500px) and (min-width: 501px) {
+  .text-video-container{
+    height: 98%;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .project-div {
     width: 100%;

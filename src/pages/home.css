@@ -81,6 +81,20 @@
   }
 }
 
+
+@media screen and (max-width: 1500px) and (min-width: 501px) {
+  .home-div{
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10%;
+    min-height: 85vh;
+    width: 100%;
+  }
+}
+
+
+
 @media screen and (max-width: 500px) {
   .home-div{
     background-size: cover;

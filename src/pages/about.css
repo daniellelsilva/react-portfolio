@@ -144,6 +144,30 @@
 }
 
 
+@media screen and (max-width: 1500px) and (min-width: 501px) {
+  .about-text-section p{
+    font-size: 18px;
+    padding-left: 2%;
+  }
+  .about-skills-title{
+    font-size: 19px;
+  }
+
+  .title{
+    font-size: 16px;
+  }
+
+  .div-icon-text{
+    font-size: 14px;
+  }
+
+  .hard-skills-icons{
+    font-size: 48px;
+  }
+}
+
+
+
 @media screen and (max-width: 500px) {
   .about-page{
     display: flex;

@@ -16,7 +16,7 @@ export default class Home extends Component {
           </section>
         </section>
         <section className="img-section text-animation">
-          <img src={imagem} alt="bla"/>
+          <img src={imagem} alt="decorative-image"/>
         </section>
       </div>
     )
