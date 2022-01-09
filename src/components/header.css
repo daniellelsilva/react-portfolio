@@ -15,8 +15,95 @@ header{
   text-decoration: none;
 }
 
+.portfolio-name span {
+  color: rgb(10, 255, 169);
+}
+
+/* .aqui{
+  position: relative;
+}
+
+.aqui:before {
+  content: 'Dani.S />';
+  visibility: hidden;
+  opacity: 0;
+  width: 140px;
+  background-color: rgb(224, 56, 56);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  /* top: 100%; */
+/* } */
+/* 
+.aqui:hover:before {
+  opacity: 1;
+  visibility: visible;
+} */ 
+
+.icon-btn {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(33, 37, 41);
+  background: transparent;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+  transition: width 0.9s ease-in-out;
+}
+.add-btn:hover {
+  width: 150px;
+}
+.add-btn::before,
+.add-btn::after {
+  transition: width 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 10px;
+  top: calc(50% - 2px);
+  background: rgb(10, 255, 169);
+  
+}
+.add-btn::after {
+  right: 14px;
+  overflow: hidden;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.add-btn::before {
+  left: 14px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.icon-btn:focus {
+  outline: none;
+}
+.btn-txt {
+  color: white;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.add-btn:hover::before,
+.add-btn:hover::after {
+  width: 4px;
+  border-radius: 2px;
+}
+.add-btn:hover .btn-txt {
+  opacity: 1;
+}
+
+
+
+
+
+
 header nav{
-  /* align-items: center; */
   display: flex;
   flex-direction: row;
   margin-right: 10%;

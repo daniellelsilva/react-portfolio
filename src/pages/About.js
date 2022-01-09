@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import image from '../assets/pexels-photo-10208801.jpeg'
+import image from '../assets/portfolio-img.jpg'
 import './about.css';
 
 import empathy from '../assets/undraw_with_love_re_1q3m.svg';

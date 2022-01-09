@@ -10,7 +10,7 @@
 }
 
 .home-div section{
-  margin-top: 15%;
+  margin-top: 13%;
 }
 
 .text-section{
@@ -22,7 +22,6 @@
   display: flex;
   height: 100%;
   width: 35%;
-  margin-top: 13%;
 }
 
 .home-div p {
@@ -36,6 +35,24 @@
 
 .home-div p:nth-child(2) {
   font-size: 24.5px;
+}
+
+.home-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: auto;
+  width: 45%;
+}
+
+.home-links a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  margin-top: -8%;
+}
+
+.home-links a:hover {
+  color: rgb(10, 255, 169);
 }
 
 .home-div img{
