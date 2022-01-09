@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.9ec616ff.css",
-    "main.js": "/react-portfolio/static/js/main.8f07f121.js",
+    "main.js": "/react-portfolio/static/js/main.11574870.js",
     "static/media/killertrunfo.mp4": "/react-portfolio/static/media/killertrunfo.f1908e2c67eba55d929f.mp4",
     "static/media/img-solar-system.png": "/react-portfolio/static/media/img-solar-system.5bcff66707847eb2fedb.png",
     "static/media/trybetunes.mp4": "/react-portfolio/static/media/trybetunes.25b116be48fefb03d2fa.mp4",
@@ -27,10 +27,10 @@
     "static/media/undraw_add_color_re_buro.svg": "/react-portfolio/static/media/undraw_add_color_re_buro.aa5ffaf14f1b78fffbbdaa4dfa40c179.svg",
     "index.html": "/react-portfolio/index.html",
     "main.9ec616ff.css.map": "/react-portfolio/static/css/main.9ec616ff.css.map",
-    "main.8f07f121.js.map": "/react-portfolio/static/js/main.8f07f121.js.map"
+    "main.11574870.js.map": "/react-portfolio/static/js/main.11574870.js.map"
   },
   "entrypoints": [
     "static/css/main.9ec616ff.css",
-    "static/js/main.8f07f121.js"
+    "static/js/main.11574870.js"
   ]
 }
