@@ -98,7 +98,7 @@ nav a:hover, .portfolio-name:hover{
 @media screen and (max-width: 1500px) and (min-width: 750px) {
   header{
     width: 100%;
-    font-size: 14px;
+    font-size: 1em;
     margin: 0;
 
     display: flex;

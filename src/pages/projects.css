@@ -139,8 +139,36 @@
 
 /* max 1500 min 500 */
 @media screen and (max-width: 1500px) and (min-width: 750px) {
+  .proj-section-introduction p:nth-child(1){
+    font-size: 40px;
+  }
+  .proj-section-introduction p:nth-child(2){
+    font-size: 25px;
+  }
+  
   .text-video-container{
     height: 98%;
+    width: 90%;
+  }
+  .text-video-container{
+    height: 90%;
+  }
+  .div-close-popup {
+    margin-bottom: 3%;
+    width: 98%;
+  }
+  .text-video-container video{
+    width: 95%;
+  }
+
+  .project-informative-text p:nth-child(1){
+    font-size: 40px;
+  }
+  .project-informative-text p:nth-child(2){
+    font-size: 30px;
+  }
+  .project-informative-text p:nth-child(3){
+    font-size: 25px;
   }
 }
 
