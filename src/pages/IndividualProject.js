@@ -31,7 +31,8 @@ export default class IndividualProject extends Component {
           <div className="div-video-icons">
             
             <button onClick={this.showPopup} className="more-info-button">
-              <i className="bi bi-plus-circle video-info-icon"></i>
+              {/* <i className="bi bi-plus-circle video-info-icon"></i> */}
+              <i className="bi bi-question-circle video-info-icon"></i>
             </button>
             
             <a href={linkGitHub} target="_blank" rel="noopener noreferrer">

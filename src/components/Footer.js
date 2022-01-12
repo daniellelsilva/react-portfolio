@@ -6,6 +6,7 @@ class Footer extends React.Component {
     return (
     <footer>
       <p>Portfólio de Danielle Silva</p>
+      <p>danielle.luisasilva@gmail.com</p>
     </footer>
     )
   }
