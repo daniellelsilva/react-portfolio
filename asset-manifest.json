@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.d080f6b1.css",
-    "main.js": "/react-portfolio/static/js/main.1495627f.js",
+    "main.js": "/react-portfolio/static/js/main.4942aac1.js",
     "static/media/killertrunfo.mp4": "/react-portfolio/static/media/killertrunfo.f1908e2c67eba55d929f.mp4",
     "static/media/img-solar-system.png": "/react-portfolio/static/media/img-solar-system.5bcff66707847eb2fedb.png",
     "static/media/trybetunes.mp4": "/react-portfolio/static/media/trybetunes.25b116be48fefb03d2fa.mp4",
     "static/media/trybewarts-video.mp4": "/react-portfolio/static/media/trybewarts-video.6f70e40117f49faa41f3.mp4",
     "static/media/solar-system-video.mp4": "/react-portfolio/static/media/solar-system-video.28c3989ed475142f8ada.mp4",
+    "static/media/TrybeWallet.mp4": "/react-portfolio/static/media/TrybeWallet.77221206db5c8b8b1187.mp4",
     "static/media/img-trybewarts-img.png": "/react-portfolio/static/media/img-trybewarts-img.9045313dad3ed5ac3d1f.png",
     "static/media/shopping-cart-video.mp4": "/react-portfolio/static/media/shopping-cart-video.653944e861a0b892d48a.mp4",
     "static/media/portfolio-img.jpg": "/react-portfolio/static/media/portfolio-img.2e7cecde3bc28344612a.jpg",
@@ -21,16 +22,17 @@
     "static/media/bootstrap-icons.woff2?": "/react-portfolio/static/media/bootstrap-icons.2b56e79ae5013246de29.woff2",
     "static/media/img-to-do-list.png": "/react-portfolio/static/media/img-to-do-list.0dc19e41e42fd209f808.png",
     "static/media/img-tryunfo.png": "/react-portfolio/static/media/img-tryunfo.00d1bdf55f2a0e0e5653.png",
+    "static/media/img-trybewallet.png": "/react-portfolio/static/media/img-trybewallet.a168562475ed499d44a5.png",
     "static/media/undraw_community_re_cyrm.svg": "/react-portfolio/static/media/undraw_community_re_cyrm.4918139c87ab73641b670bca31346eff.svg",
     "static/media/undraw_conversation_re_c26v.svg": "/react-portfolio/static/media/undraw_conversation_re_c26v.a5c1fe9030cf5a38a0d09d46c457548f.svg",
     "static/media/undraw_with_love_re_1q3m.svg": "/react-portfolio/static/media/undraw_with_love_re_1q3m.f352cd1005dd8d3c21826f3e144ea083.svg",
     "static/media/undraw_add_color_re_buro.svg": "/react-portfolio/static/media/undraw_add_color_re_buro.aa5ffaf14f1b78fffbbdaa4dfa40c179.svg",
     "index.html": "/react-portfolio/index.html",
     "main.d080f6b1.css.map": "/react-portfolio/static/css/main.d080f6b1.css.map",
-    "main.1495627f.js.map": "/react-portfolio/static/js/main.1495627f.js.map"
+    "main.4942aac1.js.map": "/react-portfolio/static/js/main.4942aac1.js.map"
   },
   "entrypoints": [
     "static/css/main.d080f6b1.css",
-    "static/js/main.1495627f.js"
+    "static/js/main.4942aac1.js"
   ]
 }
