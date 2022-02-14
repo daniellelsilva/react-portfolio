@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Icon } from '@iconify/react';
 import image from '../assets/portfolio-img.jpg'
 import './about.css';
 
@@ -38,11 +39,6 @@ export default class About extends Component {
             
             <div className="about-hard-skills">
               <div className="div-icon-text">
-                <i className="fab fa-html5 hard-skills-icons"></i>
-                <p>HTML</p>
-              </div>
-
-              <div className="div-icon-text">
                 <i className="fab fa-css3-alt hard-skills-icons"></i>
                 <p>CSS</p>
               </div>
@@ -50,6 +46,16 @@ export default class About extends Component {
               <div className="div-icon-text">
                 <i className="fab fa-js hard-skills-icons"></i>
                 <p>JavaScript</p>
+              </div>
+
+              <div className="div-icon-text">
+                <Icon icon="akar-icons:sass-fill" className="hard-skills-icons" />
+                <p>Sass</p>
+              </div>
+
+              <div className="div-icon-text">
+                <i className="fab fa-html5 hard-skills-icons"></i>
+                <p>HTML</p>
               </div>
 
               <div className="div-icon-text">
@@ -65,7 +71,12 @@ export default class About extends Component {
               <div className="div-icon-text">
                 <i className="fab fa-github hard-skills-icons"></i>
                 <p>GitHub</p>
-              </div>             
+              </div>
+
+              <div className="div-icon-text">
+                <Icon icon="simple-icons:jest" className="hard-skills-icons" />
+                <p>Jest</p>
+              </div>          
             </div>
           </div>
           

@@ -1,3 +1,4 @@
+import trybewallet from '../assets/TrybeWallet.mp4';
 import trybetunes from '../assets/trybetunes.mp4';
 import tryunfo from '../assets/killertrunfo.mp4';
 import solarSystem from '../assets/solar-system-video.mp4';
@@ -7,6 +8,7 @@ import pixelArt from '../assets/pixel-art-video.mp4';
 import trybewarts from '../assets/trybewarts-video.mp4';
 import primeiroPortfolio from '../assets/primeiro-portfolio.mp4';
 
+import imgTrybeWallet from '../assets/img-trybewallet.png';
 import imgTrybetunes from '../assets/img-trybetunes.png';
 import imgTryunfo from '../assets/img-tryunfo.png';
 import imgSolarSystem from '../assets/img-solar-system.png';
@@ -18,6 +20,17 @@ import imgPrimeiroPortfolio from '../assets/img-primeiro-portfolio.png';
 
 
 const allProjects = [
+  {
+    id: 9,
+    name: 'TrybeWallet',
+    moduleCourse: 'Front-end',
+    img: imgTrybeWallet,
+    linkGitHub: 'https://github.com/daniellelsilva/TrybeWallet',
+    linkPage: 'https://daniellelsilva.github.io/TrybeWallet/#/',
+    linkVideo: trybewallet,
+    text: 'Aproposta do projeto foi criar o TrybeWallet, uma carteira de controle de gastos com conversor de moedas, possibilitando adicionar e remover gastos, visualizar a tabela com gastos e total gasto em Reais.'
+  },
+  
   {
     id: 8,
     name: 'TrybeTunes',
