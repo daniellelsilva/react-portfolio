@@ -1,3 +1,4 @@
+import appDeReceitas from '../assets/app-de-receitas.mp4';
 import trybewallet from '../assets/TrybeWallet.mp4';
 import trybetunes from '../assets/trybetunes.mp4';
 import tryunfo from '../assets/killertrunfo.mp4';
@@ -8,6 +9,7 @@ import pixelArt from '../assets/pixel-art-video.mp4';
 import trybewarts from '../assets/trybewarts-video.mp4';
 import primeiroPortfolio from '../assets/primeiro-portfolio.mp4';
 
+import imgAppDeReceitas from '../assets/img-app-de-receitas.png';
 import imgTrybeWallet from '../assets/img-trybewallet.png';
 import imgTrybetunes from '../assets/img-trybetunes.png';
 import imgTryunfo from '../assets/img-tryunfo.png';
@@ -21,6 +23,17 @@ import imgPrimeiroPortfolio from '../assets/img-primeiro-portfolio.png';
 
 const allProjects = [
   {
+    id: 10,
+    name: 'Cook It',
+    moduleCourse: 'Front-end',
+    img: imgAppDeReceitas,
+    linkGitHub: 'https://github.com/daniellelsilva/cook-it',
+    linkPage: 'https://daniellelsilva.github.io/cook-it/#/',
+    linkVideo: appDeReceitas,
+    text: 'Este foi o último projeto de Front-end, o objetivo foi criar um app de receitas de dirnks e comidas, utilizando ferramentas como react, hooks e context. O projeto foi realizado em grupo, os integrantes estão citados no GitHub'
+  },
+  
+  {
     id: 9,
     name: 'TrybeWallet',
     moduleCourse: 'Front-end',
@@ -28,7 +41,7 @@ const allProjects = [
     linkGitHub: 'https://github.com/daniellelsilva/TrybeWallet',
     linkPage: 'https://daniellelsilva.github.io/TrybeWallet/#/',
     linkVideo: trybewallet,
-    text: 'Aproposta do projeto foi criar o TrybeWallet, uma carteira de controle de gastos com conversor de moedas, possibilitando adicionar e remover gastos, visualizar a tabela com gastos e total gasto em Reais.'
+    text: 'A proposta do projeto foi criar o TrybeWallet, uma carteira de controle de gastos com conversor de moedas, possibilitando adicionar e remover gastos, visualizar a tabela com gastos e total gasto em Reais.'
   },
   
   {
@@ -39,7 +52,7 @@ const allProjects = [
     linkGitHub: 'https://github.com/daniellelsilva/trybetunes',
     linkPage: 'https://daniellelsilva.github.io/trybetunes/#/',
     linkVideo: trybetunes,
-    text: 'Aproposta do projeto foi criar o TrybeTunes, uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada.'
+    text: 'A proposta do projeto foi criar o TrybeTunes, uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada.'
   },
 
   {
