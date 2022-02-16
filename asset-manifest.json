@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.d080f6b1.css",
-    "main.js": "/react-portfolio/static/js/main.9a05121c.js",
+    "main.js": "/react-portfolio/static/js/main.48c1ab09.js",
+    "static/media/app-de-receitas.mp4": "/react-portfolio/static/media/app-de-receitas.586783781a15f781b8ef.mp4",
     "static/media/killertrunfo.mp4": "/react-portfolio/static/media/killertrunfo.f1908e2c67eba55d929f.mp4",
     "static/media/img-solar-system.png": "/react-portfolio/static/media/img-solar-system.5bcff66707847eb2fedb.png",
     "static/media/trybetunes.mp4": "/react-portfolio/static/media/trybetunes.25b116be48fefb03d2fa.mp4",
@@ -9,6 +10,7 @@
     "static/media/solar-system-video.mp4": "/react-portfolio/static/media/solar-system-video.28c3989ed475142f8ada.mp4",
     "static/media/TrybeWallet.mp4": "/react-portfolio/static/media/TrybeWallet.77221206db5c8b8b1187.mp4",
     "static/media/img-trybewarts-img.png": "/react-portfolio/static/media/img-trybewarts-img.9045313dad3ed5ac3d1f.png",
+    "static/media/img-app-de-receitas.png": "/react-portfolio/static/media/img-app-de-receitas.f93b35099f462e96f419.png",
     "static/media/shopping-cart-video.mp4": "/react-portfolio/static/media/shopping-cart-video.653944e861a0b892d48a.mp4",
     "static/media/portfolio-img.jpg": "/react-portfolio/static/media/portfolio-img.2e7cecde3bc28344612a.jpg",
     "static/media/to-do-list-video.mp4": "/react-portfolio/static/media/to-do-list-video.4fbc7084f31d9a7ba632.mp4",
@@ -29,10 +31,10 @@
     "static/media/undraw_add_color_re_buro.svg": "/react-portfolio/static/media/undraw_add_color_re_buro.aa5ffaf14f1b78fffbbdaa4dfa40c179.svg",
     "index.html": "/react-portfolio/index.html",
     "main.d080f6b1.css.map": "/react-portfolio/static/css/main.d080f6b1.css.map",
-    "main.9a05121c.js.map": "/react-portfolio/static/js/main.9a05121c.js.map"
+    "main.48c1ab09.js.map": "/react-portfolio/static/js/main.48c1ab09.js.map"
   },
   "entrypoints": [
     "static/css/main.d080f6b1.css",
-    "static/js/main.9a05121c.js"
+    "static/js/main.48c1ab09.js"
   ]
 }
