@@ -1,27 +1,41 @@
-import appDeReceitas from '../assets/app-de-receitas.mp4';
-import trybewallet from '../assets/TrybeWallet.mp4';
-import trybetunes from '../assets/trybetunes.mp4';
-import tryunfo from '../assets/killertrunfo.mp4';
-import solarSystem from '../assets/solar-system-video.mp4';
-import shoppingCart from '../assets/shopping-cart-video.mp4';
-import toDoList from '../assets/to-do-list-video.mp4';
-import pixelArt from '../assets/pixel-art-video.mp4';
-import trybewarts from '../assets/trybewarts-video.mp4';
 import primeiroPortfolio from '../assets/primeiro-portfolio.mp4';
+import trybewarts from '../assets/trybewarts-video.mp4';
+import pixelArt from '../assets/pixel-art-video.mp4';
+import toDoList from '../assets/to-do-list-video.mp4';
+import shoppingCart from '../assets/shopping-cart-video.mp4';
+import solarSystem from '../assets/solar-system-video.mp4';
+import tryunfo from '../assets/killertrunfo.mp4';
+import trybetunes from '../assets/trybetunes.mp4';
+import trybewallet from '../assets/TrybeWallet.mp4';
+import appDeReceitas from '../assets/app-de-receitas.mp4';
+import natours from '../assets/Natours.mp4';
 
-import imgAppDeReceitas from '../assets/img-app-de-receitas.png';
-import imgTrybeWallet from '../assets/img-trybewallet.png';
-import imgTrybetunes from '../assets/img-trybetunes.png';
-import imgTryunfo from '../assets/img-tryunfo.png';
-import imgSolarSystem from '../assets/img-solar-system.png';
-import imgShoppingCart from '../assets/img-shopping-cart.png';
-import imgToDoList from '../assets/img-to-do-list.png';
-import imgPixelArt from '../assets/img-pixel-art.png';
-import imgTrybewarts from '../assets/img-trybewarts-img.png';
+
 import imgPrimeiroPortfolio from '../assets/img-primeiro-portfolio.png';
+import imgTrybewarts from '../assets/img-trybewarts-img.png';
+import imgPixelArt from '../assets/img-pixel-art.png';
+import imgToDoList from '../assets/img-to-do-list.png';
+import imgShoppingCart from '../assets/img-shopping-cart.png';
+import imgSolarSystem from '../assets/img-solar-system.png';
+import imgTryunfo from '../assets/img-tryunfo.png';
+import imgTrybetunes from '../assets/img-trybetunes.png';
+import imgTrybeWallet from '../assets/img-trybewallet.png';
+import imgAppDeReceitas from '../assets/img-app-de-receitas.png';
+import imgNatours from '../assets/img-natours.png';
 
 
 const allProjects = [
+  {
+    id: 11,
+    name: 'Natours',
+    moduleCourse: 'Front-end',
+    img: imgNatours,
+    linkGitHub: 'hhttps://github.com/daniellelsilva/natours',
+    linkPage: 'https://daniellelsilva.github.io/natours/',
+    linkVideo: natours,
+    text: 'Este projeto foi desenvolvido no curso de CSS avançado e Sass da Udemy ministrado por Jonas Schmedtmann. O objetivo do projeto e das aulas foi desenvolver a página de uma empresa de turismo fictícia chamada Natours, aplicando conceitos avançados de CSS e Sass'
+  },
+  
   {
     id: 10,
     name: 'Cook It',
