@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Poiret+One&display=swap');
 
+@import '../styles/abstracts/variables.scss';
+
 .home-div{
-  background-color: rgb(33, 37, 41);
+  background-color: $color-gray-dark;
   background-size: cover;
   display: flex;
   flex-direction: row;
@@ -26,7 +28,7 @@
 
 .home-div p {
   /* color: rgb(0, 218, 196); */
-  color: rgb(10, 255, 169);
+  color: $color-green;
   font-family: 'Bebas Neue', cursive;
   font-size: 60px;
   letter-spacing: 2px;
@@ -47,12 +49,12 @@
 .home-links a {
   font-size: 20px;
   text-decoration: none;
-  color: white;
+  color: $color-white;
   margin-top: -8%;
 }
 
 .home-links a:hover {
-  color: rgb(10, 255, 169);
+  color: $color-green;
 }
 
 .home-div img{

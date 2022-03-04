@@ -1,6 +1,8 @@
+@import '../styles/abstracts/variables.scss';
+
 .about-page {
-  background-color: rgb(46, 51, 56);
-  color: white;
+  background-color: $color-gray-medium;
+  color: $color-white;
   display: flex;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
@@ -35,7 +37,7 @@
 }
 
 .about-text-section p span {
-  color: rgb(10, 255, 169);
+  color: $color-green;
 }
 
 .div-about-arrow{
@@ -48,8 +50,8 @@
 	width: 3vmin;
 	height: 3vmin;
 	background: transparent;
-	border-top: 1vmin solid white;
-	border-right: 1vmin solid white;
+	border-top: 1vmin solid $color-white;
+	border-right: 1vmin solid $color-white;
 	transition: all 200ms ease;
 }	
 
@@ -58,8 +60,8 @@
 	}
 	
 .arrow:hover {
-		border-color: rgb(10, 255, 169);
-		box-shadow: 0.5vmin -0.5vmin 0 white;
+		border-color: $color-green;
+		box-shadow: 0.5vmin -0.5vmin 0 $color-white;
 	}
 
 .div-skills-title{
@@ -68,14 +70,14 @@
 
 .about-skills {
   align-items: center;
-  border-top: 1px solid rgb(10, 255, 169);
+  border-top: 1px solid $color-green;
   display: flex;
   flex-direction: column;
   margin: 8% 0;
 }
 
 .about-skills-title {
-  color: rgb(10, 255, 169);
+  color: $color-green;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 300;
@@ -110,7 +112,7 @@
 }
 
 .div-icon-text:hover{
-  color: rgb(10, 219, 146);
+  color: $color-green;
   transition: ease 0.5s;
 }
 
@@ -127,7 +129,7 @@
 }
 
 .title:hover{
-  color: rgb(10, 219, 146);
+  color: $color-green;
   transition: ease-in 0.5s;
 }
 

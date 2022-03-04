@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import imagem from '../assets/undraw_add_color_re_buro.svg';
-import './home.css';
+import './home.scss';
 
 export default class Home extends Component {
   render() {

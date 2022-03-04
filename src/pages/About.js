@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Icon } from '@iconify/react';
 import image from '../assets/portfolio-img.jpg'
-import './about.css';
+import './about.scss';
 
 import empathy from '../assets/undraw_with_love_re_1q3m.svg';
 import group from '../assets/undraw_conversation_re_c26v.svg';
@@ -76,7 +76,12 @@ export default class About extends Component {
               <div className="div-icon-text">
                 <Icon icon="simple-icons:jest" className="hard-skills-icons" />
                 <p>Jest</p>
-              </div>          
+              </div>    
+
+              <div className="div-icon-text">
+              <Icon icon="fontisto:mysql" className="hard-skills-icons" />
+                <p>MySQL</p>
+              </div>        
             </div>
           </div>
           

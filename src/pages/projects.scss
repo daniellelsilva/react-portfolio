@@ -1,6 +1,8 @@
+@import '../styles/abstracts/variables.scss';
+
 .project-div {
-  background-color: rgb(46, 51, 56);
-  color: white;
+  background-color: $color-gray-medium;
+  color: $color-white;
   font-weight: 300;
 }
 
@@ -10,7 +12,7 @@
 }
 
 .proj-section-introduction p:nth-child(1) {
-  color: rgb(10, 255, 169);
+  color: $color-green;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 300;
@@ -25,7 +27,7 @@
 
 .proj-individual-thumbnail {
   align-items: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba($color-black, 0.2), 0 6px 20px 0 rgba($color-black, 0.19);
   display: flex;
   flex-direction: column;
   padding-bottom: 2%;
@@ -40,7 +42,7 @@
 
 .proj-individual-thumbnail a {
   text-decoration: none;
-  color: white;
+  color: $color-white;
 }
 
 .div-video-icons {
@@ -56,13 +58,13 @@
 }
 
 .div-video-icons i:hover, .popupClose:hover {
-  color: rgb(10, 255, 169);
+  color: $color-green;
 }
 
 .more-info-button, .popupClose{
   border: none;
   background-color: transparent;
-  color: white;
+  color: $color-white;
 }
 
 .img-individual-project {
@@ -82,13 +84,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba($color-black, 0.5);
 }
 
 .text-video-container{
-  background-color: rgba(0, 0, 0, 0.9);
-  border: 1px solid rgb(0, 0, 0,);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba($color-black, 0.9);
+  border: 1px solid $color-black;
+  box-shadow: 0 4px 8px 0 rgba($color-black, 0.2), 0 6px 20px 0 rgba($color-black, 0.19);
   height: 90%;
   padding: 0 2% 2% 2%;
 
@@ -104,7 +106,7 @@
 }
 
 .info-project-text {
-  color: white;
+  color: $color-white;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   height: 220px;
@@ -118,14 +120,14 @@
 }
 
 .project-informative-text p:nth-child(1) {
-  color: rgb(10, 255, 169);
+  color: $color-green;
   font-size: 30px;
   font-weight: 600;
   margin-top: 8%;
 }
 
 .project-informative-text p:nth-child(3) {
-  color: white;
+  color: $color-white;
   font-size: 22px;
   margin: 0;
 }
