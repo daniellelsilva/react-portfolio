@@ -1,6 +1,8 @@
+@import '../styles/abstracts/variables.scss';
+
 header{
-  background-color: rgb(33, 37, 41);
-  color: rgb(197, 195, 198);
+  background-color: $color-gray-dark;
+  color: $color-gray-light;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -10,20 +12,20 @@ header{
 }
 
 .portfolio-name{
-  color: rgb(197, 195, 198);
+  color: $color-gray-light;
   margin-bottom: 0;
   text-decoration: none;
 }
 
 .portfolio-name span {
-  color: rgb(10, 255, 169);
+  color: $color-green;
 }
 
 /* https://codepen.io/tawfiqin/pen/OdgEJM */
 .icon-btn {
   width: 50px;
   height: 50px;
-  border: 1px solid rgb(33, 37, 41);
+  border: 1px solid $color-gray-dark;
   background: transparent;
   border-radius: 25px;
   overflow: hidden;
@@ -41,7 +43,7 @@ header{
   height: 4px;
   width: 10px;
   top: calc(50% - 2px);
-  background: rgb(10, 255, 169);
+  background: $color-green;
   
 }
 .add-btn::after {
@@ -59,7 +61,7 @@ header{
   outline: none;
 }
 .btn-txt {
-  color: white;
+  color: $color-white;
   opacity: 0;
   transition: opacity 0.2s;
 }
@@ -83,15 +85,15 @@ header nav a {
   font-weight: 300;
   margin: 0 20%;
   text-decoration: none;
-  color: rgb(197, 195, 198);
+  color: $color-gray-light;
 }
 
 nav a:hover, .portfolio-name:hover{
-  color: rgb(10, 255, 169);
+  color: $color-green;
 }
 
 .selected{
-  color: rgb(10, 255, 169);
+  color: $color-green;
 }
 
 

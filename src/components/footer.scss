@@ -1,11 +1,13 @@
+@import '../styles/abstracts/variables.scss';
+
 footer{
-  background-color: rgb(33, 37, 41);
+  background-color: $color-gray-dark;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
-  color: rgb(197, 195, 198);
+  color: $color-gray-light;
   margin: auto;
   padding: 1% 0 0 0;
 }
