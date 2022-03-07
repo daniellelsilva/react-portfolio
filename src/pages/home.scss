@@ -1,69 +1,118 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Poiret+One&display=swap');
 
 @import '../styles/abstracts/variables.scss';
+@import '../styles/abstracts/mixins.scss';
 
-.home-div{
+
+.home {
   background-color: $color-gray-dark;
   background-size: cover;
   display: flex;
   flex-direction: row;
-  min-height: 86vh;
+  align-items: center;
+  justify-content: center;
+  height: 82vh;
   width: 100%;
+
+  &-section {
+    margin: 3% 0 0 10%;
+    width: 30%;
+  }
+
+  &-section p {
+    color: $color-green;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 6rem;
+    letter-spacing: 2px;
+    margin: 8% 0 5% 0;
+  }
+
+  &-section p:nth-child(2) {
+    font-size: 2.4rem;
+  }
+
+  &-text-animation {
+    animation: opacityEffect 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) both, slideEffect 3s ease both;
+  }
+
+  &-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    width: 45%;
+  }
+
+  &-links a {
+    font-size: 20px;
+    text-decoration: none;
+    color: $color-white;
+
+    &:hover {
+      color: $color-green;
+    }
+  }
+
+  &-img-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+  }
+
+  &-img {
+    width: 70%;
+  }
+
+  @include respond(tab-land) {
+    &-section {
+      margin-left: 5%;
+      width: 50%;
+    }
+
+    &-section p {
+      font-size: 5rem;
+    }
+  }
+
+  @include respond(tab-port) {
+    &-section {
+      margin-top: 10%;
+      width: 80%;
+    }
+
+    &-section p {
+      font-size: 6rem;
+    }
+
+    &-links {
+      margin: auto;
+    }
+
+    &-links a {
+      margin-top: 20%;
+    }
+
+    &-img-section {
+      display: none;
+    }
+  }
+
+  @include respond(phone) {
+    &-img-section {
+      display: none;
+    }
+
+    &-section {
+      width: 90%;
+    }
+
+    &-links {
+      margin: auto;
+    }
+  }
 }
 
-.home-div section{
-  margin-top: 13%;
-}
-
-.text-section{
-  margin-left: 18%;
-  width: 40%;
-}
-
-.img-section{
-  display: flex;
-  height: 100%;
-  width: 35%;
-}
-
-.home-div p {
-  /* color: rgb(0, 218, 196); */
-  color: $color-green;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 60px;
-  letter-spacing: 2px;
-  margin: 8% 0 5% 0;
-}
-
-.home-div p:nth-child(2) {
-  font-size: 24.5px;
-}
-
-.home-links {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: auto;
-  width: 45%;
-}
-
-.home-links a {
-  font-size: 20px;
-  text-decoration: none;
-  color: $color-white;
-  margin-top: -8%;
-}
-
-.home-links a:hover {
-  color: $color-green;
-}
-
-.home-div img{
-  width: 70%;
-}
-
-.text-animation {
-  animation: opacityEffect 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) both, slideEffect 3s ease both;
-}
 
 @keyframes slideEffect {
   from {
@@ -81,86 +130,4 @@
   to {
     opacity: 1;
   }
-}
-
-
-@media screen and (max-width: 1500px) and (min-width: 750px) {
-  .home-div{
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    padding-top: 10%;
-    min-height: 85vh;
-    width: 100%;
-  }
-}
-
-
-@media screen and (max-width: 749px) and (min-width: 501px) {
-  .home-div{
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    min-height: 91vh;
-    width: 100%;
-  }
-
-  .home-div section{
-    margin-top: 0;
-  }
-
-  .img-section{
-    display: none;
-  }
-
-  .text-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vh;
-    margin: 0;
-  }
-
-  .home-links a{
-    margin-top: 8%;
-  }
-}
-
-
-@media screen and (max-width: 500px) {
-  .home-div{
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    min-height: 91vh;
-    width: 100%;
-  }
-
-  .home-div section{
-    margin-top: 0;
-  }
-
-  .img-section{
-    display: none;
-  }
-
-  .text-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vh;
-    margin: 0;
-  }
-
-  .text-section p:nth-child(1) {
-    font-size: 54px;
-  }
-
-  .text-section p:nth-child(2) {
-    font-size: 14px;
-    margin-top: 0;
-  }
-  
 }
