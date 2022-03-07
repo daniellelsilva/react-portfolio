@@ -104,86 +104,26 @@
     justify-content: space-around;
   }
 
-  @include respond(tab-land) {
-    justify-content: flex-start;
+  @include respond(phone) {
+    justify-content: center;
 
     &-btn {
       display: none;
     }
 
     &-nav {
-      justify-content: space-between;
+      justify-content: center;
       padding: 1.5% 0;
+      margin: auto;
+      width: 100%;
+    }
+
+    &-nav a {
+      margin: 0 10%;
     }
   }
 }
 
 .selected{
   color: $color-green;
-}
-
-
-@media screen and (max-width: 1500px) and (min-width: 750px) {
-  header{
-    width: 100%;
-    font-size: 1em;
-    margin: 0;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-
-  .portfolio-name {
-    font-size: 11px;
-  }
-
-  header nav{
-    margin-left: 50%;
-  }
-}
-
-@media screen and (max-width: 749px) and (min-width: 501px) {
-  header{
-    width: 100%;
-    font-size: 14px;
-    margin: 0;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-
-  .portfolio-name {
-    font-size: 11px;
-  }
-
-  header nav{
-    margin-left: 30%;
-  }
-}
-
-
-@media screen and (max-width: 500px) {
-  header{
-    width: 100%;
-    font-size: 12px;
-    margin: 0;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-
-  .portfolio-name {
-    font-size: 11px;
-  }
-
-  header nav{
-    margin-left: 8%;
-  }
-
-  header nav a {
-    margin-right: 0;
-  }
 }
