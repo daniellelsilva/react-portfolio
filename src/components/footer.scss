@@ -1,6 +1,6 @@
 @import '../styles/abstracts/variables.scss';
 
-footer{
+.footer{
   background-color: $color-gray-dark;
   display: flex;
   flex-direction: column;
@@ -11,10 +11,10 @@ footer{
   color: $color-gray-light;
   margin: auto;
   padding: 1% 0 0 0;
-}
 
-footer p:nth-child(1) {
-  margin-bottom: 1%;
+  &-text-1 {
+    margin-bottom: 1%;
+  }
 }
 
 

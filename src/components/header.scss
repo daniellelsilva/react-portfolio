@@ -88,16 +88,7 @@
     margin-right: 10%;
   }
 
-  &-nav a {
-    font-weight: 300;
-    margin: 0 20%;
-    text-decoration: none;
-    color: $color-gray-light;
-
-    &:hover {
-      color: $color-green;
-    }
-  }
+  
 
 
   @include respond(tab-land) {
@@ -121,6 +112,18 @@
     &-nav a {
       margin: 0 10%;
     }
+  }
+}
+
+header nav a {
+  font-weight: 300;
+  margin: 0 20%;
+  text-decoration: none;
+  color: $color-gray-light;
+  transition: all .3s;
+
+  &:hover {
+    color: $color-green;
   }
 }
 

@@ -11,7 +11,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 82vh;
+  height: 85vh;
   width: 100%;
 
   &-section {
@@ -46,6 +46,7 @@
     font-size: 20px;
     text-decoration: none;
     color: $color-white;
+    transition: all .3s;
 
     &:hover {
       color: $color-green;
@@ -65,6 +66,8 @@
   }
 
   @include respond(tab-land) {
+    height: 90vh;
+
     &-section {
       margin-left: 5%;
       width: 50%;
