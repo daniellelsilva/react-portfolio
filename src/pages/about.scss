@@ -31,7 +31,7 @@
 
 .about-text-section p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 2.2rem;
   font-weight: 300;
   margin-left: 3%;
 }
@@ -79,7 +79,7 @@
 .about-skills-title {
   color: $color-green;
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+  font-size: 2.5rem;
   font-weight: 300;
   margin-top: 5%;
 }
@@ -107,7 +107,7 @@
 }
 
 .hard-skills-icons {
-  font-size: 100px;
+  font-size: 9rem;
   margin-bottom: 8px;
 }
 
@@ -122,10 +122,18 @@
   align-items: center;
 }
 
+.div-icon-text p {
+  font-size: 1.3rem ;
+}
+
 .title{
-  font-size: 20px;
+  font-size: 1.5rem;
   font-weight: 500;
   margin: 3% 0 2%;
+}
+
+.sub-title {
+  font-size: 1.3rem;
 }
 
 .title:hover{

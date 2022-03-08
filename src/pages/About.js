@@ -88,7 +88,7 @@ export default class About extends Component {
           <div className="about-both-skills-section soft-skills-section">
             <div className="skills-title">
               <p className="title">Soft skills</p>
-              <p>Em soft skills trabalhamos alguns pontos como:</p>
+              <p className="sub-title">Em soft skills trabalhamos alguns pontos como:</p>
               <div className="about-soft-skills">
                 <div className="div-icon-text div-soft-skills-img">
                   <img className="about-soft-skills-img" src={empathy} />
