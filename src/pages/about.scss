@@ -1,4 +1,5 @@
 @import '../styles/abstracts/variables.scss';
+@import '../styles//abstracts/mixins.scss';
 
 .about {
   background-color: $color-gray-medium;
@@ -13,11 +14,26 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    @include respond(tab-land) {
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      width: 100%;
+    }
   }
 
   &-img {
     margin-top: 3%;
     width: 40%;
+
+    @include respond(tab-land) {
+      width: 70%;
+    }
+
+    @include respond(phone) {
+      width: 90%;
+    }
   }
 
   &-text-section {
@@ -27,11 +43,29 @@
     justify-content: center;
     width: 55%;
 
+    @include respond(tab-land) {
+      margin-top: 5%;
+      width: 70%;
+    }
+
+    @include respond(phone) {
+      margin: 8% 0;
+      width: 90%;
+    }
+
     p{
       font-family: 'Montserrat', sans-serif;
       font-size: 2.2rem;
       font-weight: 300;
       margin-left: 3%;
+
+      @include respond(tab-port) {
+        font-size: 2rem;
+      }
+
+      @include respond(phone) {
+        font-size: 2.5rem;
+      }
 
       span {
         color: $color-green;
@@ -49,14 +83,22 @@
   }
 
   &-title{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 500;
     margin: 3% 0 2%;
     color: $color-white;
+
+    @include respond(tab-land) {
+      font-size: 2rem;
+    }
   }
 
   &-sub-title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+
+    @include respond(tab-land) {
+      font-size: 1.8rem;
+    }
   }
 
   &-skills-title {
@@ -81,7 +123,11 @@
     align-items: center;
 
     p {
-      font-size: 1.3rem ;
+      font-size: 1.4rem ;
+
+      @include respond(tab-land) {
+        font-size: $default-font-size;
+      }
     }
   }
 
@@ -94,11 +140,35 @@
     display: flex;
     justify-content: space-between;
     width: 80%;
+
+    @include respond(tab-land) {
+      width: 95%;
+    }
+
+    @include respond(tab-port) {
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+      margin-inline: 2rem;
+      width: 80%;
+    }
+
+    @include respond(tab-land) {
+      width: 95%;
+    }
   }
 
   &-hard-skills-icons {
     font-size: 9rem;
     margin-bottom: 8px;
+
+    @include respond(tab-land) {
+      font-size: 7.5rem;
+    }
+
+    @include respond(tab-port) {
+      font-size: 7rem;
+      margin-inline: 3rem;
+    }
   }
 
   &-soft-skills-section{
@@ -119,11 +189,30 @@
     justify-content: space-between;
     align-items: flex-end;
     width: 95%;
+
+    @include respond(phone) {
+      flex-direction: column;
+    }
   }
 
   &-soft-skills-img {
     width: 25%;
     margin-bottom: 8px;
+
+    @include respond(tab-land) {
+      width: 30%;
+      margin-top: 8%;
+    }
+
+    @include respond(tab-port) {
+      width: 35%;
+      margin-top: 8%;
+    }
+
+    @include respond(tab-port) {
+      width: 30%;
+      margin-top: 8%;
+    }
   }
 }
 
@@ -132,6 +221,10 @@
   display: flex;
   justify-content: center;
   margin-top: 3%;
+
+  @include respond(tab-land) {
+    display: none;
+  }
 
   &-link {
     width: 3vmin;
@@ -165,193 +258,193 @@
 
 
 
-@media screen and (max-width: 1500px) and (min-width: 750px) {
-  .about-text-section p{
-    font-size: 18px;
-    padding-left: 2%;
-  }
-  .about-skills-title{
-    font-size: 19px;
-  }
+// @media screen and (max-width: 1500px) and (min-width: 750px) {
+//   .about-text-section p{
+//     font-size: 18px;
+//     padding-left: 2%;
+//   }
+//   .about-skills-title{
+//     font-size: 19px;
+//   }
 
-  .title{
-    font-size: 16px;
-  }
+//   .title{
+//     font-size: 16px;
+//   }
 
-  .div-icon-text{
-    font-size: 14px;
-  }
+//   .div-icon-text{
+//     font-size: 14px;
+//   }
 
-  .hard-skills-icons{
-    font-size: 48px;
-  }
-}
+//   .hard-skills-icons{
+//     font-size: 48px;
+//   }
+// }
 
 
 
-@media screen and (max-width: 749px) and (min-width: 501px) {
-  .about-page{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
+// @media screen and (max-width: 749px) and (min-width: 501px) {
+//   .about-page{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     width: 100%;
+//   }
 
-  .about-intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+//   .about-intro {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
   
-    width: 100%;
-    margin-top: 20%;
-  }
+//     width: 100%;
+//     margin-top: 20%;
+//   }
 
-  .about-text-section{
-    width: 90%;
-  }
+//   .about-text-section{
+//     width: 90%;
+//   }
 
-  .about-intro p {
-    font-size: 18px;
-    width: 100%;
-    margin: 0 0 8% 0;
-  }
+//   .about-intro p {
+//     font-size: 18px;
+//     width: 100%;
+//     margin: 0 0 8% 0;
+//   }
 
-  .about-img {
-    margin-top: 5%;
-    width: 70%;
-  }
+//   .about-img {
+//     margin-top: 5%;
+//     width: 70%;
+//   }
 
-  .about-skills-title {
-    font-size: 20px;
-  }
+//   .about-skills-title {
+//     font-size: 20px;
+//   }
 
-  .title {
-    font-size: 18px;
-  }
+//   .title {
+//     font-size: 18px;
+//   }
 
-  .about-hard-skills {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+//   .about-hard-skills {
+//     display: flex;
+//     flex-flow: row wrap;
+//     justify-content: center;
 
-    margin-top: 3%;
-    width: 100%;
-  }
+//     margin-top: 3%;
+//     width: 100%;
+//   }
 
-  .hard-skills-icons{
-    font-size: 60px
-  }
+//   .hard-skills-icons{
+//     font-size: 60px
+//   }
 
-  .about-hard-skills div {
-    margin: 0 8%;
-  }
+//   .about-hard-skills div {
+//     margin: 0 8%;
+//   }
 
-  .div-icon-text p{
-    font-size: 15px;
-  }
+//   .div-icon-text p{
+//     font-size: 15px;
+//   }
 
-  .about-soft-skills {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
+//   .about-soft-skills {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: baseline;
 
-    width: 100%;
-  }
+//     width: 100%;
+//   }
 
-  .div-soft-skills-img{
-    margin-bottom: 3%;
-  }
+//   .div-soft-skills-img{
+//     margin-bottom: 3%;
+//   }
 
-  .div-icon-text img {
-    margin: 5%;
-  }
+//   .div-icon-text img {
+//     margin: 5%;
+//   }
 
-  .about-soft-skills-img {
-    width: 40%;
-  }
-}
+//   .about-soft-skills-img {
+//     width: 40%;
+//   }
+// }
 
 
-@media screen and (max-width: 500px) {
-  .about-page{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
+// @media screen and (max-width: 500px) {
+//   .about-page{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     width: 100%;
+//   }
   
-  .about-intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+//   .about-intro {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
   
-    width: 100%;
-    margin-top: 20%;
-  }
+//     width: 100%;
+//     margin-top: 20%;
+//   }
 
-  .about-text-section{
-    width: 90%;
-  }
+//   .about-text-section{
+//     width: 90%;
+//   }
 
-  .about-intro p {
-    font-size: 17px;
-    width: 100%;
-    margin: 0 0 8% 0;
-  }
+//   .about-intro p {
+//     font-size: 17px;
+//     width: 100%;
+//     margin: 0 0 8% 0;
+//   }
 
-  .about-img {
-    margin-top: 8%;
-    width: 90%;
-  }
+//   .about-img {
+//     margin-top: 8%;
+//     width: 90%;
+//   }
 
-  .about-skills-title {
-    font-size: 20px;
-  }
+//   .about-skills-title {
+//     font-size: 20px;
+//   }
 
-  .title {
-    font-size: 18px;
-  }
+//   .title {
+//     font-size: 18px;
+//   }
 
-  .about-hard-skills {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+//   .about-hard-skills {
+//     display: flex;
+//     flex-flow: row wrap;
+//     justify-content: center;
 
-    margin-top: 3%;
-    width: 100%;
-  }
+//     margin-top: 3%;
+//     width: 100%;
+//   }
 
-  .hard-skills-icons{
-    font-size: 60px
-  }
+//   .hard-skills-icons{
+//     font-size: 60px
+//   }
 
-  .about-hard-skills div {
-    margin: 0 8%;
-  }
+//   .about-hard-skills div {
+//     margin: 0 8%;
+//   }
 
-  .div-icon-text p{
-    font-size: 15px;
-  }
+//   .div-icon-text p{
+//     font-size: 15px;
+//   }
 
-  .about-soft-skills {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
+//   .about-soft-skills {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: baseline;
 
-    width: 100%;
-  }
+//     width: 100%;
+//   }
 
-  .div-soft-skills-img{
-    margin-bottom: 8%;
-  }
+//   .div-soft-skills-img{
+//     margin-bottom: 8%;
+//   }
 
-  .div-icon-text img {
-    margin: 0 5%;
-  }
+//   .div-icon-text img {
+//     margin: 0 5%;
+//   }
 
-  .about-soft-skills-img {
-    width: 20%;
-  }
-}
+//   .about-soft-skills-img {
+//     width: 20%;
+//   }
+// }
