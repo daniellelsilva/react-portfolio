@@ -125,15 +125,40 @@
     align-items: center;
     justify-content: center;
 
+    @include respond(tab-land) {
+      width: 80%
+    }
+
+    @include respond(tab-port) {
+      height: 85vh;
+      width: 90%
+    }
+
     & video {
       width: 70%;
-      // height: 30rem;
+
+      @include respond(tab-land) {
+        width: 80%
+      }
+
+      @include respond(phone) {
+        margin-top: 5%;
+        width: 95%;
+      }
     }
   }
 
   &-informative-text {
     margin: auto;
     width: 70%;
+
+    @include respond(tab-land) {
+      width: 80%;
+    }
+
+    @include respond(tab-port) {
+      width: 90%;
+    }
   }
 
   & p:nth-child(1) {
@@ -146,10 +171,18 @@
   & p:nth-child(2) {
     margin-top: 4%;
     font-size: 1.9rem;
+
+    @include respond(tab-port) {
+      font-size: 2.2rem;
+    }
   }
 
   & p:nth-child(3) {
     font-size: 1.7rem;
+
+    @include respond(tab-port) {
+      font-size: 2rem;
+    }
   }
 
   &-info-project-text {
@@ -172,7 +205,7 @@
     display: flex;
     justify-content: flex-end;
     margin-top: 3%;
-    width: 95vh;
+    width: 95%;
   }
 
   &-Close {
@@ -185,156 +218,3 @@
     color: $color-green;
   }
 }
-
-
-
-
-// /* max 1500 min 500 */
-// @media screen and (max-width: 1500px) and (min-width: 750px) {
-//   .proj-section-introduction p:nth-child(1){
-//     font-size: 40px;
-//   }
-//   .proj-section-introduction p:nth-child(2){
-//     font-size: 25px;
-//   }
-  
-//   .text-video-container{
-//     height: 98%;
-//     width: 90%;
-//   }
-//   .text-video-container{
-//     height: 90%;
-//   }
-//   .div-close-popup {
-//     margin-bottom: 3%;
-//     width: 98%;
-//   }
-//   .text-video-container video{
-//     width: 95%;
-//   }
-
-//   .project-informative-text p:nth-child(1){
-//     font-size: 40px;
-//   }
-//   .project-informative-text p:nth-child(2){
-//     font-size: 30px;
-//   }
-//   .project-informative-text p:nth-child(3){
-//     font-size: 25px;
-//   }
-// }
-
-
-// @media screen and (max-width: 749px) and (min-width: 501px) {
-//   .text-video-container{
-//     width: 95%;
-//   }
-
-//   .div-close-popup {
-//     width: 90%;
-//   }
-
-//   .container-more-info{
-//     width: 100%;
-//   }
-
-//   .container-more-info video {
-//     width: 90%;
-//   }
-
-//   .project-informative-text {
-//     width: 90%;
-//     font-size: 10px;
-//   }
-
-//   .project-informative-text p:nth-child(1) {
-//     font-size: 25px;
-//     margin-top: 8%;
-//   }
-
-//   .project-informative-text p:nth-child(2) {
-//     font-size: 20px;
-//   }
-  
-//   .project-informative-text p:nth-child(3) {
-//     font-size: 20px;
-//     margin: 0;
-//     padding: 0;
-//     width: 90%;
-//   }
-// }
-
-// @media screen and (max-width: 500px) {
-//   .project-div {
-//     width: 100%;
-//   }
-
-//   .proj-section-introduction p:nth-child(1), .proj-individual-thumbnail p:nth-child(2) {
-//     font-size: 22px;
-//   }
-
-//   .proj-section-introduction p:nth-child(2) {
-//     font-size: 14px;
-//   }
-
-//   .projects-thumbnail-section {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     margin: auto;
-//     width: 100%;
-//   }
-
-//   .proj-individual-thumbnail {
-//     width: 99%;
-//     margin: 0;
-//   }
-
-//   .img-individual-project {
-//     width: 100%;
-//   }
-
-//   .container-more-info {
-//     width: 90%;
-//   }
-
-//   .text-video-container {
-//     width: 90%;
-//   }
-
-
-//   .div-close-popup {
-//     width: 90%;
-//   }
-
-//   .container-more-info{
-//     width: 100%;
-//   }
-
-//   .container-more-info video {
-//     width: 90%;
-//   }
-
-//   .project-informative-text {
-//     width: 90%;
-//     font-size: 10px;
-//   }
-
-//   .project-informative-text p:nth-child(1) {
-//     font-size: 22px;
-//     font-weight: 600;
-//     margin-top: 8%;
-//   }
-
-//   .project-informative-text p:nth-child(2) {
-//     font-size: 19px;
-//   }
-  
-//   .project-informative-text p:nth-child(3) {
-//     font-size: 17px;
-//     margin: 0;
-//     padding: 0;
-//     width: 90%;
-//   }
-
-// }
