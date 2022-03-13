@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.22b87879.css",
+    "main.css": "/react-portfolio/static/css/main.78e2fb2b.css",
     "main.js": "/react-portfolio/static/js/main.07f20290.js",
     "static/media/Natours.mp4": "/react-portfolio/static/media/Natours.c5bee18abf1be0a480d7.mp4",
     "static/media/app-de-receitas.mp4": "/react-portfolio/static/media/app-de-receitas.586783781a15f781b8ef.mp4",
@@ -32,11 +32,11 @@
     "static/media/undraw_with_love_re_1q3m.svg": "/react-portfolio/static/media/undraw_with_love_re_1q3m.f352cd1005dd8d3c21826f3e144ea083.svg",
     "static/media/undraw_add_color_re_buro.svg": "/react-portfolio/static/media/undraw_add_color_re_buro.aa5ffaf14f1b78fffbbdaa4dfa40c179.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.22b87879.css.map": "/react-portfolio/static/css/main.22b87879.css.map",
+    "main.78e2fb2b.css.map": "/react-portfolio/static/css/main.78e2fb2b.css.map",
     "main.07f20290.js.map": "/react-portfolio/static/js/main.07f20290.js.map"
   },
   "entrypoints": [
-    "static/css/main.22b87879.css",
+    "static/css/main.78e2fb2b.css",
     "static/js/main.07f20290.js"
   ]
 }
