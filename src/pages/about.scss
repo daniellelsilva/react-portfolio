@@ -1,6 +1,6 @@
 @import '../styles/abstracts/variables.scss';
 
-.about-page {
+.about {
   background-color: $color-gray-medium;
   color: $color-white;
   display: flex;
@@ -8,150 +8,161 @@
   font-weight: 300;
   flex-direction: column;
   padding-top: 2%;
+
+  &-intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &-img {
+    margin-top: 3%;
+    width: 40%;
+  }
+
+  &-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 55%;
+
+    p{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.2rem;
+      font-weight: 300;
+      margin-left: 3%;
+
+      span {
+        color: $color-green;
+      }
+    }
+  }
+
+
+  &-skills {
+    align-items: center;
+    border-top: 1px solid $color-green;
+    display: flex;
+    flex-direction: column;
+    margin: 8% 0;
+  }
+
+  &-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 3% 0 2%;
+    color: $color-white;
+  }
+
+  &-sub-title {
+    font-size: 1.3rem;
+  }
+
+  &-skills-title {
+    color: $color-green;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-top: 5%;
+  }
+
+  &-both-skills-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  &-div-icon-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      font-size: 1.3rem ;
+    }
+  }
+
+  &-div-icon-text:hover{
+    color: $color-green;
+    transition: ease 0.5s;
+  }
+
+  &-hard-skills {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  &-hard-skills-icons {
+    font-size: 9rem;
+    margin-bottom: 8px;
+  }
+
+  &-soft-skills-section{
+    margin-top: 5%;
+  }
+
+  &-skills-subtitle{
+    width: 90%;
+  }
+
+  &-title:hover{
+    color: $color-green;
+    transition: ease-in 0.5s;
+  }
+
+  &-soft-skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 95%;
+  }
+
+  &-soft-skills-img {
+    width: 25%;
+    margin-bottom: 8px;
+  }
 }
 
-.about-intro{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.about-img {
-  margin-top: 3%;
-  width: 40%;
-}
-
-.about-text-section {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  width: 55%;
-}
-
-.about-text-section p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.2rem;
-  font-weight: 300;
-  margin-left: 3%;
-}
-
-.about-text-section p span {
-  color: $color-green;
-}
-
-.div-about-arrow{
-  display: flex;
-  justify-content: center;
-  margin-top: 3%;
-}
 
 .arrow {
-	width: 3vmin;
-	height: 3vmin;
-	background: transparent;
-	border-top: 1vmin solid $color-white;
-	border-right: 1vmin solid $color-white;
-	transition: all 200ms ease;
-}	
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
 
-.point {
+  &-link {
+    width: 3vmin;
+    height: 3vmin;
+    background: transparent;
+    border-top: 1vmin solid $color-white;
+    border-right: 1vmin solid $color-white;
+    transition: all 200ms ease;
+
+    &:hover {
+      border-color: $color-green;
+      box-shadow: 0.5vmin -0.5vmin 0 $color-white;
+    }
+  }
+
+  &-point {
 		transform: translate3d(0,-40%,0) rotate(-225deg);
-	}
-	
-.arrow:hover {
-		border-color: $color-green;
-		box-shadow: 0.5vmin -0.5vmin 0 $color-white;
-	}
+	} 
+}
+
 
 .div-skills-title{
   width: 90%;
 }
 
-.about-skills {
-  align-items: center;
-  border-top: 1px solid $color-green;
-  display: flex;
-  flex-direction: column;
-  margin: 8% 0;
-}
 
-.about-skills-title {
-  color: $color-green;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  font-weight: 300;
-  margin-top: 5%;
-}
 
-.about-both-skills-section {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  width: 90%;
-}
 
-.soft-skills-section{
-  margin-top: 5%;
-}
 
-.skills-title{
-  width: 90%;
-}
 
-.about-hard-skills {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-}
 
-.hard-skills-icons {
-  font-size: 9rem;
-  margin-bottom: 8px;
-}
-
-.div-icon-text:hover{
-  color: $color-green;
-  transition: ease 0.5s;
-}
-
-.div-icon-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.div-icon-text p {
-  font-size: 1.3rem ;
-}
-
-.title{
-  font-size: 1.5rem;
-  font-weight: 500;
-  margin: 3% 0 2%;
-}
-
-.sub-title {
-  font-size: 1.3rem;
-}
-
-.title:hover{
-  color: $color-green;
-  transition: ease-in 0.5s;
-}
-
-.about-soft-skills{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  width: 95%;
-}
-
-.about-soft-skills-img {
-  width: 25%;
-  margin-bottom: 8px;
-}
 
 
 @media screen and (max-width: 1500px) and (min-width: 750px) {

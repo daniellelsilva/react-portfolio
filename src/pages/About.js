@@ -11,7 +11,7 @@ import talk from '../assets/undraw_community_re_cyrm.svg';
 export default class About extends Component {
   render() {
     return (
-      <main className="about-page">
+      <main className="about">
         
         <section className="about-intro">
           <div className="about-text-section">
@@ -22,8 +22,8 @@ export default class About extends Component {
           </div>
           <img className="about-img" src={image} alt="profile" /> 
         </section>
-        <div className="div-about-arrow">
-          <a href='#about' className="arrow point"></a>
+        <div className="arrow">
+          <a href='#about' className="arrow-link arrow-point"></a>
           
         </div>
 
@@ -32,75 +32,75 @@ export default class About extends Component {
             <p className="about-skills-title">Habilidade atuais</p>
           </div>
         
-          <div className="about-both-skills-section div-hard-skills-icon-text">
-            <div className="skills-title">
-              <p className="title">Hard skills</p>
+          <div className="about-both-skills-section about-div-hard-skills-icon-text">
+            <div className="about-skills-subtitle">
+              <p className="about-title">Hard skills</p>
             </div>
             
             <div className="about-hard-skills">
-              <div className="div-icon-text">
-                <i className="fab fa-css3-alt hard-skills-icons"></i>
+              <div className="about-div-icon-text">
+                <i className="fab fa-css3-alt about-hard-skills-icons"></i>
                 <p>CSS</p>
               </div>
 
-              <div className="div-icon-text">
-                <i className="fab fa-js hard-skills-icons"></i>
+              <div className="about-div-icon-text">
+                <i className="fab fa-js about-hard-skills-icons"></i>
                 <p>JavaScript</p>
               </div>
 
-              <div className="div-icon-text">
-                <Icon icon="akar-icons:sass-fill" className="hard-skills-icons" />
+              <div className="about-div-icon-text">
+                <Icon icon="akar-icons:sass-fill" className="about-hard-skills-icons" />
                 <p>Sass</p>
               </div>
 
-              <div className="div-icon-text">
-                <i className="fab fa-html5 hard-skills-icons"></i>
+              <div className="about-div-icon-text">
+                <i className="fab fa-html5 about-hard-skills-icons"></i>
                 <p>HTML</p>
               </div>
 
-              <div className="div-icon-text">
-                <i className="fab fa-react hard-skills-icons"></i>
+              <div className="about-div-icon-text">
+                <i className="fab fa-react about-hard-skills-icons"></i>
                 <p>ReactJS</p>
               </div> 
 
-              <div className="div-icon-text">
-                <i className="fab fa-git-alt hard-skills-icons"></i>
+              <div className="about-div-icon-text">
+                <i className="fab fa-git-alt about-hard-skills-icons"></i>
                 <p>Git</p>
               </div> 
 
-              <div className="div-icon-text">
-                <i className="fab fa-github hard-skills-icons"></i>
+              <div className="about-div-icon-text">
+                <i className="fab fa-github about-hard-skills-icons"></i>
                 <p>GitHub</p>
               </div>
 
-              <div className="div-icon-text">
-                <Icon icon="simple-icons:jest" className="hard-skills-icons" />
+              <div className="about-div-icon-text">
+                <Icon icon="simple-icons:jest" className="about-hard-skills-icons" />
                 <p>Jest</p>
               </div>    
 
-              <div className="div-icon-text">
-              <Icon icon="fontisto:mysql" className="hard-skills-icons" />
+              <div className="about-div-icon-text">
+              <Icon icon="fontisto:mysql" className="about-hard-skills-icons" />
                 <p>MySQL</p>
               </div>        
             </div>
           </div>
           
-          <div className="about-both-skills-section soft-skills-section">
-            <div className="skills-title">
-              <p className="title">Soft skills</p>
-              <p className="sub-title">Em soft skills trabalhamos alguns pontos como:</p>
+          <div className="about-both-skills-section about-soft-skills-section">
+            <div className="about-skills-subtitle">
+              <p className="about-title">Soft skills</p>
+              <p className="about-sub-title">Em soft skills trabalhamos alguns pontos como:</p>
               <div className="about-soft-skills">
-                <div className="div-icon-text div-soft-skills-img">
+                <div className="about-div-icon-text div-soft-skills-img">
                   <img className="about-soft-skills-img" src={empathy} />
                   <p>Empatia</p>
                 </div>
 
-                <div className="div-icon-text div-soft-skills-img">
+                <div className="about-div-icon-text div-soft-skills-img">
                   <img className="about-soft-skills-img" src={group} />
                   <p>Trabalho em grupo</p>
                 </div>
 
-                <div className="div-icon-text div-soft-skills-img">
+                <div className="about-div-icon-text div-soft-skills-img">
                   <img className="about-soft-skills-img" src={talk} />
                   <p>Comunicação assertiva</p>
                 </div>

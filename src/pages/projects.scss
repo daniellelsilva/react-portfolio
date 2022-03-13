@@ -14,8 +14,12 @@
 .proj-section-introduction p:nth-child(1) {
   color: $color-green;
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 300;
+}
+
+.proj-section-introduction p:nth-child(2) {
+  font-size: 1.5rem;
 }
 
 .projects-thumbnail-section {
@@ -36,7 +40,7 @@
 }
 
 .proj-individual-thumbnail p {
-  font-size: 24px;
+  font-size: 2rem;
   margin-top: 5%;
 }
 
@@ -54,7 +58,7 @@
 }
 
 .div-video-icons i, .popupClose {
-  font-size: 24px;
+  font-size: 2rem;
 }
 
 .div-video-icons i:hover, .popupClose:hover {
@@ -68,8 +72,8 @@
 }
 
 .img-individual-project {
-  height: 250px;
-  width: 500px;
+  height: 25rem;
+  width: 45rem;
 }
 
 
@@ -101,16 +105,16 @@
 }
 
 .text-video-container video {
-  width: 800px;
-  height: 400px;
+  width: 75rem;
+  height: 35rem;
 }
 
 .info-project-text {
   color: $color-white;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  height: 220px;
-  width: 500px;
+  height: 20rem;
+  width: 44rem;
 
   display: flex;
   align-items: center;
@@ -121,14 +125,14 @@
 
 .project-informative-text p:nth-child(1) {
   color: $color-green;
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 600;
   margin-top: 8%;
 }
 
 .project-informative-text p:nth-child(3) {
   color: $color-white;
-  font-size: 22px;
+  font-size: 1.7rem;
   margin: 0;
 }
 
