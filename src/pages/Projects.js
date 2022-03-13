@@ -6,13 +6,13 @@ import ListProjects from './ListProjects';
 export default class Projects extends Component {
   render() {
     return (
-      <div className="project-div">
-        <section className="proj-section-introduction">
+      <div className="project">
+        <section className="project-section-introduction">
           <p>Projetos</p>
           <p>Os projetos estão organizados em ordem cronológica</p>
         </section>
 
-        <section className='projects-thumbnail-section'>
+        <section className='project-thumbnail-section'>
           <ListProjects />
         </section>
         

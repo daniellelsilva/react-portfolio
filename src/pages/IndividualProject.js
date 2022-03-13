@@ -25,10 +25,10 @@ export default class IndividualProject extends Component {
     const { name, moduleCourse, img, linkGitHub, linkPage, linkVideo, text } = this.props.project;
     const { popup } = this.state
     return (
-      <div className='proj-individual-thumbnail'>
-        <img className='img-individual-project' src={img} />
+      <div className='project-individual-thumbnail'>
+        <img className='project-img-individual' src={img} />
         <p>{name}</p>
-          <div className="div-video-icons">
+          <div className="project-video-icons">
             
             <button onClick={this.showPopup} className="more-info-button">
               {/* <i className="bi bi-plus-circle video-info-icon"></i> */}
@@ -45,18 +45,18 @@ export default class IndividualProject extends Component {
           
           </div>
           {popup ? (
-            <section className='container-more-info'>
-              <div className='text-video-container'>
-                <div className='div-close-popup'>
-                  <button className='popupClose' onClick={this.hidePopup}><i className="bi bi-x-circle popupClose"></i></button>
+            <section className='popup'>
+              <div className='popup-text-video-container'>
+                <div className='popup-div-close'>
+                  <button className='popup-Close' onClick={this.hidePopup}><i className="bi bi-x-circle popupClose"></i></button>
                 </div>
                 
                 <video src={linkVideo} controls="controls" />
 
-                <div className='project-informative-text'>
+                <div className='popup-informative-text'>
                   <p>{name}</p>
                   <p>{ moduleCourse }</p>
-                  <p className='info-project-text'>{text}</p>
+                  <p className='popup-info-project-text'>{text}</p>
                 </div>
                 
               </div>
