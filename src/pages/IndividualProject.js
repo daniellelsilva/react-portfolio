@@ -14,7 +14,6 @@ export default function IndividualProject(project) {
   }
 
   return (
-
     <div className='project-individual-thumbnail'>
       <img className='project-img-individual' src={img} />
       <p>{name}</p>

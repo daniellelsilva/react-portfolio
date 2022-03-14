@@ -32,6 +32,8 @@
   &-individual-thumbnail {
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba($color-black, 0.2), 0 6px 20px 0 rgba($color-black, 0.19);
+    border-radius: 5px;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     padding-bottom: 2%;
@@ -135,6 +137,7 @@
     }
 
     & video {
+      max-height: 50vh;
       width: 70%;
 
       @include respond(tab-land) {
