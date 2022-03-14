@@ -146,6 +146,7 @@
 
       @include respond(phone) {
         margin-top: 5%;
+        max-height: 40vh;
         width: 95%;
       }
     }
