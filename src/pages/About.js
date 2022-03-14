@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import { Icon } from '@iconify/react';
-import image from '../assets/portfolio-img.jpg'
+import hardSkillsIcons from '../data/hardSkillsIcons';
+import image from '../assets/portfolio-img.jpg';
+
 import './about.scss';
 
 import empathy from '../assets/undraw_with_love_re_1q3m.svg';
 import group from '../assets/undraw_conversation_re_c26v.svg';
 import talk from '../assets/undraw_community_re_cyrm.svg';
+
 
 
 export default class About extends Component {
@@ -38,50 +41,13 @@ export default class About extends Component {
             </div>
             
             <div className="about-hard-skills">
-              <div className="about-div-icon-text">
-                <i className="fab fa-css3-alt about-hard-skills-icons"></i>
-                <p>CSS</p>
-              </div>
 
-              <div className="about-div-icon-text">
-                <i className="fab fa-js about-hard-skills-icons"></i>
-                <p>JavaScript</p>
-              </div>
-
-              <div className="about-div-icon-text">
-                <Icon icon="akar-icons:sass-fill" className="about-hard-skills-icons" />
-                <p>Sass</p>
-              </div>
-
-              <div className="about-div-icon-text">
-                <i className="fab fa-html5 about-hard-skills-icons"></i>
-                <p>HTML</p>
-              </div>
-
-              <div className="about-div-icon-text">
-                <i className="fab fa-react about-hard-skills-icons"></i>
-                <p>ReactJS</p>
-              </div> 
-
-              <div className="about-div-icon-text">
-                <i className="fab fa-git-alt about-hard-skills-icons"></i>
-                <p>Git</p>
-              </div> 
-
-              <div className="about-div-icon-text">
-                <i className="fab fa-github about-hard-skills-icons"></i>
-                <p>GitHub</p>
-              </div>
-
-              <div className="about-div-icon-text">
-                <Icon icon="simple-icons:jest" className="about-hard-skills-icons" />
-                <p>Jest</p>
-              </div>    
-
-              <div className="about-div-icon-text">
-              <Icon icon="fontisto:mysql" className="about-hard-skills-icons" />
-                <p>MySQL</p>
-              </div>        
+              {hardSkillsIcons.map((icon) => (
+                <div key={icon.id} className="about-div-icon-text">
+                  <Icon icon={icon.icon} className={icon.className} />
+                 <p>{icon.title}</p>
+                </div>
+              ))}       
             </div>
           </div>
           
