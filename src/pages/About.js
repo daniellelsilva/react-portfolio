@@ -18,9 +18,10 @@ export default class About extends Component {
         
         <section className="about-intro">
           <div className="about-text-section">
-            <p>Olá, meu nome é <span>Danielle Silva</span>, sou uma bióloga migrando para a área da tecnologia.</p>
-            <p>Estou estudando na <span>Trybe</span>, amo Front-end mas também estou muito animada para estudar Back-end, com o objetivo de me tornar uma desenvovledora <span>full-stack</span>.</p>
-            {/* <p>Tenho experiência em <span>HTML</span>, <span>CSS3</span>, <span>JavaScript</span> e <span>ReactJS</span>.</p>  */}
+            <p>Olá, meu nome é <span>Danielle Silva</span></p>
+            <p>Sou desenvolvedora <span>Front-end</span>, mas continuo como estudante da Trybe com o objetivo de me tornar uma desenvolvedora <span>Web Full Stack</span>.</p>
+            <p>Um pouco sobre minha história, sou <span>bióloga</span> por formação mas resolvi mudar minha vida e dar uma chance para a área da <span>tecnologia</span>, não contava que acabaria me apaixonando, sinto que realmente me encontrei.</p>
+            <p>Até o momento meu foco é <span>Front-end</span>, mas estou gostando de explorar os horizontes de Back-end também.</p>
             <p>Espero que goste do meu portfólio!</p>
           </div>
           <img className="about-img" src={image} alt="profile" /> 
