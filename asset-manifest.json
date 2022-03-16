@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.cded508b.css",
-    "main.js": "/react-portfolio/static/js/main.6884d16d.js",
+    "main.css": "/react-portfolio/static/css/main.f88a12fa.css",
+    "main.js": "/react-portfolio/static/js/main.bf2cab0f.js",
     "static/media/Natours.mp4": "/react-portfolio/static/media/Natours.c5bee18abf1be0a480d7.mp4",
     "static/media/app-de-receitas.mp4": "/react-portfolio/static/media/app-de-receitas.586783781a15f781b8ef.mp4",
     "static/media/killertrunfo.mp4": "/react-portfolio/static/media/killertrunfo.f1908e2c67eba55d929f.mp4",
@@ -32,11 +32,11 @@
     "static/media/undraw_with_love_re_1q3m.svg": "/react-portfolio/static/media/undraw_with_love_re_1q3m.f352cd1005dd8d3c21826f3e144ea083.svg",
     "static/media/undraw_add_color_re_buro.svg": "/react-portfolio/static/media/undraw_add_color_re_buro.aa5ffaf14f1b78fffbbdaa4dfa40c179.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.cded508b.css.map": "/react-portfolio/static/css/main.cded508b.css.map",
-    "main.6884d16d.js.map": "/react-portfolio/static/js/main.6884d16d.js.map"
+    "main.f88a12fa.css.map": "/react-portfolio/static/css/main.f88a12fa.css.map",
+    "main.bf2cab0f.js.map": "/react-portfolio/static/js/main.bf2cab0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.cded508b.css",
-    "static/js/main.6884d16d.js"
+    "static/css/main.f88a12fa.css",
+    "static/js/main.bf2cab0f.js"
   ]
 }
