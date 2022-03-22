@@ -4,31 +4,58 @@
 @import '../styles/abstracts/mixins.scss';
 
 
-.home {
-  background-color: $color-gray-dark;
+.hm {
+  background-image: url('../styles/6173955.jpg');
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.home {
+  // background-color: $color-gray-dark;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  height: 85vh;
+  
+  justify-content: space-between;
   width: 100%;
 
   &-section {
-    margin: 3% 0 0 10%;
-    width: 30%;
-  }
-
-  &-section p {
     color: $color-green;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 5rem;
-    letter-spacing: 2px;
-    margin: 8% 0 5% 0;
+    font-family: 'Raleway', sans-serif;
+    margin: 3% 0 0 10%;
+    // width: 50%;
   }
 
-  &-section p:nth-child(2) {
-    font-size: 2.4rem;
+  &-name-1 {
+    font-size: 13rem;
+    letter-spacing: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    height: min-content;
+    margin-bottom: -9%;
+  }
+
+  &-name-2 {
+    font-size: 13rem;
+    letter-spacing: 10.5rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    height: min-content;
+    margin: 0;
+  }
+
+  &-subtitle {
+    color: $color-white;
+    display: flex;
+    font-size: 1.4rem;
+    margin-top: 2%;
+    text-transform: uppercase;
+
+    & span {
+      margin: 0 4%;
+    }
   }
 
   &-text-animation {
@@ -36,34 +63,27 @@
   }
 
   &-links {
+    border-radius: 1rem 0 0 1rem;
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 10%;
-    width: 45%;
+    flex-direction: column;
+    background-color: $color-green;
+    // padding: 1%;
+    // width: 65%;
   }
 
   &-links a {
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-decoration: none;
-    color: $color-white;
+    padding: 2rem;
+    
+    color: $color-black;
     transition: all .3s;
 
     &:hover {
-      color: $color-green;
+      color: $color-white;
     }
   }
 
-  &-img-section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 35%;
-  }
-
-  &-img {
-    width: 70%;
-  }
 
   @include respond(tab-land) {
     height: 90vh;
@@ -94,10 +114,6 @@
 
     &-links a {
       margin-top: 20%;
-    }
-
-    &-img-section {
-      display: none;
     }
   }
 

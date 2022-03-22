@@ -2,7 +2,7 @@
 @import '../styles/abstracts/mixins.scss';
 
 .header{
-  background-color: $color-gray-dark;
+  // background-color: $color-gray-dark;
   color: $color-gray-light;
   
   display: flex;
@@ -138,6 +138,6 @@
 
 }
 
-.selected{
-  color: $color-green;
+.selected {
+  color: $color-green !important;
 }

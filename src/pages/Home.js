@@ -1,24 +1,35 @@
 import React, { Component } from 'react';
-import imagem from '../assets/undraw_add_color_re_buro.svg';
+import { Icon } from '@iconify/react';
+import Header from '../components/Header';
+// import Footer from '../components/Footer';
 import './home.scss';
 
 export default class Home extends Component {
   render() {
     return (
-      <div className="home">
-        <section className="home-section home-text-animation">
-          {/* <p>Olá,</p> */}
-          <p>Danielle Silva</p>
-          <p>Estudante de Desenvolvimento Web | Trybe </p>
-          <section className="home-links">
-            <a href="https://www.linkedin.com/in/danielle-lsilva/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a>
-            <a href="https://github.com/daniellelsilva" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
-          </section>
-        </section>
-        <section className="home-img-section home-text-animation">
-          <img className="home-img" src={imagem} alt="decorative-image"/>
-        </section>
+      <div className='hm'>
+        <Header />
+          <div className="home">
+          
+            <section className="home-section home-text-animation">
+              <p className="home-name-1">Danielle</p>
+              <p className="home-name-2">Silva</p>
+              <div className="home-subtitle">
+                <p className="home-subtitle-1">Desenvolvedora front-end</p><span>|</span>
+                <p className="home-subtitle-2">Estudante de Desenvolvimento Web Full Stack</p><span>|</span>
+                <p className="home-subtitle-3">Trybe</p>
+              </div>
+            </section>
+            <section className="home-links">
+                <a href="https://www.linkedin.com/in/danielle-lsilva/" target="_blank" rel="noopener noreferrer"><Icon icon="akar-icons:linkedin-fill" /></a>
+                <a href="https://github.com/daniellelsilva" target="_blank" rel="noopener noreferrer"><Icon icon="bi:github" /></a>
+                <a href="https://www.instagram.com/ls_danielle/" target="_blank" rel="noopener noreferrer"><Icon icon="bi:instagram" /></a>
+              </section>
+          </div>
+
+          {/* <Footer /> */}
       </div>
+      
     )
   }
 }
