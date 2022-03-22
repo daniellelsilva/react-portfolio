@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
+import { NavLink } from "react-router-dom";
 import { Icon } from '@iconify/react';
-import Header from '../components/Header';
 import Footer from '../components/Footer';
 import './home.scss';
 
 export default class Home extends Component {
   render() {
     return (
-      <div className='hm'>
-        <Header />
+      <div className='all-home'>
+        <header className="header-home">
+          <nav className="header-home-nav">
+            <NavLink exact to="/" activeClassName="selected">Home</NavLink>
+            <NavLink to="/about" activeClassName="selected">Sobre</NavLink>
+            <NavLink to="/projects" activeClassName="selected">Projetos</NavLink>
+          </nav>
+        </header>
           <div className="home">
           
             <section className="home-section home-text-animation">

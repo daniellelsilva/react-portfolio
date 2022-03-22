@@ -1,11 +1,13 @@
 import React from "react";
+import { Icon } from '@iconify/react';
 import './footer.scss';
 
 class Footer extends React.Component {
   render() {
     return (
     <footer className="footer">
-      <p className="footer-text-2">danielle.luisasilva@gmail.com</p>
+      <Icon icon="ic:baseline-email" />
+      <p className="footer-text">danielle.luisasilva@gmail.com</p>
     </footer>
     )
   }

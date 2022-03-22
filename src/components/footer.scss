@@ -1,7 +1,16 @@
 @import '../styles/abstracts/variables.scss';
 
 .footer{
-  color: aliceblue;
+  display: flex;
+  align-items: center;
+  color: $color-green;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 0 0 2.5% 10%;
+
+  &-text {
+    margin: 0 0 0 .9%;
+  }
 }
 
 

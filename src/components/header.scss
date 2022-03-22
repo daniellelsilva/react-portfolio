@@ -1,19 +1,23 @@
 @import '../styles/abstracts/variables.scss';
 @import '../styles/abstracts/mixins.scss';
 
-.header{
-  background-color: transparent;
+.header, .header-home{
+  background-color: $color-gray-dark;
   color: $color-gray-light;
   
   display: flex;
   font-size: 1.4rem;
   align-items: center;
   
-  padding: 1.3% 3%;
+  padding: 2.5% 0 2.5% 10%;
   width: 100%;
 
   @include respond(phone) {
     padding: 3%;
+  }
+
+  &-home {
+    background-color: transparent !important;
   }
 
   &-nav {
@@ -52,6 +56,7 @@
 
       &:hover {
         color: $color-green;
+        transform: translateY(-3px);
       }
     }
   }

@@ -7,6 +7,11 @@
   box-sizing: border-box;
 }
 
+*::selection {
+  background-color: $color-green;
+  color: $color-gray-dark;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -27,6 +32,4 @@ html {
 
 body{
   font-family: 'Raleway', sans-serif;
-  // background-image: url('./styles/6173955.jpg');
-  // background-size: cover;
 }
