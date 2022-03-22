@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Header from '../components/Header';
 import './projects.scss';
 
 import ListProjects from './ListProjects';
@@ -6,7 +7,9 @@ import ListProjects from './ListProjects';
 export default class Projects extends Component {
   render() {
     return (
-      <div className="project">
+      <div>
+        <Header />
+        <div className="project">
         <section className="project-section-introduction">
           <p>Projetos</p>
           <p>Os projetos estão organizados em ordem cronológica</p>
@@ -17,6 +20,8 @@ export default class Projects extends Component {
         </section>
         
       </div>
+      </div>
+      
     )
   }
 }
