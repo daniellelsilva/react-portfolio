@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Icon } from '@iconify/react';
 import Header from '../components/Header';
-// import Footer from '../components/Footer';
+import Footer from '../components/Footer';
 import './home.scss';
 
 export default class Home extends Component {
@@ -27,7 +27,7 @@ export default class Home extends Component {
               </section>
           </div>
 
-          {/* <Footer /> */}
+          <Footer />
       </div>
       
     )

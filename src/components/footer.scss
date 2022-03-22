@@ -1,20 +1,7 @@
 @import '../styles/abstracts/variables.scss';
 
 .footer{
-  // background-color: $color-gray-dark;
-  display: flex;
-  flex-direction: column;
-  font-size: $default-font-size;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  color: $color-gray-light;
-  margin: auto;
-  // padding: 1% 0 0 0;
-
-  &-text-1 {
-    margin-bottom: 1%;
-  }
+  color: aliceblue;
 }
 
 
