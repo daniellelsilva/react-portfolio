@@ -78,7 +78,8 @@
     text-transform: uppercase;
 
     @include respond(tab-port) {
-      font-size: 1.3rem;
+      flex-direction: column;
+      font-size: 1.7rem;
     }
 
     @include respond(phone) {
@@ -95,11 +96,8 @@
       }
 
       @include respond(tab-port) {
-        margin: 0 1%;
-      }
-
-      @include respond(phone) {
         display: none;
+        margin: 0 1%;
       }
     }
   }
