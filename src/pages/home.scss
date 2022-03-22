@@ -27,6 +27,10 @@
     color: $color-green;
     font-family: 'Raleway', sans-serif;
     margin-left: 10%;
+
+    @include respond(tab-port) {
+      margin-top: 10%;
+    }
   }
 
   &-name-1 {
@@ -36,6 +40,14 @@
     font-weight: 800;
     height: min-content;
     margin-bottom: -9%;
+
+    @include respond(tab-port) {
+      font-size: 10rem;
+    }
+
+    @include respond(phone) {
+      font-size: 6rem;
+    }
   }
 
   &-name-2 {
@@ -45,17 +57,50 @@
     font-weight: 200;
     height: min-content;
     margin: 0;
+
+    @include respond(tab-port) {
+      font-size: 10rem;
+      letter-spacing: 9rem;
+    }
+
+    @include respond(phone) {
+      font-size: 6rem;
+      letter-spacing: 6.7rem;
+    }
   }
 
   &-subtitle {
     color: $color-white;
     display: flex;
+    flex-direction: row;
     font-size: 1.4rem;
     margin-top: 2%;
     text-transform: uppercase;
 
+    @include respond(tab-port) {
+      font-size: 1.3rem;
+    }
+
+    @include respond(phone) {
+      flex-direction: column;
+      font-size: 1.7rem;
+      font-weight: 500;
+    }
+
     & span {
       margin: 0 2.4%;
+
+      @include respond(tab-land) {
+        margin: 0 .9%;
+      }
+
+      @include respond(tab-port) {
+        margin: 0 1%;
+      }
+
+      @include respond(phone) {
+        display: none;
+      }
     }
   }
 
@@ -67,6 +112,15 @@
     background-color: $color-green;
     padding: 1.2% .7%;
     transition: all .2s;
+
+    @include respond(tab-port) {
+      background-color: transparent;
+      border-radius: 1.5rem;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 15%;
+      width: 90%;
+    }
   }
 
   &-links a {
@@ -77,56 +131,17 @@
     color: $color-gray-dark;
     transition: all .3s;
 
+    @include respond(tab-port) {
+      color: $color-white;
+    }
+
     &:hover {
       color: $color-white;
     }
   }
 
-
-  @include respond(tab-land) {
-    height: 90vh;
-
-    &-section {
-      margin-left: 5%;
-      width: 50%;
-    }
-
-    &-section p {
-      font-size: 5rem;
-    }
-  }
-
   @include respond(tab-port) {
-    &-section {
-      margin-top: 10%;
-      width: 80%;
-    }
-
-    &-section p {
-      font-size: 6rem;
-    }
-
-    &-links {
-      margin: auto;
-    }
-
-    &-links a {
-      margin-top: 20%;
-    }
-  }
-
-  @include respond(phone) {
-    &-img-section {
-      display: none;
-    }
-
-    &-section {
-      width: 90%;
-    }
-
-    &-links {
-      margin: auto;
-    }
+    flex-direction: column;
   }
 }
 

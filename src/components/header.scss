@@ -46,10 +46,6 @@
       color: $color-gray-light;
       transition: all .3s;
 
-      @include respond(tab-port) {
-        font-size: 1.8rem;
-      }
-
       @include respond(phone) {
         margin: 0;
       }
