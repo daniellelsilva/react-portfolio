@@ -137,7 +137,7 @@
       flex-direction: row;
       justify-content: space-around;
       margin-top: 15%;
-      width: 90%;
+      width: 70%;
     }
   }
 
@@ -151,6 +151,7 @@
 
     @include respond(tab-port) {
       color: $color-white;
+      font-size: 2.7rem;
     }
 
     &:hover {
