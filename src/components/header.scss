@@ -12,7 +12,12 @@
   padding: 2.5% 0 2.5% 10%;
   width: 100%;
 
+  @include respond(tab-port) {
+    font-size: 1.9rem;
+  }
+
   @include respond(phone) {
+    font-size: 2rem;
     padding: 3%;
   }
 
@@ -47,6 +52,7 @@
       transition: all .3s;
 
       @include respond(phone) {
+        font-weight: 500;
         margin: 0;
       }
 
