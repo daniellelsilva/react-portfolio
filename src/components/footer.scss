@@ -1,33 +1,25 @@
 @import '../styles/abstracts/variables.scss';
+@import '../styles/abstracts/mixins.scss';
 
 .footer{
   display: flex;
   align-items: center;
   color: $color-green;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 300;
   padding: 0 0 2.5% 10%;
 
+  @include respond(tab-land) {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  @include respond(tab-port) {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
   &-text {
     margin: 0 0 0 .9%;
-  }
-}
-
-
-@media screen and (max-width: 1500px) and (min-width: 501px) {
-  footer {
-    padding: 2%;
-  }
-  footer p {
-    font-size: 13px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  footer {
-    padding: 2%;
-  }
-  footer p {
-    font-size: 12px;
   }
 }
