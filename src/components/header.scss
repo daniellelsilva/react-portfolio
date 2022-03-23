@@ -52,7 +52,7 @@
       transition: all .3s;
 
       @include respond(phone) {
-        font-weight: 500;
+        font-weight: 400;
         margin: 0;
       }
 
