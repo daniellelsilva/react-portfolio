@@ -6,6 +6,10 @@
 // big desktop (big-desk) : 1800 - + 
 
 @mixin respond ($breakpoint) {
+  @if $breakpoint == phone-small {
+    @media (max-width: 21em) {@content};  //600px
+  }
+
   @if $breakpoint == phone {
     @media (max-width: 37.5em) {@content};  //600px
   }
