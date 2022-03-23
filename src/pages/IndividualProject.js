@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Icon } from '@iconify/react';
 
 export default function IndividualProject(project) {
   const {name, img, moduleCourse, linkGitHub, linkPage, linkVideo, text} = project.project;
@@ -20,15 +21,15 @@ export default function IndividualProject(project) {
         <div className="project-video-icons">
           
           <button onClick={showPopup} className="more-info-button">
-            <i className="bi bi-question-circle video-info-icon"></i>
+            <Icon icon="bi:question-circle" className="project-video-icons-i" />
           </button>
           
           <a href={linkGitHub} target="_blank" rel="noopener noreferrer">
-            <i className="bi bi-github video-github-icon"></i>
+            <Icon icon="bi:github" className="project-video-icons-i" />
           </a>
           
           <a href={linkPage} target="_blank" rel="noopener noreferrer">
-            <i className="bi bi-eye video-page-icon"></i>
+            <Icon icon="bi:eye" className="project-video-icons-i" /> 
           </a>
         
         </div>

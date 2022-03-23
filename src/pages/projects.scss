@@ -73,14 +73,14 @@
     @include respond(tab-port) {
       width: 100%
     }
-    
 
-    & i {
+    &-i {
       font-size: 2rem;
       transition: all .5s;
 
       &:hover {
         color: $color-green;
+        transform: translateY(-5px) !important;
       }
     }
   }
