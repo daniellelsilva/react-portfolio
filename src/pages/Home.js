@@ -1,20 +1,16 @@
 import React, { Component } from 'react';
-import { NavLink } from "react-router-dom";
-import { Icon } from '@iconify/react';
+
+import Header from '../components/Header';
 import Footer from '../components/Footer';
+import SocialMedia from '../components/SocialMedia';
+
 import './home.scss';
 
 export default class Home extends Component {
   render() {
     return (
       <div className='all-home'>
-        <header className="header-home">
-          <nav className="header-home-nav">
-            <NavLink exact to="/" activeClassName="selected">Home</NavLink>
-            <NavLink to="/about" activeClassName="selected">Sobre</NavLink>
-            <NavLink to="/projects" activeClassName="selected">Projetos</NavLink>
-          </nav>
-        </header>
+        <Header />
           <div className="home">
           
             <section className="home-section home-text-animation">
@@ -26,11 +22,7 @@ export default class Home extends Component {
                 <p className="home-subtitle-3">Trybe</p>
               </div>
             </section>
-            <section className="home-links">
-                <a href="https://www.linkedin.com/in/danielle-lsilva/" target="_blank" rel="noopener noreferrer"><Icon icon="akar-icons:linkedin-fill" /></a>
-                <a href="https://github.com/daniellelsilva" target="_blank" rel="noopener noreferrer"><Icon icon="bi:github" /></a>
-                <a href="https://www.instagram.com/ls_danielle/" target="_blank" rel="noopener noreferrer"><Icon icon="bi:instagram" /></a>
-              </section>
+            <SocialMedia />
           </div>
 
           <Footer />

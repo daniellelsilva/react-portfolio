@@ -1,8 +1,12 @@
 @import '../styles/abstracts/variables.scss';
 @import '../styles//abstracts/mixins.scss';
 
+.dark-background {
+  background-image: url('../styles/6173955.jpg');
+}
+
 .about {
-  background-color: $color-gray-medium;
+  // background-color: $color-gray-medium;
   color: $color-white;
   display: flex;
   font-weight: 400;

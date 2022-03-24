@@ -2,7 +2,7 @@
 @import '../styles/abstracts/mixins.scss';
 
 .header, .header-home{
-  background-color: $color-gray-dark;
+  background-color: transparent;
   color: $color-gray-light;
   
   display: flex;
@@ -19,10 +19,6 @@
   @include respond(phone) {
     font-size: 2rem;
     padding: 3%;
-  }
-
-  &-home {
-    background-color: transparent !important;
   }
 
   &-nav {

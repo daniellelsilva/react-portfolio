@@ -2,7 +2,7 @@
 @import '../styles/abstracts/mixins.scss';
 
 .project {
-  background-color: $color-gray-medium;
+  // background-color: $color-gray-medium;
   color: $color-white;
   font-weight: 300;
 
@@ -30,6 +30,7 @@
   }
 
   &-individual-thumbnail {
+    background-color: $color-gray-medium;
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba($color-black, 0.2), 0 6px 20px 0 rgba($color-black, 0.19);
     border-radius: 5px;

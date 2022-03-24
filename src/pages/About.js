@@ -15,7 +15,7 @@ import Header from '../components/Header';
 export default class About extends Component {
   render() {
     return (
-      <div>
+      <div className='dark-background'>
         <Header />
 
         <main className="about">
