@@ -1,43 +1,26 @@
 @import '../styles/abstracts/variables.scss';
 @import '../styles//abstracts/mixins.scss';
 
-.dark-background {
-  background-image: url('../styles/6173955.jpg');
-}
-
 .about {
+  background-image: url('../styles/6173955.jpg');
+  background-size: cover;
   display: flex;
+  font-family:  'Raleway', sans-serif;
   justify-content: space-between;
   height: 100vh;
   width: 100%;
-}
 
-
-.arrow {
-  display: flex;
-  justify-content: center;
-  margin-top: 3%;
-
-  @include respond(tab-land) {
-    display: none;
+  &-text {
+    
   }
 
-  &-link {
-    width: 3vmin;
-    height: 3vmin;
-    background: transparent;
-    border-top: 1vmin solid $color-white;
-    border-right: 1vmin solid $color-white;
-    transition: all 200ms ease;
-
-    &:hover {
-      border-color: $color-green;
-      box-shadow: 0.5vmin -0.5vmin 0 $color-white;
-    }
+  &-skill {
+    display: flex;
   }
 
-  &-point {
-		transform: translate3d(0,-40%,0) rotate(-225deg);
-	} 
+  &-img {
+    width: 300px;
+  }
 }
+
 

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Icon } from '@iconify/react';
 import hardSkillsIcons from '../data/hardSkillsIcons';
-// import image from '../assets/portfolio-img.jpg';
+import image from '../assets/portfolio-img.jpg';
 
-// import Header from '../components/Header';
+import Header from '../components/Header';
 
 
 import './about.scss';
@@ -14,7 +14,7 @@ export default class About extends Component {
       <div>
         <section className="about">
           <div>
-            <p>HEADER</p>
+            <Header />
             <section className="about-text">
               <p className="about-text-p about-text-p-1">Olá</p>
               <p className="about-text-p about-text-p-2">meu nome é <span>Danielle Silva</span></p>
@@ -35,7 +35,9 @@ export default class About extends Component {
               </div>
             </section>
           </div>
-          <div>IMAGEM</div>
+          <div className="about-image">
+            <img className="about-img" src={image} alt="profile" /> 
+          </div>
         </section>
       </div>
       
