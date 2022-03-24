@@ -13,27 +13,30 @@ export default class About extends Component {
     return (
       <div>
         <section className="about">
-          <div>
+          <div className="about-header-text-skills" >
             <Header />
-            <section className="about-text">
-              <p className="about-text-p about-text-p-1">Olá</p>
-              <p className="about-text-p about-text-p-2">meu nome é <span>Danielle Silva</span></p>
-              <p className="about-text-p about-text-p-3">Sou desenvolvedora <span>Front-end</span>, mas continuo como estudante da Trybe com o objetivo de me tornar uma desenvolvedora <span>Web Full Stack</span>.</p>
-              <p className="about-text-p about-text-p-4">Um pouco sobre minha história: Sou bióloga por formação mas resolvi mudar minha vida e dar uma chance para a área da <span>tecnologia</span>, não contava que acabaria me apaixonando, sinto que realmente me encontrei.</p>
-              <p className="about-text-p about-text-p-5">Até o momento meu foco é <span>Front-end</span>, mas estou gostando de explorar os horizontes de Back-end também.</p>
-              <p className="about-text-p about-text-p-6">Espero que goste do meu portfólio!</p>
-            </section>
-            <section className="about-skills">
-              <p>HARD SKILLS</p>
-              <div className="about-skill">
-              {hardSkillsIcons.map((icon) => (
-                   <div key={icon.id} className="about-div-icon-text">
-                     <Icon icon={icon.icon} className={icon.className} />
-                   <p>{icon.title}</p>
-                   </div>
-                ))}
-              </div>
-            </section>
+            <div className="about-text-skills">
+              <section className="about-text">
+                <p className="about-text-p about-text-p-1">Olá</p>
+                <p className="about-text-p about-text-p-2">meu nome é <span>Danielle Silva</span></p>
+                <p className="about-text-p about-text-p-3">Sou desenvolvedora <span>Front-end</span>, mas continuo como estudante da Trybe com o objetivo de me tornar uma desenvolvedora <span>Web Full Stack</span>.</p>
+                <p className="about-text-p about-text-p-4">Um pouco sobre minha história: Sou bióloga por formação mas resolvi mudar minha vida e dar uma chance para a área da <span>tecnologia</span>, não contava que acabaria me apaixonando, sinto que realmente me encontrei.</p>
+                <p className="about-text-p about-text-p-5">Até o momento meu foco é <span>Front-end</span>, mas estou gostando de explorar os horizontes de Back-end também.</p>
+                <p className="about-text-p about-text-p-6">Espero que goste do meu portfólio!</p>
+              </section>
+              <section className="about-skills">
+                <p>HARD SKILLS</p>
+                <div className="about-skill">
+                {hardSkillsIcons.map((icon) => (
+                    <div key={icon.id} className="about-div-icon-text">
+                      <Icon icon={icon.icon} className={icon.className} />
+                    <p>{icon.title}</p>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            </div>
+            
           </div>
           <div className="about-image">
             <img className="about-img" src={image} alt="profile" /> 
