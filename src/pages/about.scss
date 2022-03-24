@@ -15,12 +15,14 @@
     flex-direction: column;
     height: 100vh;
     justify-content: center;
+    margin-left: 10%;
     align-items: center;
+    width: 70%;
   }
 
   &-text {
     color: $color-white;
-    margin-left: 10%;
+    // margin-left: 10%;
 
     &-p-1 {
       font-size: 4.8rem;
@@ -43,16 +45,33 @@
   }
 
   &-skills {
-  
+    color: $color-white;
+    // margin-left: 10%;
+    width: 100%;
   }
 
   &-skill {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     color: $color-white;
     display: flex;
   }
 
+  &-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+
+  &-image {
+    width: 50%;
+  }
+
   &-img {
-    width: 300px;
+    width: 100%;
   }
 }
 
