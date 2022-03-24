@@ -7,7 +7,7 @@ import ListProjects from './ListProjects';
 export default class Projects extends Component {
   render() {
     return (
-      <div>
+      <div className="dark-background">
         <Header />
         <div className="project">
         <section className="project-section-introduction">
