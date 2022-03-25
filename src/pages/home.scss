@@ -135,14 +135,14 @@
     right: 0;
     top: 40%;
 
-    @include respond(tab-port) {
-      background-color: transparent;
-      border-radius: 1.5rem;
-      flex-direction: row;
-      justify-content: space-around;
-      margin-top: 15%;
-      width: 70%;
-    }
+    // @include respond(tab-port) {
+    //   background-color: transparent;
+    //   border-radius: 1.5rem;
+    //   flex-direction: row;
+    //   justify-content: space-around;
+    //   margin-top: 15%;
+    //   width: 70%;
+    // }
   }
 
   &-links a {
@@ -163,9 +163,9 @@
     }
   }
 
-  @include respond(tab-port) {
-    flex-direction: column;
-  }
+  // @include respond(tab-port) {
+  //   flex-direction: column;
+  // }
 }
 
 
