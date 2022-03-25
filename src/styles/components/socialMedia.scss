@@ -6,7 +6,6 @@
   border-radius: 1.5rem 0 0 1.5rem;
   display: flex;
   flex-direction: column;
-  margin-bottom: 10%;
   padding: 1.2% .7%;
   transition: all .2s;
 
@@ -21,8 +20,10 @@
   @include respond(phone) {
     border-radius: 1.5rem 1.5rem 0 0 ;
     padding: .8% 6%;
+    width: 70%;
 
     flex-direction: row;
+    justify-content: space-evenly;
     margin-bottom: 0;
     position: fixed;
     bottom: 0;
