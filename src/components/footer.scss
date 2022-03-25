@@ -19,6 +19,10 @@
     font-weight: 400;
   }
 
+  @include respond(phone) {
+    display: none;
+  }
+
   &-text {
     margin: 0 0 0 .9%;
   }

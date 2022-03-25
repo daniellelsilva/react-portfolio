@@ -17,9 +17,13 @@
   flex-direction: row;
   align-items: center;
   margin: auto;
-  
+  height: 100%;
   justify-content: space-between;
   width: 100%;
+
+  @include respond(phone) {
+    flex-direction: column;
+  }
 
   &-section {
     animation: opacityEffect 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) both, slideEffect 3s ease both;
@@ -27,12 +31,8 @@
     font-family: 'Raleway', sans-serif;
     margin-left: 10%;
 
-    @include respond(tab-port) {
-      margin-top: 10%;
-    }
-
     @include respond(phone) {
-      margin-top: 0;
+      margin-left: 5%;
     }
   }
 
