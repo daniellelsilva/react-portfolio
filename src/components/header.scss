@@ -12,6 +12,10 @@
   padding: 4% 0 2.5% 10%;
   width: 100%;
 
+  @include respond(tab-land) {
+    padding: 4% 0 2.5% 7%;
+  }
+
   @include respond(tab-port) {
     font-size: 1.9rem;
   }

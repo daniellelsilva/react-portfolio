@@ -18,7 +18,7 @@ html {
   line-height: 1.7;
 
   @include respond(tab-land) {
-    font-size: 56.25%; // 1rem = 9px; px/16px = 56.25%
+    font-size: 62.25%; // 1rem = 10px; px/16px = 56.25%
   }
 
   @include respond(tab-port) {

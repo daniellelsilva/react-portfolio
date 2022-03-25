@@ -16,11 +16,19 @@
   margin-left: 10%;
   width: 100wh;
 
+  @include respond(tab-land) {
+    margin-left: 7%;
+  }
+
   &-text-skills {
     align-items: center;
     display: flex;
     flex-direction: column;    
     width: 65%;
+
+    @include respond(tab-land) {
+      width: 68%;
+    }
   }
 
   &-text {
@@ -70,6 +78,7 @@
 
   &-skill {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
     width: 100%;
     color: $color-white;
@@ -81,6 +90,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-right: 5%;
   }
 
   &-icon {
@@ -98,6 +108,10 @@
 
   &-image {
     width: 60%;
+
+    @include respond(tab-land) {
+      width: 70%;
+    }
   }
 
   &-img {
@@ -108,6 +122,10 @@
     height: 100%;
     width: 40%;
     object-fit: cover; object-position: 50% 0;
+
+    @include respond(tab-land) {
+      width: 45%;
+    }
    
   }
 }
