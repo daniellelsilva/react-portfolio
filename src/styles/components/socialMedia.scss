@@ -2,10 +2,11 @@
 
 .social-media {
   animation: opacityEffect 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) both, slideUpEffect 3s ease both;
+  background-color: $color-green;
   border-radius: 1.5rem 0 0 1.5rem;
   display: flex;
   flex-direction: column;
-  background-color: $color-green;
+  margin-bottom: 10%;
   padding: 1.2% .7%;
   transition: all .2s;
 
@@ -22,6 +23,7 @@
     padding: .8% 6%;
 
     flex-direction: row;
+    margin-bottom: 0;
     position: fixed;
     bottom: 0;
   }

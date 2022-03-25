@@ -11,7 +11,7 @@
   }
 
   @if $breakpoint == phone {
-    @media (max-width: 37.5em) {@content};  //600px
+    @media (max-width: 40.6em) {@content};  //650px
   }
 
   @if $breakpoint == tab-port-small {

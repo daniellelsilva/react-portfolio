@@ -20,6 +20,10 @@
     padding: 4% 0 2.5% 10%;
   }
 
+  @include respond(phone) {
+    padding: 9% 0 2.5% 10%;
+  }
+
   &-nav {
     display: flex;
     text-transform: uppercase;

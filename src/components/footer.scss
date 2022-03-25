@@ -14,11 +14,6 @@
     font-weight: 400;
   }
 
-  @include respond(tab-port) {
-    font-size: 2rem;
-    font-weight: 400;
-  }
-
   @include respond(phone) {
     display: none;
   }
