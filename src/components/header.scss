@@ -9,7 +9,7 @@
   font-size: 1.3rem;
   align-items: center;
   
-  padding: 2.5% 0 2.5% 10%;
+  padding: 4% 0 2.5% 10%;
   width: 100%;
 
   @include respond(tab-port) {
@@ -23,7 +23,6 @@
 
   &-nav {
     display: flex;
-    margin-right: 10%;
     text-transform: uppercase;
 
     @include respond(tab-land) {

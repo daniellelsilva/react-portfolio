@@ -1,38 +1,45 @@
 @import '../styles/abstracts/variables.scss';
 @import '../styles//abstracts/mixins.scss';
 
-.about {
+.all-about {
   background-image: url('../styles/6173955.jpg');
   background-size: cover;
+  width: 100%;
+}
+
+.about {
+  
   display: flex;
   font-family:  'Raleway', sans-serif;
   justify-content: space-between;
-  height: 100vh;
-  width: 100%;
+  min-height: 100vh;
+  margin-left: 10%;
+  width: 100wh;
 
   &-text-skills {
     align-items: center;
     display: flex;
     flex-direction: column;
     height: 100vh;
-    margin-left: 10%;
+    
     width: 70%;
   }
 
   &-text {
     color: $color-white;
-    padding: $padding-top-bottom 0;
+    padding: 3% 0 $padding-top-bottom 0;
     line-height: 2.3rem;
 
     &-p-1 {
-      font-size: 4.8rem;
+      font-size: 4.5rem;
       font-weight: 700;
       line-height: 5.6rem;
     }
 
     &-p-2, &-p-6 {
-      font-size: 2rem;
+      font-size: 1.9rem;
       font-weight: 700;
+      line-height: 5rem;
     }
 
     &-p-3, &-p-4, &-p-5 {

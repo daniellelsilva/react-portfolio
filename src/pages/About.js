@@ -11,10 +11,11 @@ import './about.scss';
 export default class About extends Component {
   render() {
     return (
-      <div>
+      <div className="all-about">
+        <Header />
         <section className="about">
           <div className="about-header-text-skills" >
-            <Header />
+            
             <div className="about-text-skills">
               <section className="about-text">
                 <p className="about-text-p about-text-p-1">Olá</p>
