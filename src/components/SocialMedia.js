@@ -17,7 +17,7 @@ export default function SocialMedia() {
       </a>
 
       <a href="https://www.instagram.com/ls_danielle/" target="_blank" rel="noopener noreferrer" className="mail-icon">
-        <Icon icon="ic:baseline-email" />
+        <Icon icon="ant-design:mail-outlined" />
       </a>
     </section>
   )

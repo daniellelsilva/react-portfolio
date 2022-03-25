@@ -50,20 +50,20 @@
     }
 
     @include respond(tab-port-small) {
-      font-size: 6rem;
+      font-size: 7rem;
       margin-bottom: -7%;
     }
 
     @include respond(phone) {
-      align-self: center;
-      justify-self: center;
-      font-size: 4rem;
+      font-size: 5rem;
+      letter-spacing: 1rem;
     }
 
-    // @include respond(phone-small) {
-    //   font-size: 3.9rem;
-    //   margin-bottom: -4%;
-    // }
+    @include respond(phone-small) {
+      font-size: 3.7rem;
+      letter-spacing: .8rem;
+      margin-bottom: -4%;
+    }
   }
 
   &-name-2 {
@@ -80,19 +80,20 @@
     }
 
     @include respond(tab-port-small) {
-      font-size: 6rem;
-      letter-spacing: 6.8rem;
+      font-size: 7rem;
+      letter-spacing: 7.4rem;
     }
 
     @include respond(phone) {
-      font-size: 4rem;
-      letter-spacing: 5.7rem;
+      font-size: 5rem;
+      letter-spacing: 4.4rem;
     }
 
-    // @include respond(phone-small) {
-    //   font-size: 3rem;
-    //   letter-spacing: 6.2rem;
-    // }
+    @include respond(phone-small) {
+      box-decoration-break: clone;
+      font-size: 3.7rem;
+      letter-spacing: 3.3rem;
+    }
   }
 
   &-subtitle {
@@ -111,19 +112,20 @@
     @include respond(tab-port-small) {
       flex-direction: column;
       font-weight: 600;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       margin-top: 3%;
     }
 
     @include respond(phone) {
-      font-size: 1rem;
-      margin-top: 40%;
+      font-size: 1.2rem;
+      margin-top: 30%;
     }
 
-    // @include respond(phone-small) {
-    //   flex-direction: column;
-    //   font-size: 1.4rem;
-    // }
+    @include respond(phone-small) {
+      box-decoration-break: clone;
+      margin-top: 8%;
+      font-size: 1rem;
+    }
 
     & span {
       margin: 0 2.4%;
