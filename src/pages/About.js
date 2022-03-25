@@ -25,12 +25,12 @@ export default class About extends Component {
                 <p className="about-text-p about-text-p-6">Espero que goste do meu portfólio!</p>
               </section>
               <section className="about-skills">
-                <p>HARD SKILLS</p>
+                <p className="about-skills-p">HARD SKILLS</p>
                 <div className="about-skill">
                 {hardSkillsIcons.map((icon) => (
-                    <div key={icon.id} className="about-icon">
+                    <div key={icon.id} className="about-div-icon">
                       <Icon icon={icon.icon} className={icon.className} />
-                    <p>{icon.title}</p>
+                    <p className='about-icon-text'>{icon.title}</p>
                     </div>
                   ))}
                 </div>
