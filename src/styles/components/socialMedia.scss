@@ -9,10 +9,6 @@
   padding: 1.2% .7%;
   transition: all .2s;
 
-  // position: fixed;
-  // right: 0;
-  // bottom: 40%;
-
   @include respond(tab-land) {
     padding: 1% .5%;
   }
@@ -24,16 +20,10 @@
   @include respond(phone) {
     border-radius: 1.5rem 1.5rem 0 0 ;
     padding: .8% 6%;
-    justify-self: flex-end;
 
     flex-direction: row;
+    position: fixed;
     bottom: 0;
-    // right: auto;
-    // bottom: 0;
-    // top: auto;
-    // left: 50%;
-    // margin-top: -50px;
-    // margin-left: -32%;
   }
 
   & a {

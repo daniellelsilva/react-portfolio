@@ -23,6 +23,7 @@
 
   @include respond(phone) {
     flex-direction: column;
+    justify-content: center;
   }
 
   &-section {
@@ -54,6 +55,8 @@
     }
 
     @include respond(phone) {
+      align-self: center;
+      justify-self: center;
       font-size: 4rem;
     }
 
