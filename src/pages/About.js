@@ -7,6 +7,7 @@ import Header from '../components/Header';
 
 
 import './about.scss';
+import SocialMedia from '../components/SocialMedia';
 
 export default class About extends Component {
   render() {
@@ -26,7 +27,7 @@ export default class About extends Component {
                 <p className="about-text-p about-text-p-6">Espero que goste do meu portfólio!</p>
               </section>
               <section className="about-skills">
-                <p className="about-skills-p">HARD SKILLS</p>
+                <p className="about-skills-p">SKILLS</p>
                 <div className="about-skill">
                 {hardSkillsIcons.map((icon) => (
                     <div key={icon.id} className="about-div-icon">
@@ -42,7 +43,9 @@ export default class About extends Component {
           <div className="about-image">
             <img className="about-img" src={image} alt="profile" /> 
           </div>
+          <SocialMedia className="testando" />
         </section>
+        
       </div>
       
     )

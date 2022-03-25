@@ -20,28 +20,29 @@
     align-items: center;
     display: flex;
     flex-direction: column;    
-    width: 70%;
+    width: 65%;
   }
 
   &-text {
     color: $color-white;
-    padding: 3% 0 $padding-top-bottom 0;
     line-height: 2.3rem;
+    padding: 4% 0 $padding-top-bottom 0;
+    text-align: justify;
 
     &-p-1 {
-      font-size: 4.5rem;
+      font-size: 4.3rem;
       font-weight: 700;
       line-height: 5.6rem;
     }
 
     &-p-2, &-p-6 {
-      font-size: 1.9rem;
+      font-size: 1.7rem;
       font-weight: 700;
       line-height: 5rem;
     }
 
     &-p-3, &-p-4, &-p-5 {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
       font-weight: 400;
     }
 
@@ -61,7 +62,7 @@
     width: 100%;
 
     &-p {
-      font-size: 2rem;
+      font-size: 1.7rem;
       font-weight: 700;
       padding-bottom: 2%;
     }
@@ -80,7 +81,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
   }
 
   &-icon {
@@ -107,10 +107,8 @@
     right: 0;
     height: 100%;
     width: 40%;
-
     object-fit: cover; object-position: 50% 0;
    
   }
 }
-
 
