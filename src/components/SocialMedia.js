@@ -1,6 +1,8 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
 
+import '../styles/components/socialMedia.scss';
+
 export default function SocialMedia() {
   return (
     <section className="home-links">

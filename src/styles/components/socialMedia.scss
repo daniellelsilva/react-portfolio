@@ -1,0 +1,46 @@
+@import '../main.scss';
+
+.home-links {
+  animation: opacityEffect 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) both, slideUpEffect 3s ease both;
+  border-radius: 1.5rem 0 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: $color-green;
+  padding: 1.2% .7%;
+  transition: all .2s;
+
+  position: fixed;
+  right: 0;
+  top: 40%;
+
+  // @include respond(tab-port) {
+  //   background-color: transparent;
+  //   border-radius: 1.5rem;
+  //   flex-direction: row;
+  //   justify-content: space-around;
+  //   margin-top: 15%;
+  //   width: 70%;
+  // }
+}
+
+.home-links a {
+  font-size: 2.1rem;
+  text-decoration: none;
+  padding: 1rem;
+  
+  color: $color-gray-dark;
+  transition: all .3s;
+
+  @include respond(tab-port) {
+    color: $color-white;
+    font-size: 2.7rem;
+  }
+
+  &:hover {
+    color: $color-white;
+  }
+}
+
+// @include respond(tab-port) {
+//   flex-direction: column;
+// }
