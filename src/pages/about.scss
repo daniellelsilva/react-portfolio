@@ -5,6 +5,7 @@
   background-image: url('../styles/6173955.jpg');
   background-size: cover;
   width: 100%;
+  min-height: 100vh;
 }
 
 .about {
@@ -12,16 +13,13 @@
   display: flex;
   font-family:  'Raleway', sans-serif;
   justify-content: space-between;
-  min-height: 100vh;
   margin-left: 10%;
   width: 100wh;
 
   &-text-skills {
     align-items: center;
     display: flex;
-    flex-direction: column;
-    height: 100vh;
-    
+    flex-direction: column;    
     width: 70%;
   }
 
@@ -99,11 +97,19 @@
   }
 
   &-image {
-    width: 50%;
+    width: 60%;
   }
 
   &-img {
-    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 40%;
+
+    object-fit: cover; object-position: 50% 0;
+   
   }
 }
 
