@@ -20,15 +20,6 @@
     padding: 4% 0 2.5% 10%;
   }
 
-  @include respond(tab-port) {
-    font-size: 1.9rem;
-  }
-
-  @include respond(phone) {
-    font-size: 2rem;
-    padding: 3%;
-  }
-
   &-nav {
     display: flex;
     text-transform: uppercase;
