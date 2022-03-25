@@ -20,22 +20,31 @@
     margin-left: 7%;
   }
 
+  @include respond(tab-land-small) {
+    margin-left: 10%;
+    flex-direction: column;
+  }
+
   &-text-skills {
     align-items: center;
     display: flex;
     flex-direction: column;    
-    width: 65%;
+    width: 45%;
 
-    @include respond(tab-land) {
-      width: 68%;
+    @include respond(tab-land-small) {
+      width: 80%;
     }
   }
 
   &-text {
     color: $color-white;
     line-height: 2.3rem;
-    padding: 4% 0 $padding-top-bottom 0;
+    padding: 3% 0 $padding-top-bottom 0;
     text-align: justify;
+
+    @include respond(tab-land-small) {
+      padding: 4% 0 $padding-top-bottom 0;
+    }
 
     &-p-1 {
       font-size: 4.3rem;
@@ -112,6 +121,14 @@
     @include respond(tab-land) {
       width: 70%;
     }
+
+    @include respond(tab-land-small) {
+      padding-bottom: 10%;
+    }
+
+    @include respond(phone) {
+      width: 100%;
+    }
   }
 
   &-img {
@@ -127,6 +144,10 @@
       width: 45%;
     }
    
+    @include respond(tab-land-small) {
+      width: 100%;
+      position: relative;
+    }
   }
 }
 

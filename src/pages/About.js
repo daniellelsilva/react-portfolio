@@ -26,6 +26,9 @@ export default class About extends Component {
                 <p className="about-text-p about-text-p-5"><span>Até o momento meu foco é Front-end, mas estou gostando de explorar os horizontes de Back-end também.</span></p>
                 <p className="about-text-p about-text-p-6">Espero que goste do meu portfólio!</p>
               </section>
+              <div className="about-image">
+            <img className="about-img" src={image} alt="profile" /> 
+          </div>
               <section className="about-skills">
                 <p className="about-skills-p">SKILLS</p>
                 <div className="about-skill">
@@ -40,9 +43,7 @@ export default class About extends Component {
             </div>
             
           </div>
-          <div className="about-image">
-            <img className="about-img" src={image} alt="profile" /> 
-          </div>
+          
           <SocialMedia className="testando" />
         </section>
         
