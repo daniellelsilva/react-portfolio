@@ -30,6 +30,10 @@
     @include respond(tab-port) {
       margin-top: 10%;
     }
+
+    @include respond(phone) {
+      margin-top: 0;
+    }
   }
 
   &-name-1 {
@@ -40,18 +44,23 @@
     height: min-content;
     margin-bottom: -9%;
 
-    @include respond(tab-port) {
+    @include respond(tab-land) {
       font-size: 10rem;
     }
 
-    @include respond(phone) {
+    @include respond(tab-port-small) {
       font-size: 6rem;
+      margin-bottom: -7%;
     }
 
-    @include respond(phone-small) {
-      font-size: 3.9rem;
-      margin-bottom: -4%;
+    @include respond(phone) {
+      font-size: 4rem;
     }
+
+    // @include respond(phone-small) {
+    //   font-size: 3.9rem;
+    //   margin-bottom: -4%;
+    // }
   }
 
   &-name-2 {
@@ -62,20 +71,25 @@
     height: min-content;
     margin: 0;
 
-    @include respond(tab-port) {
+    @include respond(tab-land) {
       font-size: 10rem;
       letter-spacing: 9rem;
     }
 
-    @include respond(phone) {
+    @include respond(tab-port-small) {
       font-size: 6rem;
-      letter-spacing: 6.7rem;
+      letter-spacing: 6.8rem;
     }
 
-    @include respond(phone-small) {
-      font-size: 3rem;
-      letter-spacing: 6.2rem;
+    @include respond(phone) {
+      font-size: 4rem;
+      letter-spacing: 5.7rem;
     }
+
+    // @include respond(phone-small) {
+    //   font-size: 3rem;
+    //   letter-spacing: 6.2rem;
+    // }
   }
 
   &-subtitle {
@@ -87,36 +101,36 @@
     text-transform: uppercase;
 
     @include respond(tab-land) {
-      font-size: 1.6rem;
+      font-size: 1.2rem;
       font-weight: 500;
     }
 
-    @include respond(tab-port) {
+    @include respond(tab-port-small) {
       flex-direction: column;
       font-weight: 600;
-      font-size: 2.4rem;
+      font-size: 1.2rem;
+      margin-top: 3%;
     }
 
     @include respond(phone) {
-      flex-direction: column;
-      font-size: 1.7rem;
+      font-size: 1rem;
+      margin-top: 40%;
     }
 
-    @include respond(phone-small) {
-      flex-direction: column;
-      font-size: 1.4rem;
-    }
+    // @include respond(phone-small) {
+    //   flex-direction: column;
+    //   font-size: 1.4rem;
+    // }
 
     & span {
       margin: 0 2.4%;
 
-      @include respond(tab-land) {
-        margin: 0 .9%;
-      }
+      // @include respond(tab-land) {
+      //   margin: 0 .9%;
+      // }
 
-      @include respond(tab-port) {
+      @include respond(tab-port-small) {
         display: none;
-        margin: 0 1%;
       }
     }
   }

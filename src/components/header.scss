@@ -16,7 +16,7 @@
     padding: 4% 0 2.5% 7%;
   }
 
-  @include respond(tab-land-small) {
+  @include respond(tab-port-small) {
     padding: 4% 0 2.5% 10%;
   }
 

@@ -19,7 +19,7 @@
     margin-left: 7%;
   }
 
-  @include respond(tab-land-small) {
+  @include respond(tab-port-small) {
     margin-left: 10%;
     flex-direction: column;
   }
@@ -30,7 +30,7 @@
     flex-direction: column;    
     width: 45%;
 
-    @include respond(tab-land-small) {
+    @include respond(tab-port-small) {
       width: 80%;
     }
   }
@@ -41,7 +41,7 @@
     padding: 3% 0 $padding-top-bottom 0;
     text-align: justify;
 
-    @include respond(tab-land-small) {
+    @include respond(tab-port-small) {
       padding: 4% 0 $padding-top-bottom 0;
     }
 
@@ -121,7 +121,7 @@
       width: 70%;
     }
 
-    @include respond(tab-land-small) {
+    @include respond(tab-port-small) {
       padding-bottom: 10%;
     }
 
@@ -143,7 +143,7 @@
       width: 45%;
     }
    
-    @include respond(tab-land-small) {
+    @include respond(tab-port-small) {
       width: 100%;
       position: relative;
     }

@@ -7,14 +7,14 @@
 
 @mixin respond ($breakpoint) {
   @if $breakpoint == phone-small {
-    @media (max-width: 21em) {@content};  //600px
+    @media (max-width: 21em) {@content};  //336px
   }
 
   @if $breakpoint == phone {
     @media (max-width: 37.5em) {@content};  //600px
   }
 
-  @if $breakpoint == tab-land-small {
+  @if $breakpoint == tab-port-small {
     @media (max-width: 53.1em) {@content}; //850px
   }
 
