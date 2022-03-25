@@ -21,7 +21,8 @@
   }
 
   @include respond(phone) {
-    padding: 9% 0 2.5% 10%;
+    padding: 0;
+    padding-top: 9%;
   }
 
   &-nav {

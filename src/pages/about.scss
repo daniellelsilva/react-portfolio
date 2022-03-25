@@ -83,6 +83,10 @@
         font-size: 1.8rem;
         line-height: 3rem;
       }
+
+      @include respond(phone) {
+        font-size: 1.6rem;
+      }
     }
 
     &-p-6 {
