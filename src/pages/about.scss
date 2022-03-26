@@ -1,7 +1,10 @@
 @import '../styles/main.scss';
 
 .all-about {
-  background-image: url('../styles/6173955.jpg');
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.6)
+  ), url('../styles/6173955.jpg');
   background-size: cover;
   width: 100%;
   min-height: 100vh;

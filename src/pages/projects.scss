@@ -2,7 +2,11 @@
 @import '../styles/abstracts/mixins.scss';
 
 .dark-background {
-  background-color: $color-gray-medium;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.7)
+  ), url('../styles/6173955.jpg');
+  background-size: cover;
 }
 
 .project {
