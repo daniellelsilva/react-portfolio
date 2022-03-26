@@ -1,8 +1,12 @@
 @import '../styles/abstracts/variables.scss';
 @import '../styles/abstracts/mixins.scss';
 
-.project {
+.dark-background {
   background-color: $color-gray-medium;
+}
+
+.project {
+ 
   color: $color-white;
   font-weight: 300;
 
