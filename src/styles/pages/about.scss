@@ -112,6 +112,10 @@
     padding-top: $padding-top-bottom;
     width: 100%;
 
+    @include respond(phone) {
+      padding-top: 15%;
+    }
+
     &-p {
       font-size: 1.7rem;
       font-weight: 700;
@@ -144,6 +148,10 @@
     font-size: 3.5rem;
     transition: all .3s;
 
+    @include respond(phone) {
+      font-size: 3.2rem;
+    }
+
     &:hover {
       color: $color-green;
     }
@@ -151,6 +159,10 @@
     &-text {
       font-size: 1.4rem;
       margin-top: 10%;
+
+      @include respond(phone) {
+        margin-top: 15%;
+      }
     }
   }
 
@@ -167,10 +179,12 @@
 
     @include respond(phone) {
       width: 100%;
+      margin-bottom: 10%;
     }
   }
 
   &-img {
+    border-radius: 3px;
     position: absolute;
     overflow: hidden;
     top: 0;
