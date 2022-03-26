@@ -10,25 +10,6 @@
 }
 
 .project {
- 
-  color: $color-white;
-  font-weight: 300;
-
-  &-section-introduction {
-    margin-left: 3%;
-    padding-top: 3%;
-
-    & p:nth-child(1) {
-      color: $color-green;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 3rem;
-      font-weight: 300;
-    }
-
-    & p:nth-child(2) {
-      font-size: 1.5rem;
-    }
-  }
 
   &-thumbnail-section {
     display: flex;
@@ -38,15 +19,16 @@
   }
 
   &-individual-thumbnail {
-    background-color: $color-gray-medium;
     align-items: center;
-    box-shadow: 0 4px 8px 0 rgba($color-black, 0.2), 0 6px 20px 0 rgba($color-black, 0.19);
+    background-color: $color-gray-dark;
+    box-shadow: 0 4px 8px 0 rgba($color-black, 0.9), 0 6px 20px 0 rgba($color-black, 0.9);
     border-radius: 5px;
-    overflow: hidden;
+    color: $color-green;
     display: flex;
     flex-direction: column;
+    margin: 1.5%;
     padding-bottom: 2%;
-    margin: 32px;
+    overflow: hidden;
     width: 27%;
 
     @include respond(tab-land) {

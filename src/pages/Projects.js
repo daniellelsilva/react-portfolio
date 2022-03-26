@@ -10,10 +10,6 @@ export default class Projects extends Component {
       <div className="dark-background">
         <Header />
         <div className="project">
-        <section className="project-section-introduction">
-          <p>Projetos</p>
-          <p>Os projetos estão organizados em ordem cronológica</p>
-        </section>
 
         <section className='project-thumbnail-section'>
           <ListProjects />
