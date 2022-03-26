@@ -56,6 +56,7 @@
 
     @include respond(phone) {
       margin-top: 3%;
+      text-align: justify;
     }
 
     &-p-1 {

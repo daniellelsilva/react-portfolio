@@ -19,7 +19,7 @@ export default class About extends Component {
             
             <div className="about-text-skills">
               <section className="about-text">
-                <p className="about-text-p about-text-p-1">Olá</p>
+                <p className="about-text-p about-text-p-1">Olá, </p>
                 <p className="about-text-p about-text-p-2">meu nome é <span>Danielle Silva</span></p>
                 <p className="about-text-p about-text-p-3">Sou desenvolvedora <span>Front-end</span>, mas continuo como estudante da Trybe com o objetivo de me tornar uma desenvolvedora <span>Web Full Stack</span>.</p>
                 <p className="about-text-p about-text-p-4">Um pouco sobre minha história: Sou bióloga por formação mas resolvi mudar minha vida e dar uma chance para a área da <span>tecnologia</span>, não contava que acabaria me apaixonando, sinto que realmente me encontrei.</p>
