@@ -69,21 +69,18 @@
       padding: 2%;
       border-radius: 50%;
       background-color: darken($color-gray-dark, 4%);
-      transition: all .5s;
+      text-decoration: none;
+      transition: all .4s;
 
       &:hover {
         box-shadow: 0 4px 8px 0 rgba($color-black, 0.9), 0 6px 20px 0 rgba($color-black, 0.9);
+        color: $color-green;
         transform: translateY(-5px) !important;
       }
     }
 
     &-i {
       font-size: 2rem;
-      transition: all .5s;
-
-      &:hover {
-        color: $color-green;
-      }
     }
   }
 

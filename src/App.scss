@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@300;500;800&family=Poiret+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @import './styles/abstracts/variables.scss';
 @import './styles/abstracts/mixins.scss';
 
@@ -28,4 +32,5 @@ html {
 
 body{
   font-family: 'Raleway', sans-serif;
+  font-weight: 300;
 }
