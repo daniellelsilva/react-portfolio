@@ -20,15 +20,15 @@ export default function IndividualProject(project) {
       <p>{name}</p>
         <div className="project-video-icons">
           
-          <button onClick={showPopup} className="more-info-button">
-            <Icon icon="bi:question-circle" className="project-video-icons-i" />
+          <button onClick={showPopup} className="more-info-button project-btns">
+            <Icon icon="bi:question-lg" className="project-video-icons-i" />
           </button>
           
-          <a href={linkGitHub} target="_blank" rel="noopener noreferrer">
-            <Icon icon="bi:github" className="project-video-icons-i" />
+          <a href={linkGitHub} target="_blank" rel="noopener noreferrer" className="project-btns">
+            <Icon icon="uim:github-alt" className="project-video-icons-i" />
           </a>
           
-          <a href={linkPage} target="_blank" rel="noopener noreferrer">
+          <a href={linkPage} target="_blank" rel="noopener noreferrer" className="project-btns">
             <Icon icon="bi:eye" className="project-video-icons-i" /> 
           </a>
         
