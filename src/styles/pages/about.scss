@@ -48,7 +48,7 @@
     color: $color-white;
     line-height: 2.3rem;
     padding: 3% 0 $padding-top-bottom 0;
-    text-align: justify;
+    // text-align: justify;
 
     @include respond(tab-port-small) {
       padding: 4% 0 $padding-top-bottom 0;
