@@ -1,6 +1,6 @@
 import React from "react";
 import { Icon } from '@iconify/react';
-import './footer.scss';
+import '../styles/components/footer.scss';
 
 class Footer extends React.Component {
   render() {

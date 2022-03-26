@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Poiret+One&display=swap');
 
-@import '../styles/main.scss';
+@import '../main.scss';
 
 
 .all-home {
-  background-image: url('../styles/BG-SVG.svg');
+  background-image: url('../images/BG-SVG.svg');
   background-size: cover;
   display: flex;
   flex-direction: column;

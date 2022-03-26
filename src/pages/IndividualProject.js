@@ -7,22 +7,15 @@ export default function IndividualProject(project) {
   const [popupState, setPopupState] = useState(false)
 
   const showPopup = () => {
-    setPopupState(true);
-    console.log('open')
-  }
-
-  const showPopup2 = () => {
-    setPopupState(true);
-    console.log('open2')
+    setPopupState(true)
   }
 
   const hidePopup = () => {
-    setPopupState(false);
-    console.log('close')
+    setPopupState(false)
   }
 
   return (
-    <button type="button" onClick={showPopup2} className='project-individual-thumbnail'>
+    <div className='project-individual-thumbnail'>
       <img className='project-img-individual' src={img} />
       <p>{name}</p>
         <div className="project-video-icons">
@@ -58,7 +51,7 @@ export default function IndividualProject(project) {
             </div>
           </section>
         ) : null}
-    </button>
+    </div>
 
     
   )

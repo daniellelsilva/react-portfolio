@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Header from '../components/Header';
-import './projects.scss';
-
 import ListProjects from './ListProjects';
+
+import '../styles/pages/projects.scss';
 
 export default class Projects extends Component {
   render() {

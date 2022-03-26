@@ -1,11 +1,10 @@
-@import '../styles/abstracts/variables.scss';
-@import '../styles/abstracts/mixins.scss';
+@import '../main.scss';
 
 .dark-background {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.6), 
     rgba(0, 0, 0, 0.7)
-  ), url('../styles/6173955.jpg');
+  ), url('../images/6173955.jpg');
   background-size: cover;
 }
 

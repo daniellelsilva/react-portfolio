@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SocialMedia from '../components/SocialMedia';
 
-import './home.scss';
+import '../styles/pages/home.scss';
 
 export default class Home extends Component {
   render() {

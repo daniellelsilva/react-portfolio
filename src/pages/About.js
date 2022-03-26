@@ -4,10 +4,10 @@ import hardSkillsIcons from '../data/hardSkillsIcons';
 import image from '../assets/portfolio-img.jpg';
 
 import Header from '../components/Header';
-
-
-import './about.scss';
 import SocialMedia from '../components/SocialMedia';
+
+import '../styles/pages/about.scss';
+
 
 export default class About extends Component {
   render() {
