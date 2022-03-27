@@ -49,11 +49,6 @@
       
       color: $color-gray-dark;
       transition: all .3s;
-
-      @include respond(tab-land) {
-        font-size: 2.3rem;
-        padding: 1.5rem 1rem;
-      }
   
       @include respond(tab-port) {
         font-size: 1.8rem;
