@@ -61,6 +61,7 @@ const hardSkillsIcons = [
     className: 'about-icon',
     title: 'MySQL' 
   },
+
 ];
 
 export default hardSkillsIcons;

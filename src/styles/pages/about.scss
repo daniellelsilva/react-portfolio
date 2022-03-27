@@ -143,7 +143,7 @@
     justify-content: space-between;
     padding-right: 5%;
 
-    @include respond(phone) {
+    @include respond(tab-port) {
       padding-right: 8%;
       margin-bottom: 8%;
     }
@@ -152,6 +152,10 @@
   &-icon {
     font-size: 3.5rem;
     transition: all .3s;
+
+    @include respond(tab-port) {
+      font-size: 3.6rem;
+    }
 
     @include respond(phone) {
       font-size: 3rem;
@@ -164,6 +168,10 @@
     &-text {
       font-size: 1.4rem;
       margin-top: 10%;
+
+      @include respond(tab-port) {
+        font-size: 1.5rem;
+      }
 
       @include respond(phone) {
         margin-top: 15%;
