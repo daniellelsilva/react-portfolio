@@ -1,7 +1,7 @@
 @import '../main.scss';
 
 
-.header, .header-home{
+.header {
   background-color: transparent;
   color: $color-gray-light;
   
@@ -9,20 +9,19 @@
   font-size: 1.3rem;
   align-items: center;
   
-  padding: 4% 0 2.5% 10%;
+  padding: 4% 0 4% 10%;
   width: 100%;
 
   @include respond(tab-land) {
-    padding: 4% 0 2.5% 7%;
+    padding: 4% 0 4% 7%;
   }
 
   @include respond(tab-port-small) {
-    padding: 4% 0 2.5% 10%;
+    padding: 4% 0 4% 10%;
   }
 
   @include respond(phone) {
-    padding: 0;
-    padding-top: 12%;
+    padding: 10% 0;
   }
 
   &-nav {
