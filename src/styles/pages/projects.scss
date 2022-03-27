@@ -8,6 +8,74 @@
   background-size: cover;
 }
 
+.header-social-media {
+  display: flex;
+  justify-content: center;
+
+
+  &-section {
+    display: flex;
+    animation: opacityEffect 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) both, slideUpEffect 3s ease both;
+    align-items: center;
+    background-color: $color-green;
+    border-radius: 0 0 1.5rem 1.5rem ;
+    height: fit-content;
+    margin-right: 6.5%;
+    padding: .5% 1%;
+    transition: all .2s;
+
+    @include respond(tab-land) {
+      margin-right: 8.4%;
+    }
+
+    @include respond(tab-port) {
+      border-radius: 1.5rem 1.5rem 0 0 ;
+      width: 70%;
+
+      justify-content: space-evenly;
+      margin-right: 0;
+      position: fixed;
+      bottom: 0;
+    }
+
+    @include respond(tab-port-small) {
+      padding: .2% 0; 
+    }
+
+    & a {
+      font-size: 2.1rem;
+      text-decoration: none;
+      padding: 1rem 2.5rem;
+      
+      color: $color-gray-dark;
+      transition: all .3s;
+
+      @include respond(tab-land) {
+        font-size: 2.3rem;
+        padding: 1.5rem 1rem;
+      }
+  
+      @include respond(tab-port) {
+        font-size: 1.8rem;
+      }
+  
+      @include respond(phone) {
+        font-size: 1.8rem;
+        padding: 1rem 2rem;
+      }
+  
+      @include respond(phone) {
+        font-size: 1.5rem;
+        padding: .8rem 1.7rem;
+      }
+
+      &:hover {
+        color: $color-white;
+      }
+    }
+  }
+}
+
 .project {
 
   &-thumbnail-section {
