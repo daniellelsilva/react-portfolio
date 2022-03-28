@@ -141,7 +141,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-right: 5%;
+    padding-right: 4%;
 
     @include respond(tab-port) {
       padding-right: 8%;
@@ -150,7 +150,7 @@
   }
 
   &-icon {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     transition: all .3s;
 
     @include respond(tab-port) {
@@ -166,7 +166,7 @@
     }
 
     &-text {
-      font-size: 1.4rem;
+      font-size: 1.3rem;
       margin-top: 10%;
 
       @include respond(tab-port) {
