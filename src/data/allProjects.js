@@ -117,6 +117,7 @@ const allProjects = [
     linkVideo: toDoList,
     linkGitHub: 'https://github.com/daniellelsilva/to-do-list',
     linkPage: 'https://daniellelsilva.github.io/to-do-list/',
+    technologies: 'JavaScript, CSS3, HTML5',
     text: 'Projeto do bloco de fundamentos, foi utilizado CSS e Javascript para criar uma aplicação onde é possível adicionar e remover tarefas, marcar tarefa como feita, remover somente itens marcados, salvar a lista e remover todos os itens.'
   },
 
@@ -128,6 +129,7 @@ const allProjects = [
     linkVideo: pixelArt,
     linkGitHub: 'https://github.com/daniellelsilva/pixel-art',
     linkPage: 'https://daniellelsilva.github.io/pixel-art/',
+    technologies: 'JavaScript, CSS3, HTML5',
     text: 'Projeto do bloco de fundamentos, foi utilizada manipulação de DOM e Javascript para criar uma aplicação onde é possível fazer arte com pixels. As cores deveriam ser aleatórias e o quadro deve permitir mudar o número de pixels.'
   },
 
@@ -139,6 +141,7 @@ const allProjects = [
     linkVideo: trybewarts,
     linkGitHub: 'https://github.com/daniellelsilva/trybewarts',
     linkPage: 'https://daniellelsilva.github.io/trybewarts/',
+    technologies: 'JavaScript, CSS3, HTML5',
     text: 'Projeto do bloco de fundamentos, o desafio era criar um formulário HTML para a escola de magia Trybewarts utilizando CSS flexbox e Javascript. O projeto foi desenvolvido em dupla com Nayara Vasconcelos.'
   },
 
@@ -150,6 +153,7 @@ const allProjects = [
     linkVideo: primeiroPortfolio,
     linkGitHub: 'https://github.com/daniellelsilva/primeiro-portfolio',
     linkPage: 'https://daniellelsilva.github.io',
+    technologies: 'CSS3, HTML5',
     text: 'Primeiro projeto e primeiro portfólio, esta foi minha primeira experiência com algo relacionado a programação'
   }
 ];
