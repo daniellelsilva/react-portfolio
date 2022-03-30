@@ -45,7 +45,8 @@ const allProjects = [
     linkGitHub: 'https://github.com/daniellelsilva/cook-it',
     linkPage: 'https://daniellelsilva.github.io/cook-it/#/',
     linkVideo: appDeReceitas,
-    text: 'Este foi o último projeto de Front-end, o objetivo foi criar um app de receitas de dirnks e comidas, utilizando ferramentas como react, hooks e context. O projeto foi realizado em grupo, os integrantes estão citados no GitHub'
+    technologies: 'Context, Hooks, React, JSX, CSS3, HTML5',
+    text: 'Este foi o último projeto de Front-end, o objetivo foi criar um app de receitas de dirnks e comidas consumindo duas APIs e utilizando ferramentas como react, hooks e context. O projeto foi realizado em grupo, os integrantes estão citados no GitHub'
   },
   
   {
@@ -56,6 +57,7 @@ const allProjects = [
     linkGitHub: 'https://github.com/daniellelsilva/TrybeWallet',
     linkPage: 'https://daniellelsilva.github.io/TrybeWallet/#/',
     linkVideo: trybewallet,
+    technologies: 'Redux, React, JSX, CSS3, HTML5',
     text: 'A proposta do projeto foi criar o TrybeWallet, uma carteira de controle de gastos com conversor de moedas, possibilitando adicionar e remover gastos, visualizar a tabela com gastos e total gasto em Reais.'
   },
   
@@ -67,6 +69,7 @@ const allProjects = [
     linkGitHub: 'https://github.com/daniellelsilva/trybetunes',
     linkPage: 'https://daniellelsilva.github.io/trybetunes/#/',
     linkVideo: trybetunes,
+    technologies: 'React, JSX, CSS3, HTML5',
     text: 'A proposta do projeto foi criar o TrybeTunes, uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada.'
   },
 
@@ -78,6 +81,7 @@ const allProjects = [
     linkVideo: tryunfo,
     linkGitHub: 'https://github.com/daniellelsilva/tryunfo',
     linkPage: 'https://daniellelsilva.github.io/tryunfo',
+    technologies: 'React, JSX, CSS3, HTML5',
     text: 'Neste projeto foi desenvolvido um jogo de Super Trunfo. A aplicação possuia tema livre e deveria ser desenvolvido um baralho, sendo possível criar cartas, pré-visualizar a carta, adicionar e remover cartas do baralho, além de possuir três filtros.'
   },
 
@@ -89,6 +93,7 @@ const allProjects = [
     linkVideo: solarSystem,
     linkGitHub: 'https://github.com/daniellelsilva/solar-system',
     linkPage: 'https://daniellelsilva.github.io/solar-system/',
+    technologies: 'React, JSX, CSS3, HTML5',
     text: 'Este foi o primeiro projeto do módulo de Front-end e meu primeiro projeto em React, foi desenvolvido um modelo do sistema solar, sendo visualizado todos os planetas e missões espaciais.'
   },
 
@@ -100,6 +105,7 @@ const allProjects = [
     linkVideo: shoppingCart,
     linkGitHub: 'https://github.com/daniellelsilva/shopping-cart',
     linkPage: 'https://daniellelsilva.github.io/shopping-cart/',
+    technologies: 'JavaScript, CSS3, HTML5',
     text: 'Primeiro projeto utilizando API! O objetivo do projeto foi desenvolver um carrinho de compras totalmente dinâmico, consumindo dados diretamente de uma API.'
   },
 
