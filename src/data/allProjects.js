@@ -33,6 +33,7 @@ const allProjects = [
     linkGitHub: 'https://github.com/daniellelsilva/natours',
     linkPage: 'https://daniellelsilva.github.io/natours/',
     linkVideo: natours,
+    technologies: 'Sass, React, JSX, CSS3, HTML5',
     text: 'Este projeto foi desenvolvido no curso de CSS avançado e Sass da Udemy ministrado por Jonas Schmedtmann. O objetivo do projeto e das aulas foi desenvolver a página de uma empresa de turismo fictícia chamada Natours, aplicando conceitos avançados de CSS e Sass'
   },
   

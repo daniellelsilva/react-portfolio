@@ -177,7 +177,7 @@
   transform: translate(-50%, -50%);  
 
   &-text-video-container{
-    background-color: rgba($color-black, 0.9);
+    background-color: rgba($color-black, 0.93);
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba($color-black, 0.2), 0 6px 20px 0 rgba($color-black, 0.19);
     height: 95%;
@@ -235,7 +235,7 @@
   }
 
   & p:nth-child(2) {
-    margin-top: 4%;
+    margin-top: 3%;
     font-size: 1.9rem;
 
     @include respond(tab-port) {
@@ -244,6 +244,15 @@
   }
 
   & p:nth-child(3) {
+    margin-top: 2%;
+    font-size: 1.7rem;
+
+    @include respond(tab-port) {
+      font-size: 2rem;
+    }
+  }
+
+  & p:nth-child(4) {
     font-size: 1.7rem;
 
     @include respond(tab-port) {

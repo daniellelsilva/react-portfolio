@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Icon } from '@iconify/react';
 
 export default function IndividualProject(project) {
-  const {name, img, moduleCourse, linkGitHub, linkPage, linkVideo, text} = project.project;
+  const {name, img, moduleCourse, linkGitHub, linkPage, linkVideo, text, technologies } = project.project;
 
   const [popupState, setPopupState] = useState(false)
 
@@ -45,6 +45,7 @@ export default function IndividualProject(project) {
               <div className='popup-informative-text'>
                 <p>{name}</p>
                 <p>{ moduleCourse }</p>
+                <p>{technologies}</p>
                 <p className='popup-info-project-text'>{text}</p>
               </div>
               
