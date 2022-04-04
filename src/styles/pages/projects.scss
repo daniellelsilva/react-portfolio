@@ -206,6 +206,10 @@
       height: 95vh;
     }
 
+    @include respond(phone) {
+      height: 97vh;
+    }
+
     & video {
       max-height: 50vh;
       width: 70%;
@@ -217,6 +221,12 @@
       @include respond(phone) {
         margin-top: 5%;
         max-height: 40vh;
+        width: 95%;
+      }
+
+      @include respond(phone-small) {
+        margin-top: 5%;
+        max-height: 35vh;
         width: 95%;
       }
     }
