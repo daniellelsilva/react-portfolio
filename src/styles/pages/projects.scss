@@ -198,6 +198,14 @@
       width: 90%
     }
 
+    @include respond(tab-port-small) {
+      height: 90vh;
+    }
+
+    @include respond(tab-port-small) {
+      height: 95vh;
+    }
+
     & video {
       max-height: 50vh;
       width: 70%;
@@ -250,6 +258,10 @@
     @include respond(tab-port) {
       font-size: 2rem;
     }
+
+    @include respond(phone) {
+      font-size: 1.8rem;
+    }
   }
 
   & p:nth-child(4) {
@@ -257,6 +269,10 @@
 
     @include respond(tab-port) {
       font-size: 2rem;
+    }
+
+    @include respond(phone) {
+      font-size: 1.8rem;
     }
   }
 
