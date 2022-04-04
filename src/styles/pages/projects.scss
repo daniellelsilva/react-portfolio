@@ -206,10 +206,6 @@
       height: 95vh;
     }
 
-    @include respond(phone) {
-      height: 97vh;
-    }
-
     & video {
       max-height: 50vh;
       width: 70%;
@@ -218,17 +214,19 @@
         width: 80%
       }
 
-      @include respond(phone) {
-        margin-top: 5%;
-        max-height: 40vh;
-        width: 95%;
-      }
-
       @include respond(phone-small) {
         margin-top: 5%;
         max-height: 35vh;
         width: 95%;
       }
+
+      @include respond(phone) {
+        margin-top: 5%;
+        max-height: 25vh;
+        width: 95%;
+      }
+
+      
     }
   }
 
@@ -250,6 +248,14 @@
     font-size: 2.8rem;
     font-weight: 600;
     margin-top: 5%;
+
+    @include respond(phone) {
+      font-size: 2.5rem;
+    }
+
+    @include respond(phone-small) {
+      font-size: 2.3rem;
+    }
   }
 
   & p:nth-child(2) {
@@ -258,6 +264,14 @@
 
     @include respond(tab-port) {
       font-size: 2.2rem;
+    }
+
+    @include respond(phone) {
+      font-size: 1.7rem;
+    }
+
+    @include respond(phone-small) {
+      font-size: 1.5rem;
     }
   }
 
@@ -270,7 +284,11 @@
     }
 
     @include respond(phone) {
-      font-size: 1.8rem;
+      font-size: 1.7rem;
+    }
+
+    @include respond(phone-small) {
+      font-size: 1.5rem;
     }
   }
 
@@ -282,7 +300,11 @@
     }
 
     @include respond(phone) {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
+    }
+
+    @include respond(phone-small) {
+      font-size: 1.4rem;
     }
   }
 
