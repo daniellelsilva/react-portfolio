@@ -194,16 +194,13 @@
     }
 
     @include respond(tab-port) {
-      height: 85vh;
-      width: 90%
-    }
-
-    @include respond(tab-port-small) {
       height: 90vh;
+      width: 90%;
     }
 
-    @include respond(tab-port-small) {
-      height: 95vh;
+    @include respond(phone) {
+      height: 85vh;
+      width: 90%;
     }
 
     & video {
@@ -211,22 +208,26 @@
       width: 70%;
 
       @include respond(tab-land) {
-        width: 80%
+        width: 80%;
+        max-height: 40vh;
       }
 
-      @include respond(phone-small) {
-        margin-top: 5%;
+      @include respond(tab-port) {
         max-height: 35vh;
-        width: 95%;
+        width: 80%
       }
 
       @include respond(phone) {
         margin-top: 5%;
-        max-height: 25vh;
+        max-height: 30vh;
         width: 95%;
       }
 
-      
+      @include respond(phone-small) {
+        margin-top: 5%;
+        max-height: 25vh;
+        width: 95%;
+      }     
     }
   }
 
