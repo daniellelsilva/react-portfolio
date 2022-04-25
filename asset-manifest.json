@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2e773beb.css",
-    "main.js": "/react-portfolio/static/js/main.02205d2d.js",
+    "main.css": "/react-portfolio/static/css/main.e8f5811c.css",
+    "main.js": "/react-portfolio/static/js/main.833ef2bf.js",
     "static/media/Natours.mp4": "/react-portfolio/static/media/Natours.c5bee18abf1be0a480d7.mp4",
     "static/media/app-de-receitas.mp4": "/react-portfolio/static/media/app-de-receitas.586783781a15f781b8ef.mp4",
     "static/media/killertrunfo.mp4": "/react-portfolio/static/media/killertrunfo.f1908e2c67eba55d929f.mp4",
-    "static/media/BG-SVG.svg": "/react-portfolio/static/media/BG-SVG.58d96d66886d1f8038f4.svg",
+    "static/media/dragNdrop.mp4": "/react-portfolio/static/media/dragNdrop.6ea7d9a79184a9b90c4f.mp4",
     "static/media/img-solar-system.png": "/react-portfolio/static/media/img-solar-system.5bcff66707847eb2fedb.png",
-    "static/media/6173955.jpg": "/react-portfolio/static/media/6173955.270bc27d204ed090a12a.jpg",
+    "static/media/6173955.webp": "/react-portfolio/static/media/6173955.2841f407572f1b560cfd.webp",
     "static/media/trybetunes.mp4": "/react-portfolio/static/media/trybetunes.25b116be48fefb03d2fa.mp4",
     "static/media/trybewarts-video.mp4": "/react-portfolio/static/media/trybewarts-video.6f70e40117f49faa41f3.mp4",
     "static/media/solar-system-video.mp4": "/react-portfolio/static/media/solar-system-video.28c3989ed475142f8ada.mp4",
@@ -17,8 +17,10 @@
     "static/media/img-app-de-receitas.png": "/react-portfolio/static/media/img-app-de-receitas.f93b35099f462e96f419.png",
     "static/media/shopping-cart-video.mp4": "/react-portfolio/static/media/shopping-cart-video.653944e861a0b892d48a.mp4",
     "static/media/portfolio-img.jpg": "/react-portfolio/static/media/portfolio-img.2e7cecde3bc28344612a.jpg",
+    "static/media/BG-SVG.webp": "/react-portfolio/static/media/BG-SVG.57522f807c054f2faf77.webp",
     "static/media/to-do-list-video.mp4": "/react-portfolio/static/media/to-do-list-video.4fbc7084f31d9a7ba632.mp4",
     "static/media/pixel-art-video.mp4": "/react-portfolio/static/media/pixel-art-video.f52c19e5b580911ed0d8.mp4",
+    "static/media/img-dragNdrop.png": "/react-portfolio/static/media/img-dragNdrop.4b1b0d4284b2fcae53e9.png",
     "static/media/img-shopping-cart.png": "/react-portfolio/static/media/img-shopping-cart.740895697d46e08c4b95.png",
     "static/media/primeiro-portfolio.mp4": "/react-portfolio/static/media/primeiro-portfolio.1ddfb6a9f41149151cc0.mp4",
     "static/media/img-primeiro-portfolio.png": "/react-portfolio/static/media/img-primeiro-portfolio.8851a0b328eda38965cf.png",
@@ -30,11 +32,11 @@
     "static/media/img-tryunfo.png": "/react-portfolio/static/media/img-tryunfo.00d1bdf55f2a0e0e5653.png",
     "static/media/img-trybewallet.png": "/react-portfolio/static/media/img-trybewallet.a168562475ed499d44a5.png",
     "index.html": "/react-portfolio/index.html",
-    "main.2e773beb.css.map": "/react-portfolio/static/css/main.2e773beb.css.map",
-    "main.02205d2d.js.map": "/react-portfolio/static/js/main.02205d2d.js.map"
+    "main.e8f5811c.css.map": "/react-portfolio/static/css/main.e8f5811c.css.map",
+    "main.833ef2bf.js.map": "/react-portfolio/static/js/main.833ef2bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e773beb.css",
-    "static/js/main.02205d2d.js"
+    "static/css/main.e8f5811c.css",
+    "static/js/main.833ef2bf.js"
   ]
 }
