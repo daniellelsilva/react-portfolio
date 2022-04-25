@@ -9,6 +9,7 @@ import trybetunes from '../assets/trybetunes.mp4';
 import trybewallet from '../assets/TrybeWallet.mp4';
 import appDeReceitas from '../assets/app-de-receitas.mp4';
 import natours from '../assets/Natours.mp4';
+import dragNdrop from '../assets/dragNdrop.mp4';
 
 
 import imgPrimeiroPortfolio from '../assets/img-primeiro-portfolio.png';
@@ -22,9 +23,22 @@ import imgTrybetunes from '../assets/img-trybetunes.png';
 import imgTrybeWallet from '../assets/img-trybewallet.png';
 import imgAppDeReceitas from '../assets/img-app-de-receitas.png';
 import imgNatours from '../assets/img-natours.png';
+import imgDragNdrop from '../assets/img-dragNdrop.png';
 
 
 const allProjects = [
+  {
+    id: 12,
+    name: 'Drag N Drop',
+    moduleCourse: 'Front-end',
+    img: imgDragNdrop,
+    linkGitHub: 'https://github.com/daniellelsilva/drag-n-drop',
+    linkPage: 'https://daniellelsilva.github.io/drag-n-drop/',
+    linkVideo: dragNdrop,
+    technologies: 'Sass, React, JSX, Dropzone, HTML5',
+    text: 'Este foi um desafio independente onde o objetivo foi criar uma zona "drag and drop" que aceitasse somente arquivos CSV. Além da funcionalidade, foquei na descoberta de uma biblioteca que eu ainda não conhecia (Dropzone) e busquei uma boa usabilidade e aparência na aplicação.'
+  },
+
   {
     id: 11,
     name: 'Natours',
