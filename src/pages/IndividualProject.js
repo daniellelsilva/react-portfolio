@@ -28,7 +28,7 @@ export default function IndividualProject(project) {
             <Icon icon="uim:github-alt" className="project-video-icons-i" />
           </a>
           
-          <a data-toggle="tooltip" data-placement="top" title="Ver aplicação" href={linkPage} target="_blank" rel="noopener noreferrer" className="project-btns">
+          <a data-toggle="tooltip" data-placement="left" title="Ver aplicação" href={linkPage} target="_blank" rel="noopener noreferrer" className="project-btns">
             <Icon icon="bi:eye" className="project-video-icons-i" /> 
           </a>
         
