@@ -141,7 +141,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-right: 4%;
+    padding-right: 5%;
+    padding-bottom: 3%;
 
     @include respond(tab-port) {
       padding-right: 8%;
