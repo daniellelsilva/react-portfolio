@@ -20,10 +20,10 @@ import imgShoppingCart from '../assets/img-shopping-cart.png';
 import imgSolarSystem from '../assets/img-solar-system.png';
 import imgTryunfo from '../assets/img-tryunfo.png';
 import imgTrybetunes from '../assets/img-trybetunes.png';
-import imgTrybeWallet from '../assets/img-trybewallet.png';
-import imgAppDeReceitas from '../assets/img-app-de-receitas.png';
-import imgNatours from '../assets/img-natours.png';
-import imgDragNdrop from '../assets/img-dragNdrop.png';
+import imgTrybeWallet from '../assets/img-trybewallet.webp';
+import imgAppDeReceitas from '../assets/img-app-de-receitas.webp';
+import imgNatours from '../assets/img-natours.webp';
+import imgDragNdrop from '../assets/img-dragNdrop.webp';
 
 
 const allProjects = [
