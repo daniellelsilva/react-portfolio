@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.e8f5811c.css",
-    "main.js": "/react-portfolio/static/js/main.6ad3605e.js",
+    "main.css": "/react-portfolio/static/css/main.c5006401.css",
+    "main.js": "/react-portfolio/static/js/main.47fac250.js",
     "static/media/Natours.mp4": "/react-portfolio/static/media/Natours.c5bee18abf1be0a480d7.mp4",
     "static/media/app-de-receitas.mp4": "/react-portfolio/static/media/app-de-receitas.586783781a15f781b8ef.mp4",
     "static/media/killertrunfo.mp4": "/react-portfolio/static/media/killertrunfo.f1908e2c67eba55d929f.mp4",
@@ -12,31 +12,31 @@
     "static/media/trybewarts-video.mp4": "/react-portfolio/static/media/trybewarts-video.6f70e40117f49faa41f3.mp4",
     "static/media/solar-system-video.mp4": "/react-portfolio/static/media/solar-system-video.28c3989ed475142f8ada.mp4",
     "static/media/TrybeWallet.mp4": "/react-portfolio/static/media/TrybeWallet.77221206db5c8b8b1187.mp4",
-    "static/media/img-natours.png": "/react-portfolio/static/media/img-natours.3aee036d416ce38b3a39.png",
     "static/media/img-trybewarts-img.png": "/react-portfolio/static/media/img-trybewarts-img.9045313dad3ed5ac3d1f.png",
-    "static/media/img-app-de-receitas.png": "/react-portfolio/static/media/img-app-de-receitas.f93b35099f462e96f419.png",
     "static/media/shopping-cart-video.mp4": "/react-portfolio/static/media/shopping-cart-video.653944e861a0b892d48a.mp4",
+    "static/media/img-natours.webp": "/react-portfolio/static/media/img-natours.88895c141d5cbc26b443.webp",
+    "static/media/img-app-de-receitas.webp": "/react-portfolio/static/media/img-app-de-receitas.33b4e6f5e10a16f12414.webp",
     "static/media/portfolio-img.jpg": "/react-portfolio/static/media/portfolio-img.2e7cecde3bc28344612a.jpg",
     "static/media/BG-SVG.webp": "/react-portfolio/static/media/BG-SVG.57522f807c054f2faf77.webp",
     "static/media/to-do-list-video.mp4": "/react-portfolio/static/media/to-do-list-video.4fbc7084f31d9a7ba632.mp4",
     "static/media/pixel-art-video.mp4": "/react-portfolio/static/media/pixel-art-video.f52c19e5b580911ed0d8.mp4",
-    "static/media/img-dragNdrop.png": "/react-portfolio/static/media/img-dragNdrop.4b1b0d4284b2fcae53e9.png",
     "static/media/img-shopping-cart.png": "/react-portfolio/static/media/img-shopping-cart.740895697d46e08c4b95.png",
     "static/media/primeiro-portfolio.mp4": "/react-portfolio/static/media/primeiro-portfolio.1ddfb6a9f41149151cc0.mp4",
     "static/media/img-primeiro-portfolio.png": "/react-portfolio/static/media/img-primeiro-portfolio.8851a0b328eda38965cf.png",
+    "static/media/img-dragNdrop.webp": "/react-portfolio/static/media/img-dragNdrop.495273ba09defea2c305.webp",
     "static/media/bootstrap-icons.woff?": "/react-portfolio/static/media/bootstrap-icons.38c4d2499557ae0379fd.woff",
     "static/media/img-trybetunes.png": "/react-portfolio/static/media/img-trybetunes.bc221130ccb85b81bff4.png",
     "static/media/img-pixel-art.png": "/react-portfolio/static/media/img-pixel-art.07f3c77d7bab95fe737a.png",
     "static/media/bootstrap-icons.woff2?": "/react-portfolio/static/media/bootstrap-icons.2b56e79ae5013246de29.woff2",
     "static/media/img-to-do-list.png": "/react-portfolio/static/media/img-to-do-list.0dc19e41e42fd209f808.png",
     "static/media/img-tryunfo.png": "/react-portfolio/static/media/img-tryunfo.00d1bdf55f2a0e0e5653.png",
-    "static/media/img-trybewallet.png": "/react-portfolio/static/media/img-trybewallet.a168562475ed499d44a5.png",
+    "static/media/img-trybewallet.webp": "/react-portfolio/static/media/img-trybewallet.a5553c8fb1af0a5f8693.webp",
     "index.html": "/react-portfolio/index.html",
-    "main.e8f5811c.css.map": "/react-portfolio/static/css/main.e8f5811c.css.map",
-    "main.6ad3605e.js.map": "/react-portfolio/static/js/main.6ad3605e.js.map"
+    "main.c5006401.css.map": "/react-portfolio/static/css/main.c5006401.css.map",
+    "main.47fac250.js.map": "/react-portfolio/static/js/main.47fac250.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8f5811c.css",
-    "static/js/main.6ad3605e.js"
+    "static/css/main.c5006401.css",
+    "static/js/main.47fac250.js"
   ]
 }
