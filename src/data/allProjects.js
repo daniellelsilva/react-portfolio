@@ -12,14 +12,14 @@ import natours from '../assets/Natours.mp4';
 import dragNdrop from '../assets/dragNdrop.mp4';
 
 
-import imgPrimeiroPortfolio from '../assets/img-primeiro-portfolio.png';
-import imgTrybewarts from '../assets/img-trybewarts-img.png';
-import imgPixelArt from '../assets/img-pixel-art.png';
-import imgToDoList from '../assets/img-to-do-list.png';
-import imgShoppingCart from '../assets/img-shopping-cart.png';
-import imgSolarSystem from '../assets/img-solar-system.png';
-import imgTryunfo from '../assets/img-tryunfo.png';
-import imgTrybetunes from '../assets/img-trybetunes.png';
+import imgPrimeiroPortfolio from '../assets/img-primeiro-portfolio.webp';
+import imgTrybewarts from '../assets/img-trybewarts-img.webp';
+import imgPixelArt from '../assets/img-pixel-art.webp';
+import imgToDoList from '../assets/img-to-do-list.webp';
+import imgShoppingCart from '../assets/img-shopping-cart.webp';
+import imgSolarSystem from '../assets/img-solar-system.webp';
+import imgTryunfo from '../assets/img-tryunfo.webp';
+import imgTrybetunes from '../assets/img-trybetunes.webp';
 import imgTrybeWallet from '../assets/img-trybewallet.webp';
 import imgAppDeReceitas from '../assets/img-app-de-receitas.webp';
 import imgNatours from '../assets/img-natours.webp';
