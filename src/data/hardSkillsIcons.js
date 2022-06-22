@@ -84,6 +84,18 @@ const hardSkillsIcons = [
     className: 'about-icon',
     title: 'Typescript' 
   },
+  {
+    id: 15,
+    icon: 'cib:ruby',
+    className: 'about-icon',
+    title: 'Ruby' 
+  },
+  {
+    id: 16,
+    icon: 'mdi:language-ruby-on-rails',
+    className: 'about-icon',
+    title: 'Ruby on Rails' 
+  },
 ];
 
 export default hardSkillsIcons;
