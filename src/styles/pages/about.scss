@@ -45,7 +45,7 @@
 
   &-text {
     color: $color-white;
-    line-height: 2.5rem;
+    line-height: 2.6rem;
     padding: 0 0 $padding-top-bottom 0;
     // text-align: justify;
 
@@ -84,7 +84,7 @@
     }
 
     &-p-3, &-p-4, &-p-5 {
-      font-size: 1.6rem;
+      font-size: 1.7rem;
       font-weight: 400;
 
       @include respond(tab-port-small) {
