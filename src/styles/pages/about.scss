@@ -45,7 +45,7 @@
 
   &-text {
     color: $color-white;
-    line-height: 2.3rem;
+    line-height: 2.5rem;
     padding: 0 0 $padding-top-bottom 0;
     // text-align: justify;
 
@@ -109,7 +109,7 @@
   &-skills {
     color: $color-white;
     border-top: 2px solid $color-green;
-    padding-top: $padding-top-bottom;
+    padding-top: 7%;
     width: 100%;
 
     @include respond(phone) {
@@ -119,7 +119,7 @@
     &-p {
       font-size: 1.7rem;
       font-weight: 700;
-      padding-bottom: 1%;
+      padding-bottom: 5%;
     }
   }
 
