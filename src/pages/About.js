@@ -22,7 +22,7 @@ export default class About extends Component {
                 <p className="about-text-p about-text-p-1">Olá, </p>
                 <p className="about-text-p about-text-p-2">meu nome é <span>Danielle Silva</span></p>
                 <p className="about-text-p about-text-p-3">Sou desenvolvedora <span>front-end</span> e atuo como estagiária de Engenharia de Software na <span>Inteligov</span>!</p>
-                <p className="about-text-p about-text-p-3">Continuo estudando na Trybe com o objetivo de me tornar full stack, além de estar aprimorando minhas habilidades com <span>ReactJS</span> e aprendendo <span>Ruby</span> e <span>Ruby on Rails</span>.</p>
+                <p className="about-text-p about-text-p-3"></p>
                 <p className="about-text-p about-text-p-4">Um pouco sobre minha história: sou bióloga por formação mas resolvi mudar minha vida e dar uma chance para a área da <span>tecnologia</span>, não contava que acabaria me apaixonando, sinto que realmente me encontrei.</p>
                 <p className="about-text-p about-text-p-5"><span>Até o momento me identifico mais com front-end, mas estou gostando de explorar os horizontes de back-end também.</span></p>
                 <p className="about-text-p about-text-p-6">Espero que goste do meu portfólio!</p>
