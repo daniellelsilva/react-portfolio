@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c3229569.css",
+    "main.css": "/react-portfolio/static/css/main.a20b434c.css",
     "main.js": "/react-portfolio/static/js/main.69d4e153.js",
     "static/media/Natours.mp4": "/react-portfolio/static/media/Natours.c5bee18abf1be0a480d7.mp4",
     "static/media/app-de-receitas.mp4": "/react-portfolio/static/media/app-de-receitas.586783781a15f781b8ef.mp4",
@@ -32,11 +32,11 @@
     "static/media/img-tryunfo.webp": "/react-portfolio/static/media/img-tryunfo.7ed50ca07d623593074e.webp",
     "static/media/img-trybewallet.webp": "/react-portfolio/static/media/img-trybewallet.a5553c8fb1af0a5f8693.webp",
     "index.html": "/react-portfolio/index.html",
-    "main.c3229569.css.map": "/react-portfolio/static/css/main.c3229569.css.map",
+    "main.a20b434c.css.map": "/react-portfolio/static/css/main.a20b434c.css.map",
     "main.69d4e153.js.map": "/react-portfolio/static/js/main.69d4e153.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3229569.css",
+    "static/css/main.a20b434c.css",
     "static/js/main.69d4e153.js"
   ]
 }
