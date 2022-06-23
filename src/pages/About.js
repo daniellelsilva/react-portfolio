@@ -29,7 +29,7 @@ export default class About extends Component {
                 
                 <p className="about-text-p about-text-p-5"><span>Até o momento me identifico mais com front-end, mas estou gostando de explorar os horizontes de back-end também.</span></p>
 
-                <p className="about-text-p about-text-p-4"><span>Fun fact</span>: Sou bióloga por formação e por muito tempo não imaginava um futuro trabalhando na área da tecnologia! Essa impressão não durou nem o primeiro mês de curso na <span>Trybe</span>, foi só dar uma chance para acabar apaixonada pela área, sinto que encontrei meu caminho... bem longe de laboratórios e jalecos.</p>
+                <p className="about-text-p about-text-p-4"><span>Fun fact</span>: Sou bióloga por formação e por muito tempo não imaginava um futuro trabalhando na área da tecnologia! Essa impressão não durou nem o primeiro mês de curso na <span>Trybe</span>, foi só dar uma chance para acabar apaixonada pela área, sinto que encontrei meu caminho!</p>
                 
                 <p className="about-text-p about-text-p-6">Espero que goste do meu portfólio!</p>
               </section>
