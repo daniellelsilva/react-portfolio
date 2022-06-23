@@ -23,13 +23,13 @@ export default class About extends Component {
                 
                 <p className="about-text-p about-text-p-2">meu nome é <span>Danielle Silva</span></p>
                 
-                <p className="about-text-p about-text-p-3">Sou desenvolvedora <span>front-end</span> e atuo como estagiária de Engenharia de Software na <span>Inteligov</span>!</p>
+                <p className="about-text-p about-text-p-3">Sou desenvolvedora <span>front-end</span> e atuo como estagiária de Engenharia de Software na <span>Inteligov</span> !</p>
                 
                 <p className="about-text-p about-text-p-3">Atualmente estou aprimorando minhas habilidades com <span>ReactJS</span> e aprendendo <span>Ruby</span> e <span>Ruby on Rails</span>, além disso continuo estudando na Trybe com o objetivo de me tornar full stack</p>
                 
                 <p className="about-text-p about-text-p-5"><span>Até o momento me identifico mais com front-end, mas estou gostando de explorar os horizontes de back-end também.</span></p>
 
-                <p className="about-text-p about-text-p-4"></p>
+                <p className="about-text-p about-text-p-4"><span>Fun fact</span>: Sou bióloga por formação e por muito tempo não imaginava um futuro trabalhando na área da tecnologia! Essa impressão não durou nem o primeiro mês de curso na <span>Trybe</span>, foi só dar uma chance para acabar apaixonada pela área, sinto que encontrei meu caminho... bem longe de laboratórios e jalecos.</p>
                 
                 <p className="about-text-p about-text-p-6">Espero que goste do meu portfólio!</p>
               </section>
