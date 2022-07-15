@@ -1,9 +1,9 @@
-Primeiro portfólio utilizando react!
+Bem-vindo(a) ao meu portfólio!
 
-Nesse projeto independente tive como objetivo montar um portfolio com homepage, sobre e projetos.
+Como desenvolvedroa front-end, decidi criar um portfólio para mostrar alguns dos meus projetos, tecnologias que domino e também falo um pouco sobre mim e minhas experiências.
 
-Na página de projetos, adicionei apenas as atividades onde montamos estrutura html e usamos css. Cada projeto possui um pop-up com mais informações sobre o projeto.
+Inicialmente criei a página home, com algumas informações básicas sobre mim:
 
-Esta foi uma atividade divertida onde pude praticar os conhecimentos sobre react que obtive na Trybe durante o módulo de Front-end.
-
-Caso queira conferir o portfólio, acesse: https://daniellelsilva.github.io/react-portfolio/
+<div>
+  <img src="./src/gitHUb/gif-portfolio-1.gif">
+</div>
