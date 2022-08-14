@@ -143,6 +143,12 @@
     justify-content: space-between;
     padding-right: 7%;
     padding-bottom: 4%;
+    transition: all .3s;
+
+    &:hover {
+      color: $color-green;
+      transform: translateY(-3px);
+    }
 
     @include respond(tab-port) {
       padding-right: 8%;
@@ -162,13 +168,13 @@
       font-size: 3rem;
     }
 
-    &:hover {
-      color: $color-green;
-    }
+    
 
     &-text {
-      font-size: 1.3rem;
+      font-size: 1.4rem;
+      font-weight: 400;
       margin-top: 10%;
+      transition: all .3s;
 
       @include respond(tab-port) {
         font-size: 1.5rem;
