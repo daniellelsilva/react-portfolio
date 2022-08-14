@@ -104,6 +104,10 @@
     margin-top: 2%;
     text-transform: uppercase;
 
+    & p {
+      font-weight: 400;
+    }
+
     @include respond(tab-land) {
       font-size: 1.2rem;
       font-weight: 500;
