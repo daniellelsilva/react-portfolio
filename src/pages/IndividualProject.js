@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import { Icon } from '@iconify/react';
+import '../styles/pages/projects.scss'
+
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Tooltip from 'react-bootstrap/Tooltip';
 
 export default function IndividualProject(project) {
   const {name, img, moduleCourse, linkGitHub, linkPage, linkVideo, text, technologies } = project.project;
@@ -19,18 +23,29 @@ export default function IndividualProject(project) {
       <img className='project-img-individual' src={img} />
       <p>{name}</p>
         <div className="project-video-icons">
-          
-          <button data-toggle="tooltip" data-placement="top" title="Saiba mais" onClick={showPopup} className="more-info-button project-btns">
+
+        <OverlayTrigger placement="top" overlay={<Tooltip className="project-tooltip">Saiba mais</Tooltip>}>
+          <button onClick={showPopup} className="more-info-button project-btns">
             <Icon icon="bi:question-lg" className="project-video-icons-i" />
           </button>
-          
-          <a data-toggle="tooltip" data-placement="top" title="GitHub" href={linkGitHub} target="_blank" rel="noopener noreferrer" className="project-btns">
+        </OverlayTrigger>
+
+        <OverlayTrigger placement="top" overlay={<Tooltip className="project-tooltip">GitHub</Tooltip>}>
+          <a href={linkGitHub} target="_blank" rel="noopener noreferrer" className="project-btns">
             <Icon icon="uim:github-alt" className="project-video-icons-i" />
           </a>
+        </OverlayTrigger>
           
-          <a data-toggle="tooltip" data-placement="left" title="Ver aplicação" href={linkPage} target="_blank" rel="noopener noreferrer" className="project-btns">
+        
+        <OverlayTrigger placement="top" overlay={<Tooltip className="project-tooltip">Ver aplicação</Tooltip>}>
+          <a href={linkPage} target="_blank" rel="noopener noreferrer" className="project-btns">
             <Icon icon="bi:eye" className="project-video-icons-i" /> 
           </a>
+        </OverlayTrigger>
+          
+          
+          
+          
         
         </div>
         {popupState ? (

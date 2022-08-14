@@ -115,6 +115,7 @@
       text-decoration: none;
       color: $color-white;
     }
+
   }
 
   &-video-icons {
@@ -342,4 +343,9 @@
   &-Close:hover {
     color: $color-green;
   }
+}
+
+.project-tooltip > .tooltip-inner {
+  font-size: 1.3rem;
+  font-weight: 500;
 }
