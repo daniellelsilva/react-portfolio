@@ -345,7 +345,11 @@
   }
 }
 
-.project-tooltip > .tooltip-inner {
-  font-size: 1.3rem;
-  font-weight: 500;
+.custom-tooltip {
+  background-color: $color-black !important;
+  
+  &:hover {
+ visibility: visible !important;
+ opacity: 1 !important;
+  }
 }
