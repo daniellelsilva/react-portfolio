@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { Icon } from '@iconify/react';
 import '../styles/pages/projects.scss'
-
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import Tooltip from 'react-bootstrap/Tooltip';
+import ReactTooltip from 'react-tooltip';
 
 export default function IndividualProject(project) {
   const {name, img, moduleCourse, linkGitHub, linkPage, linkVideo, text, technologies } = project.project;
@@ -24,27 +22,21 @@ export default function IndividualProject(project) {
       <p>{name}</p>
         <div className="project-video-icons">
 
-        <OverlayTrigger placement="top" overlay={<Tooltip className="project-tooltip">Saiba mais</Tooltip>}>
-          <button onClick={showPopup} className="more-info-button project-btns">
-            <Icon icon="bi:question-lg" className="project-video-icons-i" />
-          </button>
-        </OverlayTrigger>
+        <button data-tip='Saiba mais' onClick={showPopup} className="more-info-button project-btns">
+          <Icon icon="bi:question-lg" className="project-video-icons-i" />
+        </button>
 
-        <OverlayTrigger placement="top" overlay={<Tooltip className="project-tooltip">GitHub</Tooltip>}>
-          <a href={linkGitHub} target="_blank" rel="noopener noreferrer" className="project-btns">
-            <Icon icon="uim:github-alt" className="project-video-icons-i" />
-          </a>
-        </OverlayTrigger>
+
+        <a data-tip='GitHub' href={linkGitHub} target="_blank" rel="noopener noreferrer" className="project-btns">
+          <Icon icon="uim:github-alt" className="project-video-icons-i" />
+        </a>
           
         
-        <OverlayTrigger placement="top" overlay={<Tooltip className="project-tooltip">Ver aplicação</Tooltip>}>
-          <a href={linkPage} target="_blank" rel="noopener noreferrer" className="project-btns">
-            <Icon icon="bi:eye" className="project-video-icons-i" /> 
-          </a>
-        </OverlayTrigger>
-          
-          
-          
+        <a data-tip='Ver aplicação' href={linkPage} target="_blank" rel="noopener noreferrer" className="project-btns">
+          <Icon icon="bi:eye" className="project-video-icons-i" /> 
+        </a>
+        <ReactTooltip place="right" className='custom-tooltip' delayHide={1000} effect='solid'/>    
+        
           
         
         </div>
