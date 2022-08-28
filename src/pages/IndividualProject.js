@@ -35,7 +35,7 @@ export default function IndividualProject(project) {
         <a data-tip='Ver aplicação' href={linkPage} target="_blank" rel="noopener noreferrer" className="project-btns">
           <Icon icon="bi:eye" className="project-video-icons-i" /> 
         </a>
-        <ReactTooltip place="right" className='custom-tooltip' delayHide={1000} effect='solid'/>    
+        <ReactTooltip place="right" className='custom-tooltip' delayHide={300} effect='solid'/>    
         
           
         

@@ -346,10 +346,7 @@
 }
 
 .custom-tooltip {
-  background-color: $color-black !important;
-  
-  &:hover {
- visibility: visible !important;
- opacity: 1 !important;
-  }
+  background-color: rgba($color-black, .15) !important;
+  font-size: 1.3rem !important;
+  font-weight: 400 !important;
 }
