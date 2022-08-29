@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
 import { Icon } from '@iconify/react';
 import hardSkillsIcons from '../data/hardSkillsIcons';
 import image from '../assets/portfolio-img.jpg';
@@ -10,6 +11,9 @@ import '../styles/pages/about.scss';
 
 
 export default class About extends Component {
+  componentDidMount() {
+    ReactGA.pageview(window.location.pathname);
+  }
   render() {
     return (
       <div className="all-about">
@@ -23,7 +27,7 @@ export default class About extends Component {
                 
                 <p className="about-text-p about-text-p-2">meu nome é <span>Danielle Silva</span></p>
                 
-                <p className="about-text-p about-text-p-3">Sou desenvolvedora <span>front-end</span> e atuo como estagiária de Engenharia de Software na <span>Inteligov</span> !</p>
+                <p className="about-text-p about-text-p-3">Sou desenvolvedora <span>front-end</span> e atuo como Desenvolvedora na <span>Inteligov</span> !</p>
                 
                 <p className="about-text-p about-text-p-3">Atualmente estou aprimorando minhas habilidades com <span>ReactJS</span> e aprendendo <span>Ruby</span> e <span>Ruby on Rails</span>, além disso continuo estudando na Trybe com o objetivo de me tornar full stack</p>
                 
