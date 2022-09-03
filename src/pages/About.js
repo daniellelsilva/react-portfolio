@@ -27,11 +27,11 @@ export default class About extends Component {
                 
                 <p className="about-text-p about-text-p-2">meu nome é <span>Danielle Silva</span></p>
                 
-                <p className="about-text-p about-text-p-3">Sou desenvolvedora <span>front-end</span> e atuo como Desenvolvedora na <span>Inteligov</span> !</p>
+                <p className="about-text-p about-text-p-3">Sou desenvolvedora <span>full-stack</span> e atuo como Desenvolvedora Front-end na <span>Inteligov</span> !</p>
                 
-                <p className="about-text-p about-text-p-3">Atualmente estou aprimorando minhas habilidades com <span>ReactJS</span> e aprendendo <span>Ruby</span> e <span>Ruby on Rails</span>, além disso continuo estudando na Trybe com o objetivo de me tornar full stack</p>
+                <p className="about-text-p about-text-p-3">Atualmente estou aprimorando minhas habilidades com <span>ReactJS</span>, com o objetivo de me especializar em <span>Fron-end</span>, e aprendendo <span>Ruby</span> e <span>Ruby on Rails</span> que são muito utilizados na minha atual empresa</p>
                 
-                <p className="about-text-p about-text-p-5"><span>Até o momento me identifico mais com front-end, mas estou gostando de explorar os horizontes de back-end também.</span></p>
+                <p className="about-text-p about-text-p-5"><span>Até o momento me identifico mais com front-end e pretendo continuar com esse foco, mas acho importante explorar os horizontes de back-end também.</span></p>
 
                 <p className="about-text-p about-text-p-4"><span>Fun fact</span>: Sou bióloga por formação e por muito tempo não imaginava um futuro trabalhando na área da tecnologia! Essa impressão não durou nem o primeiro mês de curso na <span>Trybe</span>, foi só dar uma chance para acabar apaixonada pela área, sinto que encontrei meu caminho!</p>
                 
