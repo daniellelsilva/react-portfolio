@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Icon } from '@iconify/react';
 import '../styles/pages/projects.scss'
 import ReactTooltip from 'react-tooltip';
+import disableScroll from 'disable-scroll';
 
 export default function IndividualProject(project) {
   const {name, img, moduleCourse, linkGitHub, linkPage, linkVideo, text, technologies } = project.project;
@@ -10,10 +11,12 @@ export default function IndividualProject(project) {
 
   const showPopup = () => {
     setPopupState(true)
+    disableScroll.on();
   }
 
   const hidePopup = () => {
     setPopupState(false)
+    disableScroll.off(); 
   }
 
   return (
