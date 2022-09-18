@@ -55,7 +55,7 @@ export default class About extends Component {
             
           </div>
           
-          <SocialMedia className="testando" />
+          <SocialMedia />
         </section>
         
       </div>
