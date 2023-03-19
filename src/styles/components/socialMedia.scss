@@ -9,6 +9,10 @@
   padding: 1.2% .7%;
   transition: all .2s;
 
+  position: fixed;
+  top: 40%;
+  right: 0%;
+
   @include respond(tab-land) {
     padding: 1% .8%;
   }
@@ -27,6 +31,8 @@
     margin-bottom: 0;
     position: fixed;
     bottom: 0;
+    right: auto;
+    top: auto;
   }
 
   & a {
