@@ -29,7 +29,7 @@ export default class About extends Component {
                 
                 <p className="about-text-p about-text-p-3">Sou desenvolvedora <span>full-stack</span> e atuo como Desenvolvedora Front-end na <span>Inteligov</span> !</p>
                 
-                <p className="about-text-p about-text-p-3">Atualmente estou aprimorando minhas habilidades com <span>ReactJS</span>, com o objetivo de me especializar em <span>Fron-end</span>, e aprendendo <span>Ruby</span> e <span>Ruby on Rails</span> que são muito utilizados na minha atual empresa</p>
+                <p className="about-text-p about-text-p-3">Atualmente estou aprimorando minhas habilidades em <span>ReactJS</span> e em <span>UX design</span>, com o objetivo de me especializar em <span>Fron-end</span>, e aprendendo <span>React Native</span>, <span>Ruby</span> e <span>Ruby on Rails</span> que são muito utilizados na minha atual empresa</p>
                 
                 <p className="about-text-p about-text-p-5"><span>Até o momento me identifico mais com front-end e pretendo continuar com esse foco, mas acho importante explorar os horizontes de back-end também.</span></p>
 
@@ -43,8 +43,8 @@ export default class About extends Component {
               <section className="about-skills">
                 <p className="about-skills-p">SKILLS</p>
                 <div className="about-skill">
-                {hardSkillsIcons.map((icon) => (
-                    <div key={icon.id} className="about-div-icon">
+                {hardSkillsIcons.map((icon, index) => (
+                    <div key={index} className="about-div-icon">
                       <Icon icon={icon.icon} className={icon.className} />
                     <p className='about-icon-text'>{icon.title}</p>
                     </div>
