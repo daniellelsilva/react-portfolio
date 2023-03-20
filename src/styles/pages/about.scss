@@ -210,7 +210,7 @@
     right: 0;
     height: 100%;
     width: 40%;
-    object-fit: cover; object-position: 50% 0;
+    object-fit: cover; object-position: 50% 30%;
 
     @include respond(tab-land) {
       width: 45%;
