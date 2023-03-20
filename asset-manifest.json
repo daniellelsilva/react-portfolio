@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.b20c2fd1.css",
-    "main.js": "/react-portfolio/static/js/main.472ba023.js",
+    "main.css": "/react-portfolio/static/css/main.107c06e7.css",
+    "main.js": "/react-portfolio/static/js/main.e235f43c.js",
     "static/media/Natours.mp4": "/react-portfolio/static/media/Natours.c5bee18abf1be0a480d7.mp4",
     "static/media/app-de-receitas.mp4": "/react-portfolio/static/media/app-de-receitas.586783781a15f781b8ef.mp4",
     "static/media/killertrunfo.mp4": "/react-portfolio/static/media/killertrunfo.f1908e2c67eba55d929f.mp4",
@@ -10,13 +10,13 @@
     "static/media/trybetunes.mp4": "/react-portfolio/static/media/trybetunes.25b116be48fefb03d2fa.mp4",
     "static/media/trybewarts-video.mp4": "/react-portfolio/static/media/trybewarts-video.6f70e40117f49faa41f3.mp4",
     "static/media/solar-system-video.mp4": "/react-portfolio/static/media/solar-system-video.28c3989ed475142f8ada.mp4",
+    "static/media/portfolio-img.jpg": "/react-portfolio/static/media/portfolio-img.d341fda85910e6f0c6ac.jpg",
     "static/media/img-solar-system.webp": "/react-portfolio/static/media/img-solar-system.fdb6268a69420b7272f3.webp",
     "static/media/TrybeWallet.mp4": "/react-portfolio/static/media/TrybeWallet.77221206db5c8b8b1187.mp4",
     "static/media/shopping-cart-video.mp4": "/react-portfolio/static/media/shopping-cart-video.653944e861a0b892d48a.mp4",
     "static/media/img-natours.webp": "/react-portfolio/static/media/img-natours.88895c141d5cbc26b443.webp",
     "static/media/img-trybewarts-img.webp": "/react-portfolio/static/media/img-trybewarts-img.a02bb9ea4c5e86d02e3c.webp",
     "static/media/img-app-de-receitas.webp": "/react-portfolio/static/media/img-app-de-receitas.33b4e6f5e10a16f12414.webp",
-    "static/media/portfolio-img.jpg": "/react-portfolio/static/media/portfolio-img.2e7cecde3bc28344612a.jpg",
     "static/media/BG-SVG.webp": "/react-portfolio/static/media/BG-SVG.57522f807c054f2faf77.webp",
     "static/media/to-do-list-video.mp4": "/react-portfolio/static/media/to-do-list-video.4fbc7084f31d9a7ba632.mp4",
     "static/media/pixel-art-video.mp4": "/react-portfolio/static/media/pixel-art-video.f52c19e5b580911ed0d8.mp4",
@@ -32,11 +32,11 @@
     "static/media/img-tryunfo.webp": "/react-portfolio/static/media/img-tryunfo.7ed50ca07d623593074e.webp",
     "static/media/img-trybewallet.webp": "/react-portfolio/static/media/img-trybewallet.a5553c8fb1af0a5f8693.webp",
     "index.html": "/react-portfolio/index.html",
-    "main.b20c2fd1.css.map": "/react-portfolio/static/css/main.b20c2fd1.css.map",
-    "main.472ba023.js.map": "/react-portfolio/static/js/main.472ba023.js.map"
+    "main.107c06e7.css.map": "/react-portfolio/static/css/main.107c06e7.css.map",
+    "main.e235f43c.js.map": "/react-portfolio/static/js/main.e235f43c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b20c2fd1.css",
-    "static/js/main.472ba023.js"
+    "static/css/main.107c06e7.css",
+    "static/js/main.e235f43c.js"
   ]
 }
