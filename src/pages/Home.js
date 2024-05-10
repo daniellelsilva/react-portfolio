@@ -22,8 +22,9 @@ export default class Home extends Component {
               <p className="home-name-2">Silva</p>
               <div className="home-subtitle">
                 <p className="home-subtitle-1">Desenvolvedora front-end</p><span>|</span>
-                <p className="home-subtitle-2">Estudante de Desenvolvimento Web Full Stack</p><span>|</span>
-                <p className="home-subtitle-3">Trybe</p>
+                <p className="home-subtitle-2">ReactJS</p><span>|</span>
+                <p className="home-subtitle-2">NextJS</p><span>|</span>
+                <p className="home-subtitle-3">Inteligov</p>
               </div>
             </section>
             <SocialMedia />
