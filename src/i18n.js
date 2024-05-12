@@ -26,7 +26,9 @@ const resources = {
         studies5: ' and ',
         studies6: ' which are widely used in my current company'
       },
-
+      paragraph4: {
+        role: "Until now, I identify more with front-end and intend to continue with that focus, but I think it's important to explore the horizons of back-end as well"
+      }
     },
     projects: {
 
@@ -38,24 +40,37 @@ const resources = {
     },
     about: {
       paragraph1: {
-        greeting: 'Olá',
-        presentation: 'meu nome é',
+        part1: 'Olá',
+        part2: 'meu nome é',
       },
       paragraph2: {
-        role: 'Sou desenvolvedora ',
-        role2: ' e atuo como Desenvolvedora Front-end na',
+        part1: 'Sou desenvolvedora ',
+        part2: ' e atuo como Desenvolvedora Front-end na',
       },
       paragraph3: {
-        studies: 'Atualmente estou aprimorando minhas habilidades em ',
-        studies2: 'e em',
-        studies3: ', com o objetivo de me especializar em ',
-        studies4: ', e aprendendo ',
-        studies5: 'e',
-        studies6: ' que são muito utilizados na minha atual empresa'
+        part1: "Possuo experiência sólida em ",
+        part2: 'e',
+        part3: "estou constantemente aprimorando minha habilidade em criar interfaces de usuário elegantes e funcionais, muitas vezes utilizando o ",
+        part4: "para criar wireframes e protótipos.",
+        part5: " Além disso, estou familiarizada com ferramentas essenciais como NodeJS, Bootstrap, MUI, Jest, Cypress, SQL e Docker",
       },
+      paragraph4: {
+        part1: 'Estou sempre buscando expandir meu conjunto de habilidades e atualmente estou estudando',
+        part2: ", bem como ",
+        part3: "para adicionar novas ferramentas ao meu arsenal de desenvolvimento."
+      },
+      paragraph5: {
+        part1: "Estou aberta a oportunidades de colaboração, desafios emocionantes e novas conexões na indústria de tecnologia."
+      },
+      paragraph6: {
+        part1: "Sinta-se à vontade para me chamar para conversar e espero que goste do meu portfólio!"
+      }
     },
     projects: {
 
+    },
+    endText: {
+      end: "e"
     }
   }
 };
