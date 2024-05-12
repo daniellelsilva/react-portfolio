@@ -37,7 +37,9 @@ const resources = {
         part1: "Feel free to reach out to me for a chat, and I hope you enjoy my portfolio!"
       }
     },
-    projects: {},
+    projects: {
+      
+    },
     endText: {
       end: "and"
     }
