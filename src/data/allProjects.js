@@ -26,7 +26,7 @@ import imgNatours from '../assets/img-natours.webp';
 import imgDragNdrop from '../assets/img-dragNdrop.webp';
 
 
-const allProjects = [
+const allProjectsPtBr = [
   {
     id: 12,
     name: 'Drag N Drop',
@@ -168,9 +168,9 @@ const allProjects = [
     linkGitHub: 'https://github.com/daniellelsilva/primeiro-portfolio',
     linkPage: 'https://daniellelsilva.github.io',
     technologies: 'CSS3, HTML5',
-    text: 'Primeiro projeto e primeiro portfólio, esta foi minha primeira experiência com algo relacionado a programação'
+    text: 'Primeiro experiência que tive com algo relacionado a desenvolvimento, aqui fiz minhas primeiras linhas de código!'
   }
 ];
 
 
-export default allProjects;
+export default allProjectsPtBr;
