@@ -7,31 +7,39 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     home: {
-      role: 'Front-end developer',
+      role: "Front-end Developer"
     },
-    about:{
+    about: {
       paragraph1: {
-        greeting: 'Hello',
-        presentation: 'my name is',
+        part1: "Hello,",
+        part2: "my name is"
       },
       paragraph2: {
-        role: "I'm a ",
-        role2: ' developer and work as Front-end developer at ',
+        part1: "I'm a developer",
+        part2: " and I work as a Front-end Developer at"
       },
       paragraph3: {
-        studies: "I'am currently improving my skills in ",
-        studies2: 'and in',
-        studies3: ', with the aim of specializing in ',
-        studies4: ', and learning ',
-        studies5: ' and ',
-        studies6: ' which are widely used in my current company'
+        part1: "I have solid experience in",
+        part2: "and",
+        part3: "I'm constantly improving my ability to create elegant and functional user interfaces, often using",
+        part4: "to create wireframes and prototypes.",
+        part5: " Additionally, I'm familiar with essential tools like NodeJS, Bootstrap, MUI, Jest, Cypress, SQL, and Docker."
       },
       paragraph4: {
-        role: "Until now, I identify more with front-end and intend to continue with that focus, but I think it's important to explore the horizons of back-end as well"
+        part1: "I'm always looking to expand my skill set and currently studying",
+        part2: "as well as",
+        part3: "to add new tools to my development arsenal."
+      },
+      paragraph5: {
+        part1: "I'm open to collaboration opportunities, exciting challenges, and new connections in the technology industry."
+      },
+      paragraph6: {
+        part1: "Feel free to reach out to me for a chat, and I hope you enjoy my portfolio!"
       }
     },
-    projects: {
-
+    projects: {},
+    endText: {
+      end: "and"
     }
   },
   ptbr: {
