@@ -1,5 +1,10 @@
 const hardSkillsIcons = [
   {
+    icon: 'akar-icons:nextjs-fill',
+    className: 'about-icon',
+    title: 'NextJS' 
+  },
+  {
     icon: 'akar-icons:react-fill',
     className: 'about-icon',
     title: 'ReactJS' 
